@@ -1,4 +1,4 @@
-# IronMan Guide 2027 — checklist site
+# Ironman Guide 2027 — checklist site
 
 This repository is a small website: a step-by-step RuneScape 3 Ironman route with checkboxes.
 It is served by GitHub Pages (Settings → Pages), so it updates itself about a minute after
