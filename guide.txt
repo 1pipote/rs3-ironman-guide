@@ -1094,7 +1094,7 @@
 - You can safespot the ogres 
 - During quest Copernicus Glyph is located just south of Yanille castle, Juna Guthix 
 
-# Bank 66
+# Bank 67
 - Deposit all, withdraw: ring of kingship, train some dungeoneering if you haven’t already
 - Solo Dungeoneering Guide
 - If you need to AFK:
@@ -1104,14 +1104,14 @@
 - Go to fort make kitchen tier 2/Chapel tier 2 with Acadia logs in bank
 - At 50 firemaking complete [[Tears of Guthix]] (get it done by Tuesday, weeklies reset on Wednesdays 00:00 UTC)
 
-# Bank 67
+# Bank 68
 - Make sure you have a harralander and marrentill clean. If not grow some. If you did get any seeds thieving then go to Druids and thieve)
 - Withdraw: air runes(if you need more buy more, i have 79 air runes to start), willow log (chop one in lumbridge), super antipoison, tinderbox, 3 waterskins, bucket of sap, one bag of salt, cat/kitten, plenty of food 8 inventory slots I brought
 - Complete [[Icthlarin’s Little Helper]] [Use house portal to Pollnivneach]
 - 📍 Teleport to Karamja, take Cart to Shilo village
 - Start [[One Small Favour]] Quest Talk to Yanni Salika ( 2•5•✓)
 
-# Bank 68
+# Bank 69
 - Deposit all, Withdraw: fishing bait, eye of newt, greenmans ale, rotten tomato, 1 ashes, fruit blast
 - Note: if you haven’t made a water rune yet, grab one essence and water talisman. Do this when we start [[Lost City]]
 - Talk to one of the jungle foresters south of the village. You will receive their blunt hatchet. ( 4•1)
@@ -1122,7 +1122,7 @@
 - Complete [[Another Cook’s Quest]]
 - Start [[Recipe for Disaster]] Quest
 
-# Bank 69
+# Bank 70
 - Deposit all, withdraw: 2 thread, 1 log, air and fire runes, 6 red berries, 10 woad leaves, essence and water talisman if you are yet to make a water rune
 - Talk to the Warrior northwest of the Lumbridge swamp to start the quest. ( 1•1•1•2•✓), Start [[Lost City]] Quest, make a water rune now if you haven’t
 - Attempt to chop the swamp tree south of the campsite - There will be an option to "chop" tree instead of "chop down" tree, and a quest icon on the tooltip.
@@ -1140,7 +1140,7 @@
 - Go to Olivia and buy 10 onion seeds, 10 cabbage seeds, 10 jute seed, 10 marigold
 - Talk to Martin the Master Gardener in Draynor Village. ( 2•1•✓•1), Accept Quest, [[Fairy Tale I]]
 
-# Bank 70
+# Bank 71
 - Equip: full adamant armour, adamant off hand sword Withdraw: dramen staff, ghost speak, teleport runes
 - Continue [[Fairy Tale I]]
 - Frizzy, on the other side of the wall, just west of Martin. ( 2)
@@ -1171,3 +1171,34 @@
 - Complete [[Fairy Tale I]]
 - [Note: We should be lvl 30 farming, plant a willow tree when you can. Check them to allow willow branches to grow, harvest 6, let them respawn harvest 6 more, 12 total] [Enlightened Journey] 
 - [Note: Thieving Farmer, Farmer Rachel, Farmer Sharon, Farmer (Marigold Farm)will give willow seeds
+- Add magic secateurs to tool belt 
+- Teleport to Burthorpe Lodestone 
+- Trade with Tureal, buy 2 enchanted gems, fishing explosive, 2x facemask and earmuffs 
+
+# Bank 72
+- Deposit all 
+- You can continue my guide or stop and train Necro 
+- Here you can follow the RS3 Wiki Efficient Ironman Path Guide. For training early game Necromancy: 
+- Mine 42 iron ore, 14 coal ore, 14 copper ore, and 14 tin ore. Smelt 14 bronze bars, iron bars, and steel bars for (Death Skull equipment upgrades). 
+- Perform 25 Lesser communion rituals with big bones for 50 souls.  
+- You will need:  
+- 25 Big bones 
+- 46 Basic ghostly ink 
+- Unlock the Command Skeleton Warrior talent from the Talent tree 
+- Complete 14 lesser ensoul material rituals to obtain lesser ensouled bars to upgrade your necromancy weapons. 
+- You will need:  
+- 14 lesser unensouled bars 
+- 17 Basic ghostly ink 
+- 5 Regular ghostly ink 
+- 5 Ashes 
+- 5 Vial of water 
+- This is enough ensouled bars to upgrade your equipment through level 50. 
+- Complete 38 lesser ensoul material rituals to obtain 28 Lesser ensouled cloth and 10 Lesser ensouled thread. 
+- You will need:  
+- 36 Basic ghostly ink 
+- 15 Regular ghostly ink 
+- 15 Ashes 
+- 15 Vial of water 
+- 10 Thread 
+- 28 pieces of spider silk equipment (can be bought from Zaff in Varrock) 
+- This is enough ensouled cloth and thread to upgrade your equipment through level 50. 
