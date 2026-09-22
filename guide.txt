@@ -974,7 +974,7 @@
 # Bank 58
 - 📍 Teleport to taverely and keep collecting 5 limpwurts, 5 whiteberries, and 5 unicorn dust from Jatixs Herblore Shop. Buy 5 vial of water and 5 eye of newts packs
 - Thieve master farmers until 41 thieving
-- Complete [[Lost Her Marbles Miniquest]]
+- Complete [[Lost Her Marbles (miniquest)]]
 - Continue thieving master farmers until you have plenty of fruit tree/tree seeds. We will then start thieving Druids in Al-Kharid for herb seeds only.
 - Go to Catherby to buy 100 plant pots, and 1 empty sack pack from Vanessa’s Farming Shop
 - Plant any acorns you got, plant any apple tree seeds
