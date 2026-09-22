@@ -999,6 +999,7 @@
 - 📍 Teleport to Varrock Lodestone
 - Buy an Adamant Sword, Black Dagger, Steel Longsword, 2x Steel Swords, Steel Dagger
 - Go to Blue Moon Inn have Bartender sign Barcrawl
+- Go to Horvic buy full adamant armour 
 
 # Bank 61
 - Deposit all, withdraw: barcrawl card, 1 water rune, 1 cosmic rune, 1 gold bar, 1 silver bar
