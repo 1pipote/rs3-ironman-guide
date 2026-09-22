@@ -997,7 +997,7 @@
 - When you enter the Observatory Building, Read the “Shooting Star noticeboard” [Easy Ardougne Task]
 - Grab super antipoison hop worlds, fill up one vial
 - 📍 Teleport to Varrock Lodestone
-- Buy an Adamant Sword, Black Dagger, Steel Longsword, 2x Steel Swords, Steel Dagger
+- Buy an Adamant Sword, Adamant off hand sword, Adamant off hand long sword, Black Dagger, Steel Longsword, 2x Steel Swords, Steel Dagger
 - Go to Blue Moon Inn have Bartender sign Barcrawl
 - Go to Horvic buy full adamant armour 
 
@@ -1123,7 +1123,7 @@
 - Talk to Martin the Master Gardener in Draynor Village. ( 2•1•✓•1), Accept Quest, [[Fairy Tale I]]
 
 # Bank 70
-- Equip: full adamant armour Withdraw: dramen staff, ghost speak, teleport runes
+- Equip: full adamant armour, adamant off hand sword Withdraw: dramen staff, ghost speak, teleport runes
 - Continue [[Fairy Tale I]]
 - Frizzy, on the other side of the wall, just west of Martin. ( 2)
 - Elstan, to the north of Frizzy. ( 2)
