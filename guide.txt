@@ -1,5 +1,5 @@
 # Setup
-- Make Female Character (required to complete Recruitment Drive, you can change after, quest happens pretty soon in guide)
+- Make Female Character (required to complete Recruitment Drive, you can change after, quest happens pretty soon in guide) 123
 - Finish Tutorial Island
 - You can right click the World Map and adjust the skybox/filter settings to your liking
 - Press Escape, search "shift" make sure Shift-click to drop items is checked mark ON
