@@ -1122,7 +1122,7 @@
 - Talk to Martin the Master Gardener in Draynor Village. ( 2•1•✓•1), Accept Quest, [[Fairy Tale I]]
 
 # Bank 70
-- Equip magic gear, Withdraw, dramen staff, ghost speak, teleport runes
+- Equip: full adamant armour Withdraw: dramen staff, ghost speak, teleport runes
 - Continue [[Fairy Tale I]]
 - Frizzy, on the other side of the wall, just west of Martin. ( 2)
 - Elstan, to the north of Frizzy. ( 2)
