@@ -338,8 +338,8 @@
 - 📍 Teleport to Taverley, Go Northwest up White Wolf Mountain, Talk to Violet at portal, Accept Quest, Violet Is Blue (adjust skybox by right-clicking world map if the white snow is blinding) 🟡
 - Violet Is Blue Quest Completed put all lamps into farming [should be 19 farming] ✅
 - (when all non-elite skills hit lvl 20 free xp lamp, lvl 40 free xp lamp, lvl 60 free xp lamp, and lvl 80. Return and complete these as you can.)
-- Leave thru the portal, talk to Posty Pete right outside. Accept Quest Violet is Blue II 🟡
-- Complete Quest, Violet is Blue II Quest Completed, destroy fairylight items, destroy Letters from Violet. 1 lamp into Archeaology, 1 lamp into summoning, 1 lamp into agility ✅
+- Leave thru the portal, talk to Posty Pete right outside. Accept Quest Violet is Blue Too 🟡
+- Complete Quest, Violet is Blue Too Quest Completed, destroy fairylight items, destroy Letters from Violet. 1 lamp into Archeaology, 1 lamp into summoning, 1 lamp into agility ✅
 - 📍 Teleport to Burthorpe and bank all
 
 # Bank 13
