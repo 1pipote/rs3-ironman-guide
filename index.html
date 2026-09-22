@@ -1,0 +1,1381 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IronMan Guide 2027</title>
+<meta name="rs3-repo" content="">
+<!--
+  ================================================================
+  THE GUIDE IS THE PLAIN-TEXT BLOCK RIGHT BELOW THIS NOTE.
+
+  Easiest way to edit it: open this file in a browser, menu (⋯) →
+  "Edit guide…", make your changes, click "Download file", and
+  replace this file with the downloaded one.
+
+  You can also edit the lines below in any text editor:
+    # Bank 12                    a new section
+    - Withdraw: 25 pure essence  a step with a checkbox
+      - sub-step                 two spaces in front = sub-step
+    * a note                     a note without a checkbox
+    Emoji are typed as-is: 🟡 ✅ 📍 ⏸️ 🏅 ⚙️ 🔴 📖 🕒
+    [Lumbridge Easy Task] shows as a tag. [[Quest Name]] links to the wiki.
+    ==text== yellow highlight, ==g:text== green, ==r:text== red.
+  Leave everything after the block alone.
+  ================================================================
+-->
+<script type="text/plain" id="guide">
+
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root{
+  --bg:#EDEFF3; --surface:#FFFFFF; --surface-2:#F4F6F9; --text:#1A2230; --muted:#5F6B79; --border:#D5DBE3; --border-strong:#B9C2CE;
+  --accent:#9C7217; --accent-fill:#C9A038; --accent-soft:#F3E9CC; --link:#1D6A86; --focus:#2B7FD1;
+  --hl-yellow:#FFEB80; --hl-green:#BDEFB0; --hl-red:#FFB8B8; --hl-text:#1A2230;
+  --display:"Bricolage Grotesque", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono:ui-monospace, Menlo, Consolas, monospace;
+  --top-h:112px; color-scheme:light;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --bg:#13171D; --surface:#1B2027; --surface-2:#222831; --text:#E6E9EE; --muted:#97A2B0; --border:#2C333D; --border-strong:#3D4652;
+  --accent:#D9B24C; --accent-fill:#C9A038; --accent-soft:#332B14; --link:#72C6DC; --focus:#6FB1F0;
+  --hl-yellow:#6A5710; --hl-green:#1F5A2B; --hl-red:#6E2424; --hl-text:#F1F3F6; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#13171D; --surface:#1B2027; --surface-2:#222831; --text:#E6E9EE; --muted:#97A2B0; --border:#2C333D; --border-strong:#3D4652;
+  --accent:#D9B24C; --accent-fill:#C9A038; --accent-soft:#332B14; --link:#72C6DC; --focus:#6FB1F0;
+  --hl-yellow:#6A5710; --hl-green:#1F5A2B; --hl-red:#6E2424; --hl-text:#F1F3F6; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--text);font:15px/1.45 var(--body);-webkit-font-smoothing:antialiased}
+a{color:var(--link)}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+h1,h2{font-family:var(--display);text-wrap:balance;margin:0}
+.num{font-variant-numeric:tabular-nums}
+
+.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.top-in{max-width:1180px;margin:0 auto;padding:12px 16px;display:grid;grid-template-columns:auto 1fr auto;gap:12px 24px;align-items:center}
+.brand h1{font-size:22px;font-weight:700;letter-spacing:-.01em;line-height:1.1}
+.brand .sub{margin:2px 0 0;font-size:13px;color:var(--muted)}
+.progress{display:flex;align-items:center;gap:12px;min-width:0}
+.bar{flex:1;height:8px;border-radius:999px;background:var(--surface-2);border:1px solid var(--border);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent-fill);border-radius:999px;transition:width .3s ease}
+.count{font-family:var(--display);font-weight:600;font-size:14px;white-space:nowrap}
+.count small{color:var(--muted);font-weight:500;margin-left:6px}
+.tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.search{width:200px;max-width:100%;padding:7px 10px;border:1px solid var(--border-strong);border-radius:8px;background:var(--surface)}
+.btn{padding:7px 12px;border:1px solid var(--border-strong);border-radius:8px;background:var(--surface);color:var(--text);line-height:1.2}
+.btn:hover{background:var(--surface-2)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.primary:hover{filter:brightness(1.07)}
+.toggle{display:inline-flex;align-items:center;gap:6px;padding:7px 10px;border:1px solid var(--border-strong);border-radius:8px;background:var(--surface);user-select:none}
+.toggle input{accent-color:var(--accent)}
+.jump{display:none;padding:7px 8px;border:1px solid var(--border-strong);border-radius:8px;background:var(--surface);max-width:160px}
+.menu{position:relative}
+.menu-list{position:absolute;right:0;top:calc(100% + 6px);min-width:210px;background:var(--surface);border:1px solid var(--border);border-radius:10px;box-shadow:0 12px 30px rgba(0,0,0,.18);padding:6px;display:none;z-index:30}
+.menu-list.open{display:block}
+.menu-list button{display:block;width:100%;text-align:left;padding:8px 10px;border:0;background:none;border-radius:6px}
+.menu-list button:hover{background:var(--surface-2)}
+.menu-list hr{border:0;border-top:1px solid var(--border);margin:6px 0}
+
+.draft-wrap{max-width:1180px;margin:0 auto;padding:16px 16px 0}
+.draft{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:10px 12px;border:1px solid var(--accent);background:var(--accent-soft);border-radius:10px;font-size:14px}
+.draft span{flex:1;min-width:200px}
+
+.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 60px;display:grid;grid-template-columns:230px minmax(0,1fr);gap:28px;align-items:start}
+.side{position:sticky;top:calc(var(--top-h) + 16px);max-height:calc(100vh - var(--top-h) - 32px);overflow:auto;padding-right:6px}
+.side h3{font-family:var(--display);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:4px 0 8px}
+.side ol{list-style:none;margin:0;padding:0}
+.side a{display:block;padding:6px 8px;border-radius:7px;color:var(--text);text-decoration:none}
+.side a:hover{background:var(--surface-2)}
+.side li.current a{background:var(--accent-soft)}
+.side li.full a{color:var(--muted)}
+.side .srow{display:flex;justify-content:space-between;gap:8px;align-items:baseline;font-family:var(--display);font-size:13px;font-weight:600}
+.side .srow small{font:500 11px/1 var(--body);color:var(--muted)}
+.side .mini{height:3px;margin-top:5px;border-radius:2px;background:var(--border)}
+.side .mini i{display:block;height:100%;width:0;background:var(--accent-fill);border-radius:2px}
+
+.sec{background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-bottom:16px;overflow:clip}
+.sec-h{position:sticky;top:var(--top-h);z-index:5;display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--surface);border-bottom:1px solid var(--border);cursor:pointer}
+.sec.folded .sec-h{border-bottom-color:transparent}
+.fold{width:22px;height:22px;border:0;background:none;color:var(--muted);display:grid;place-items:center;transition:transform .15s}
+.sec.folded .fold{transform:rotate(-90deg)}
+.sec-h h2{font-size:17px;font-weight:700;flex:1;min-width:0}
+.sec-count{font-size:13px;color:var(--muted)}
+.sec.complete .sec-count{color:var(--accent)}
+.sec-tools{display:flex;gap:4px}
+.sec-tools button{padding:3px 8px;font-size:12px;border:1px solid var(--border);border-radius:6px;background:var(--surface);color:var(--muted)}
+.sec-tools button:hover{color:var(--text);background:var(--surface-2)}
+.list{list-style:none;margin:0;padding:6px 8px 8px}
+.sec.folded .list{display:none}
+.empty{display:none;padding:10px 12px;color:var(--muted);font-size:14px}
+.nothing{padding:40px 20px;text-align:center;color:var(--muted)}
+
+.it{margin:0}
+.row{display:flex;align-items:flex-start;gap:6px;padding:6px 8px;border-radius:7px;position:relative}
+.row:hover{background:var(--surface-2)}
+.lab{display:flex;align-items:flex-start;gap:10px;flex:1;min-width:0;cursor:pointer}
+.it.l1 .row{margin-left:26px}.it.l2 .row{margin-left:52px}.it.l3 .row{margin-left:78px}
+.it input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+.box{flex:none;width:18px;height:18px;margin-top:3px;border:1.5px solid var(--border-strong);border-radius:5px;background:var(--surface);display:grid;place-items:center;transition:background .12s,border-color .12s}
+.box::after{content:"";width:10px;height:6px;border:2.5px solid #fff;border-top:0;border-right:0;transform:rotate(-45deg) translate(1px,-1px);opacity:0}
+.it input:checked + .box{background:var(--accent-fill);border-color:var(--accent-fill)}
+.it input:checked + .box::after{opacity:1}
+.it input:focus-visible + .box{outline:2px solid var(--focus);outline-offset:2px}
+.txt{flex:1;min-width:0;overflow-wrap:anywhere}
+.it.done .txt{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--border-strong);text-decoration-thickness:1px}
+.it.done .txt a{color:var(--muted)}
+.it.note .txt{color:var(--muted);font-size:14px}
+.dot{flex:none;width:18px;height:18px;margin-top:3px;display:grid;place-items:center;color:var(--muted)}
+.dot::before{content:"";width:5px;height:5px;border-radius:50%;background:currentColor}
+.pen{flex:none;opacity:0;border:0;background:none;color:var(--muted);padding:1px 5px;border-radius:5px;font-size:14px;line-height:1.3;margin-top:1px}
+.row:hover .pen,.pen:focus-visible{opacity:1}
+.pen:hover{color:var(--text);background:var(--surface)}
+@media (hover:none){.pen{opacity:.55}}
+.txt a{text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--link) 45%,transparent);text-underline-offset:2px}
+.txt a:hover{text-decoration-color:var(--link)}
+.chip{display:inline-block;font:600 10.5px/1 var(--display);letter-spacing:.04em;text-transform:uppercase;padding:3px 6px;border:1px solid var(--border-strong);border-radius:999px;color:var(--muted);vertical-align:2px;margin:0 2px;white-space:nowrap}
+.mk{font-size:.9em;line-height:1}
+mark{color:var(--hl-text);padding:0 3px;border-radius:3px}
+mark.hl-yellow{background:var(--hl-yellow)}mark.hl-green{background:var(--hl-green)}mark.hl-red{background:var(--hl-red)}
+.hide-done .it.done{display:none}
+.hide-done .sec.complete .empty{display:block}
+.flash .row{animation:flash 1.6s ease-out}
+@keyframes flash{0%{background:var(--accent-soft)}100%{background:transparent}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+
+.foot{max-width:1180px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:13px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0 0 10px;padding:0;list-style:none}
+dialog{border:1px solid var(--border);border-radius:12px;background:var(--surface);color:var(--text);padding:18px;max-width:520px;width:calc(100% - 32px)}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+dialog h2{font-size:18px;margin-bottom:6px}
+dialog p{margin:0 0 10px;color:var(--muted);font-size:14px}
+dialog textarea{width:100%;height:120px;padding:8px;border:1px solid var(--border-strong);border-radius:8px;background:var(--surface-2);font:13px/1.4 var(--mono);resize:vertical}
+.dlg-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:12px;flex-wrap:wrap}
+.status{font-size:13px;color:var(--accent);margin-right:auto;align-self:center}
+
+.steps{margin:0;padding-left:22px;display:grid;gap:12px}
+.steps li{padding-left:4px}
+.steps small{color:var(--muted)}
+.steps .btn{display:inline-block;text-decoration:none}
+.warn{padding:8px 10px;border-radius:8px;background:var(--hl-yellow);color:var(--hl-text)}
+kbd{font:12px var(--mono);padding:1px 5px;border:1px solid var(--border-strong);border-bottom-width:2px;border-radius:4px;background:var(--surface-2)}
+dialog.editor{max-width:none;width:min(1100px,calc(100% - 24px));height:calc(100% - 24px);max-height:none;padding:0;overflow:hidden}
+dialog.editor[open]{display:flex;flex-direction:column}
+.ed-head{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:10px 12px;border-bottom:1px solid var(--border)}
+.ed-head h2{font-size:17px;margin:0 auto 0 0}
+.ed-stats{font-size:13px;color:var(--muted);white-space:nowrap}
+.ed-jump{padding:6px 8px;border:1px solid var(--border-strong);border-radius:8px;background:var(--surface);max-width:180px}
+.ed-help{padding:10px 12px;border-bottom:1px solid var(--border);font-size:13px;color:var(--muted);background:var(--surface-2);line-height:1.6}
+.ed-help b{color:var(--text)}
+.ed-help code{font:12px var(--mono);background:var(--surface);padding:1px 5px;border-radius:4px;color:var(--text)}
+#edText{flex:1;width:100%;height:auto;border:0;border-radius:0;resize:none;padding:12px 14px;background:var(--surface);font:13.5px/1.55 var(--mono);tab-size:2}
+#edText:focus-visible{outline:none}
+
+@media (max-width:960px){
+  .wrap{grid-template-columns:1fr}
+  .side{display:none}
+  .jump{display:block}
+  .top-in{grid-template-columns:1fr auto}
+  .progress{grid-column:1 / -1}
+  .tools{grid-column:1 / -1;justify-content:flex-start}
+  .search{width:150px}
+}
+@media (max-width:480px){
+  .brand h1{font-size:19px}
+  .row{padding:7px 4px}
+  .it.l1 .row{margin-left:16px}.it.l2 .row{margin-left:32px}.it.l3 .row{margin-left:48px}
+  dialog.editor{width:100%;height:100%;border-radius:0}
+}
+</style>
+</head>
+<body>
+<header class="top" id="top">
+  <div class="top-in">
+    <div class="brand">
+      <h1>IronMan Guide 2027</h1>
+      <p class="sub" id="secline"></p>
+    </div>
+    <div class="progress" aria-label="Overall progress">
+      <div class="bar"><i id="bar"></i></div>
+      <div class="count num"><span id="done">0</span> / <span id="total">0</span><small id="pct">0%</small></div>
+    </div>
+    <div class="tools">
+      <select class="jump" id="jump" aria-label="Jump to section"></select>
+      <input class="search" id="q" type="search" placeholder="Search steps…" autocomplete="off" aria-label="Search steps">
+      <label class="toggle" for="hideDone"><input type="checkbox" id="hideDone"> Hide done</label>
+      <button class="btn primary" id="next" title="Scroll to the first unchecked step">Next step</button>
+      <div class="menu">
+        <button class="btn" id="menuBtn" aria-haspopup="true" aria-expanded="false" aria-label="More actions">⋯</button>
+        <div class="menu-list" id="menuList" role="menu">
+          <button id="editBtn">Edit guide…</button>
+          <button id="downloadBtn">Download a copy of this page</button>
+          <hr>
+          <button id="expandAll">Expand all sections</button>
+          <button id="collapseAll">Collapse all sections</button>
+          <hr>
+          <button id="exportBtn">Copy progress…</button>
+          <button id="importBtn">Load progress…</button>
+          <hr>
+          <button id="themeBtn">Theme: auto</button>
+          <hr>
+          <button id="resetBtn">Reset all checks</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="draft-wrap" id="draftBar" hidden>
+  <div class="draft"><span id="draftMsg"></span><button class="btn primary" id="draftPrimary">Download file</button><button class="btn" id="draftDiscard">Discard edits</button></div>
+</div>
+
+<div class="wrap">
+  <nav class="side" id="side" aria-label="Sections">
+    <h3>Banks</h3>
+    <ol id="sideList"></ol>
+  </nav>
+  <main id="main"></main>
+</div>
+
+<footer class="foot">
+  <ul class="legend">
+    <li>🟡 quest accepted</li><li>✅ quest completed</li><li>📍 teleport</li><li>⏸️ pause the quest here</li><li>🏅 task set complete</li><li>⚙️ repeatable</li><li>🔴 hardcore warning</li><li>📖 write it down</li><li>🕒 daily</li>
+  </ul>
+  <p id="ghLinks" hidden>This guide is maintained on <a id="ghRepo" target="_blank" rel="noopener">GitHub</a>. Anyone can improve it: edit a step here, then click “Propose changes”. Or <a id="ghEdit" target="_blank" rel="noopener">edit guide.txt on GitHub</a> directly.</p>
+  <p>Quest names link to the RuneScape Wiki. Progress is saved in this browser; use “Copy progress” to move it to another device. To change the guide itself, use “Edit guide…” in the menu, or hover a step and click ✎.</p>
+</footer>
+
+<dialog id="io">
+  <h2 id="ioTitle">Copy progress</h2>
+  <p id="ioHelp"></p>
+  <textarea id="ioText" spellcheck="false"></textarea>
+  <div class="dlg-actions">
+    <span class="status" id="ioStatus"></span>
+    <button class="btn" id="ioClose">Close</button>
+    <button class="btn primary" id="ioAct">Copy</button>
+  </div>
+</dialog>
+
+<dialog id="pr" aria-labelledby="prTitle">
+  <h2 id="prTitle">Propose your changes</h2>
+  <p>Your edits get sent to the guide's owner as a “pull request” on GitHub, where they can review and accept them. Only the guide text is sent, never your checkmarks. You need a free GitHub account.</p>
+  <p class="warn" id="prStale" hidden>Heads up: the guide was updated by someone else after you started editing, so your version may undo their changes. Consider discarding your edits and redoing them on the current guide.</p>
+  <ol class="steps">
+    <li><button class="btn primary" id="prCopy">Copy guide text</button> <span class="status" id="prStatus"></span>
+      <div id="prFallback" hidden><textarea id="prText" readonly spellcheck="false"></textarea></div></li>
+    <li><a class="btn" id="prOpen" target="_blank" rel="noopener">Open guide.txt on GitHub ↗</a><br><small>GitHub asks you to sign in or create an account, then opens the guide in an editor. It may say it will “fork” the project for you; that is normal, just continue.</small></li>
+    <li>In that editor: select everything (<kbd>Ctrl</kbd>+<kbd>A</kbd> or <kbd>⌘</kbd>+<kbd>A</kbd>), paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>⌘</kbd>+<kbd>V</kbd>), then click <b>Commit changes…</b>, then <b>Propose changes</b>, then <b>Create pull request</b>. Write one line about what you changed.</li>
+  </ol>
+  <div class="dlg-actions"><button class="btn" id="prClose">Close</button></div>
+</dialog>
+
+<dialog id="ed" class="editor" aria-label="Edit guide">
+  <div class="ed-head">
+    <h2>Edit guide</h2>
+    <span class="ed-stats num" id="edStats"></span>
+    <select class="ed-jump" id="edJump" aria-label="Jump to section in the text"></select>
+    <button class="btn" id="edHelpBtn" aria-expanded="false">Format help</button>
+    <button class="btn" id="edApply" title="Show the changes on the page (they stay in this browser until you download the file)">Apply</button>
+    <button class="btn primary" id="edPrimary" title="Ctrl/Cmd+S">Download file</button>
+    <button class="btn" id="edClose">Close</button>
+  </div>
+  <div class="ed-help" id="edHelp" hidden>
+    <b>#</b> Bank 12 → a new section &nbsp;·&nbsp; <b>-</b> a step with a checkbox &nbsp;·&nbsp; two spaces before the <b>-</b> → a sub-step &nbsp;·&nbsp; <b>*</b> a note without a checkbox<br>
+    Emoji are typed as-is: 🟡 accepted · ✅ completed · 📍 teleport · ⏸️ pause · 🏅 task set done · ⚙️ repeatable · 🔴 warning · 📖 · 🕒<br>
+    <code>[Lumbridge Easy Task]</code> shows as a tag &nbsp;·&nbsp; <code>[[Quest Name]]</code> links to the wiki (known quest names link on their own) &nbsp;·&nbsp; <code>==text==</code> highlight, <code>==g:text==</code> green, <code>==r:text==</code> red<br>
+    A line with no marker continues the step above it. Changing a step's wording clears its checkmark for everyone; adding or moving steps keeps existing checks.
+  </div>
+  <textarea id="edText" spellcheck="false" wrap="soft"></textarea>
+</dialog>
+
+<script>
+const KEY = 'rs3guide.v1';
+const PH = s => '%%' + s + '%%';
+const QUESTS = [["The Restless Ghost", "The Restless Ghost"], ["The Restless Ghost", "Restless Ghost"], ["The Blood Pact", "The Blood Pact"], ["Rune Mysteries", "Rune Mysteries"], ["Imp Catcher", "Imp Catcher"], ["Vampyre Slayer", "Vampyre Slayer"], ["Stolen Hearts", "Stolen Hearts"], ["Ernest the Chicken", "Ernest The Chicken"], ["Swept Away", "Swept Away"], ["Visions of Havenhythe", "Visions of Havenhythe"], ["Pirate's Treasure", "Pirate['’]s Trea[s]?ure"], ["Once Upon a Slime", "Once Upon A Slime"], ["Song from the Depths", "Song From The Depths"], ["There's No Place Like Home", "There['’]s No Place Like Home"], ["Witch's Potion", "Witch['’]s Potion"], ["Wolf Whistle", "Wolf Whistle"], ["Druidic Ritual", "Druidic Ritual"], ["Death Plateau", "Death Plateau"], ["Troll Invasion", "Troll Invasion"], ["Let Them Eat Pie", "Let Them Eat Pie"], ["Duck Quest", "Duck Quest"], ["Cook's Assistant", "Cook['’]s Assistant"], ["Sheep Shearer", "Sheep Shearer"], ["Gertrude's Cat", "Ge[r]?trude['’]?s Cat"], ["Gunnar's Ground", "Gunnar['’]s Ground"], ["Heartstealer", "Heart ?[Ss]tealer"], ["Enter the Abyss", "Enter The Abyss(?:: Miniquest)?"], ["Benedict's World Tour", "Benedict['’]?s? (?:World Tour|Around the World)"], ["Once Upon a Time in Gielinor: Foreshadowing", "Once Upon A Time in Gielinor:\\s?Foreshadowing"], ["Once Upon a Time in Gielinor: Flashback", "Once [Uu]pon A Time In Ge?i?linor: Flashback"], ["Once Upon a Time in Gielinor: Fortunes", "Once [Uu]pon A Time In Ge?i?linor: Fortunes"], ["Once Upon a Time in Gielinor: Finale", "Once Upon A Time In Gielinor: Finale"], ["Once Upon a Time in Gielinor", "Once Upon A Time [Ii]n Ge?i?linor"], ["New Foundations", "New Foundations"], ["Priest in Peril", "Priest [Ii]n Peril"], ["Shield of Arrav", "Shield of Arrav"], ["Demon Slayer", "Demon Slayer"], ["Natural History Quiz", "Natural History Quiz"], ["Herby Werby", "Herby Werby"], ["Violet is Blue II", "Violet [Ii]s Blue II"], ["Violet is Blue", "Violet [Ii]s Blue"], ["What's Yours Is Mine", "What['’]s Yours [Ii]s [Mm]ine"], ["Perils of Ice Mountain", "Perils of Ice Mountain"], ["The Knight's Sword", "The Knight['’]?s Sword"], ["Recruitment Drive", "Recruitment Drive"], ["Dealing with Scabaras", "Dealing with Scabaras"], ["Doric's Task I", "Doric['’]s Task I(?!I)(?:: Miniquest)?"], ["Doric's Task II", "Doric['’]s Task II(?:: Miniquest)?"], ["Necromancy!", "Necromancy!"], ["Kili Row", "Kili['’]?s? Row"], ["Rune Mythos", "Rune Mythos"], ["Bringing Home the Bacon", "Bringing Home [Tt]he Bacon"], ["Dragon Slayer", "Dragon Slayer"], ["Missing, Presumed Death", "Missing, Presumed Death"], ["Rag and Bone Man", "Rag and Bone(?: Quest| quest)?"], ["Sea Slug", "Sea Slug"], ["Player-owned farm", "Player Owned Farm"], ["Plague City", "Plague [Cc]ity"], ["Biohazard", "Biohazard"], ["Diamond in the Rough", "Diamond In The Rough"], ["One Piercing Note", "One Piercing Note"], ["The Tourist Trap", "(?:The )?Tourist Trap"], ["Jack of Spades", "Jack of Spades"], ["The Lost Tribe", "Lost Tribe"], ["Goblin Diplomacy", "Goblin Diplomacy"], ["Recipe for Disaster: Another Cook's Quest", "Recipe For Disaster: Another Cook['’]s Quest"], ["Recipe for Disaster", "Recipe for Disaster"], ["Wanted!", "Wanted!"], ["Nemi Forest", "Nemi Forest"], ["Witch's House", "Witch['’]s House"], ["Fight Arena", "Fight Arena"], ["Monk's Friend", "Monk['’]?s Friend"], ["Sheep Herder", "Sheep He[a]?rder"], ["Dwarf Cannon", "Dwarf Cannon"], ["Bar Crawl", "Bar ?Crawl(?:: ?Mini[Qq]uest)?"], ["Waterfall Quest", "Waterfall Quest"], ["Hazeel Cult", "Hazeel Cult"], ["Tree Gnome Village", "Tree Gnome Village"], ["The Grand Tree", "(?:The )?Grand Tree"], ["Tribal Totem", "Tribal Totem"], ["Family Crest", "Family Crest"], ["Observatory Quest", "Observatory Quest"], ["Animal Magnetism", "Animal Magnetism"], ["Tai Bwo Wannai Trio", "Tai Bwo Wannai Trio"], ["Murder on the Border", "Murder on the Border"], ["Unwelcomed Guest", "Unwelcomed Guest"], ["Merlin's Crystal", "Merlin['’]s Crystal"], ["Holy Grail", "Holy Grail"], ["Murder Mystery", "Murder Mystery"], ["Dead and Buried", "Dead and Buried"], ["Buyers and Cellars", "Buyers and Cellars"], ["From Tiny Acorns", "From Tiny Acorns"], ["The Feud", "The Feud"], ["Rogue Trader", "Rogue Trader Miniquest"], ["Penguin Hide and Seek", "Penguin Hide and Seek"], ["Temple of Ikov", "Temple of Ikov"], ["The Fremennik Isles", "The Fremennik Isles"], ["Legends' Quest", "Legend['’]s Quest"], ["Icthlarin's Little Helper", "Icthlarin['’]s Little Helper"], ["The Eyes of Glouphrie", "The Eyes of Glouphrie"], ["Song of the Elves", "Song of the Elves"], ["One Small Favour", "One Small Favour"], ["Rat Catchers", "Rat Catchers"], ["Soul Searching", "Soul Searching"], ["Defender of Varrock", "[Dd]efender of [Vv]arrock"], ["Runesphere", "Runespheres?"], ["Memorial to Guthix", "Memorial Guthix"], ["Circus", "\\bCircus\\b"], ["Mourning's End Part I", "Mournings? ?['’]?s? End (?:Pt|Part|pt) 1"], ["Mourning's End Part II", "Mournings? ?['’]?s? End (?:Pt|Part|pt) 2"], ["The Giant Dwarf", "The Giant Dwarf"], ["Stronghold of Security", "Stronghold of Security"], ["Elvarg", "Elvarg"]];
+const MIGRATE = {"s0-0": "4e32b835", "s0-1": "ec2bd6ad", "s0-2": "7eeaa341", "s0-3": "3657d967", "s0-4": "43136ddc", "s0-5": "d7b0797c", "s0-6": "a4fa840e", "s0-7": "b56b1ddd", "s0-8": "6a402c46", "s0-9": "bf1c34c1", "s0-10": "e33eec98", "s0-11": "ca742c2a", "s1-0": "6d7ba585", "s1-1": "a1fa2abc", "s1-2": "d83ec4a0", "s1-3": "de89f690", "s1-4": "77f5065a", "s1-5": "0413f2ae", "s1-6": "58befeff", "s1-7": "f6020451", "s1-8": "bba99dfb", "s1-9": "3f7e9567", "s1-10": "f85a0877", "s1-11": "4bd2429d", "s1-12": "bb93e21c", "s1-13": "09092731", "s1-14": "e500d555", "s1-15": "ea0f9e2d", "s1-16": "915aa83d", "s1-17": "1027b2a0", "s1-18": "6339e18d", "s1-19": "9cb4ad5f", "s1-20": "3fdc605c", "s1-21": "084b2d12", "s1-22": "4b6c46a7", "s1-23": "45afc891", "s1-24": "6dee76f9", "s2-0": "b7d50c5c", "s2-1": "9fa80b92", "s2-2": "b117046e", "s2-3": "79476093", "s2-4": "d64c5db4", "s2-5": "a1321219", "s2-6": "c6633213", "s2-7": "4326f87d", "s2-8": "5e6f22b6", "s2-9": "45ab109a", "s2-10": "edf07c92", "s2-11": "aa7a648c", "s2-12": "138598f9", "s2-13": "e3c4aa37", "s2-14": "19c47d3e", "s2-15": "38dd39ba", "s2-16": "1807840d", "s2-17": "148999d2", "s2-18": "794edf90", "s2-19": "099b7024", "s2-20": "e28b5e3f", "s2-21": "81fcd5e2", "s2-22": "decd37e7", "s2-23": "7b528bb3", "s2-24": "8a8af6b8", "s2-25": "d7594142", "s2-26": "34af0f01", "s2-27": "9626f8d3", "s2-28": "5e0023f7", "s2-29": "6f9de067", "s2-30": "fb5b2053", "s2-31": "481af807", "s2-32": "ed2d3b82", "s2-33": "a2b8376c", "s3-0": "09839ade", "s3-1": "162d6691", "s3-2": "a33e5e84", "s3-3": "d5b70304", "s3-4": "40322187", "s3-5": "d24e9228", "s3-6": "52789102", "s3-7": "5be42111", "s4-0": "6c7df32c", "s4-1": "e76b3aab", "s4-2": "60e8f916", "s4-3": "91074639", "s4-4": "0e808ffa", "s4-5": "5803b468", "s4-6": "10138ba1", "s4-7": "416d3cd3", "s4-8": "9ffafbfd", "s4-9": "0e775bc2", "s4-10": "ecfa7a62", "s4-11": "3ab55519", "s4-12": "dba47b90", "s4-13": "90d68855", "s4-14": "5cc658aa", "s4-15": "e8beb1b1", "s4-16": "a5ac2519", "s4-17": "3cc05533", "s4-18": "7137e8ca", "s4-19": "3259cc9f", "s4-20": "8a6f4a0e", "s5-0": "a2e97591", "s5-1": "9abf0fc8", "s5-2": "5ea9e256", "s5-3": "ab25f55b", "s5-4": "f779f67b", "s5-5": "db12a079", "s5-6": "d767212d", "s5-7": "e0bcd752", "s5-8": "e7d218b2", "s5-9": "49a0a1f5", "s5-10": "ae65f1ca", "s5-11": "4d3e8f2d", "s5-12": "3c46b4dd", "s5-13": "3c18a1e8", "s5-14": "5bf42756", "s5-15": "8e63b16e", "s5-16": "0a8849f3", "s5-17": "facadb70", "s5-18": "4bd8a189", "s5-19": "2213aa4b", "s5-20": "84be0eb4", "s5-21": "1a58f0b7", "s5-22": "ba78e337", "s5-23": "80a0184b", "s5-24": "33ad9528", "s6-0": "4be4b5f6", "s6-1": "5d7ffa0c", "s6-2": "b4b43b88", "s6-3": "b2b7cf1b", "s6-4": "59e4e05b", "s6-5": "4cd6ced0", "s6-6": "5eb582ff", "s6-7": "d875f4ee", "s6-8": "c10ce96f", "s6-9": "d577b778", "s6-10": "2adae532", "s6-11": "422346d5", "s6-12": "31adc434", "s6-13": "af1a3399", "s6-14": "008ac18f", "s6-15": "eee07aee", "s6-16": "87d521f3", "s6-17": "5ba93bd2", "s6-18": "7e97e37b", "s6-19": "eed9f6e7", "s6-20": "854d1973", "s7-0": "177c7463", "s7-1": "b763ac07", "s7-2": "c3c25d9d", "s7-3": "80c19c23", "s7-4": "246ff141", "s7-5": "4aa98d9d", "s7-6": "946a75c9", "s7-7": "4dfb4682", "s7-8": "a2f6f092", "s8-0": "6b7ed0ca", "s8-1": "29cde9f8", "s8-2": "0fe90586", "s8-3": "fdfae487", "s8-4": "e760d5bf", "s8-5": "bd37bbb0", "s8-6": "f1249b8b", "s8-7": "7f617574", "s8-8": "91b65aac", "s8-9": "bd53548c", "s9-0": "ce1981f7", "s9-1": "b8a5ccd0", "s9-2": "9d9c8bb6", "s9-3": "6d24bd25", "s9-4": "95da9894", "s9-5": "e707236c", "s9-6": "5709172a", "s9-7": "9cd1a40c", "s9-8": "a6bab8ca", "s9-9": "0bd6dfad", "s9-10": "7b5e26dd", "s9-11": "d95907c8", "s9-12": "e8038cd6", "s9-13": "9fbaced9", "s9-14": "68a39909", "s9-15": "b1ecc9c3", "s9-16": "1875b961", "s9-17": "c734fae8", "s10-0": "e72677fc", "s10-1": "1eb7f56e", "s10-2": "e68eeac6", "s10-3": "6482dead", "s10-4": "e3296677", "s10-5": "d0f772a6", "s10-6": "96beab15", "s10-7": "58b8d114", "s10-8": "1ff070b3", "s10-9": "1cb9d584", "s10-10": "24cdb0f1", "s10-11": "35d3b296", "s10-12": "7756d36f", "s10-13": "58b69baf", "s10-14": "43cf3c44", "s10-15": "c6bb8e6a", "s10-16": "ec67e327", "s10-17": "51c85ec4", "s10-18": "f684ab73", "s10-19": "d9f8b026", "s10-20": "0bce2c7a", "s10-21": "ff349c5d", "s10-22": "b167fe4a", "s10-23": "161c948d", "s10-24": "f47511da", "s11-0": "f8aaa48b", "s11-1": "4c326df6", "s11-2": "6510b91e", "s11-3": "817cf685", "s11-4": "1eec5d00", "s11-5": "b805513b", "s11-6": "46ff797a", "s11-7": "da76b5f4", "s11-8": "310f3baa", "s11-9": "77e66693", "s11-10": "052691a6", "s11-11": "e240d26e", "s11-12": "27227844", "s12-0": "2bc86239", "s12-1": "f21ae287", "s12-2": "dcc3eff3", "s12-3": "b012e8c1", "s12-4": "91d5317e", "s12-5": "940aadc3", "s12-6": "2f784749", "s12-7": "6cb65a18", "s12-8": "d7890fd0", "s12-9": "d43d6fbf", "s13-0": "4bf30b51", "s13-1": "7000f28f", "s13-2": "76aea19e", "s13-3": "6225a9a8", "s13-4": "cd5089e6", "s13-5": "d55bb68a", "s13-6": "fee6de60", "s13-7": "24199ed4", "s13-8": "981bed12", "s13-9": "21c80577", "s13-10": "bba6076a", "s13-11": "77a34498", "s13-12": "e9556c43", "s13-13": "04c14abf", "s13-14": "2bb91185", "s13-15": "7cda521a", "s13-16": "ec5bc5f0", "s13-17": "31918bdf", "s13-18": "40aa0e7a", "s13-19": "8d874a4c", "s13-20": "fb2534f4", "s13-21": "b1542411", "s13-22": "e7d33ce6", "s13-23": "6ee892fe", "s13-24": "4d3d9b06", "s13-25": "bc879b1a", "s13-26": "ed0d3ab1", "s13-27": "cd502164", "s13-28": "9725481a", "s13-29": "7d42c511", "s13-30": "f764af84", "s13-31": "106bb00a", "s13-32": "858fd82f", "s13-33": "1b1345a9", "s13-34": "97184095", "s13-35": "b745b0b2", "s13-36": "df978fcc", "s13-37": "d7767810", "s13-38": "6f0ff832", "s13-39": "ca089b8d", "s13-40": "64459a47", "s13-41": "093fae4c", "s13-42": "3662943e", "s13-43": "f9e83d7c", "s13-44": "2e900be7", "s13-45": "ac5cca22", "s13-46": "3be4a1e7", "s13-47": "40d516a7", "s13-48": "5bfd0ca1", "s13-49": "817e5fc1", "s13-50": "bab7f1ef", "s13-51": "f1015c68", "s13-52": "fa9850b1", "s13-53": "43c1e594", "s13-54": "d0a0bdcd", "s13-55": "0a01aca6", "s13-56": "cbe5c892", "s13-57": "02b49307", "s13-58": "2dde6737", "s14-0": "7b061bbb", "s14-1": "d05f69ca", "s14-2": "bc7170e1", "s14-3": "ea05c1bd", "s14-4": "5b8b16c6", "s14-5": "4a07d250", "s14-6": "0bcf34c1", "s14-7": "fb49a27f", "s14-8": "5c9905ce", "s14-9": "0ad9175b", "s14-10": "708a8435", "s14-11": "53bd6b09", "s14-12": "dc528562", "s14-13": "f63e22ee", "s14-14": "ac881a77", "s14-15": "d633c3d7", "s14-16": "0e17e1d7", "s14-17": "e181b394", "s14-18": "b4a87639", "s14-19": "863aa50a", "s14-20": "0eac01e8", "s14-21": "04b4f6cc", "s14-22": "1019bac8", "s14-23": "a3b8f268", "s15-0": "efdfbaa7", "s15-1": "e4dd3c60", "s15-2": "21ffd929", "s15-3": "6782c487", "s15-4": "3aa6aa77", "s15-5": "dae98727", "s15-6": "7650a3c1", "s15-7": "f78a986c", "s15-8": "4f1a686e", "s15-9": "6155e4da", "s15-10": "ff97f73a", "s15-11": "2dbcc380", "s15-12": "0e384f33", "s15-13": "9f4376cf", "s15-14": "9d7b0240", "s15-15": "753bf266", "s15-16": "9a2c943f", "s15-17": "e52729a6", "s15-18": "b66eab81", "s15-19": "e8108300", "s15-20": "bfecc757", "s15-21": "eb1087b9", "s16-0": "dba7a45a", "s16-1": "3381e2a9", "s16-2": "63541e10", "s16-3": "340e0772", "s16-4": "fb35f302", "s16-5": "1b9b8adf", "s16-6": "84b8d5bc", "s16-7": "aa311553", "s16-8": "89d91824", "s16-9": "479e0e81", "s16-10": "81975355", "s16-11": "2eaee405", "s16-12": "64535f24", "s16-13": "c62b10a3", "s16-14": "46bdbb70", "s16-15": "a4bffb3b", "s16-16": "49bdc029", "s16-17": "b504f28c", "s16-18": "463f213e", "s16-19": "0fa6a137", "s17-0": "a4e953af", "s17-1": "cc29efb0", "s17-2": "c9ee3ba3", "s17-3": "d6476279", "s17-4": "69797601", "s17-5": "cc2edb7e", "s17-6": "595b4b5e", "s17-7": "909f2e9a", "s18-0": "708a67a3", "s18-1": "85def3ff", "s18-2": "62274189", "s18-3": "2d77ef13", "s18-4": "0e3c8ffa", "s18-5": "6430b91f", "s18-7": "ccabbb77", "s18-8": "41266f6b", "s18-9": "3b0c589c", "s18-10": "579ab34c", "s18-11": "c96fd955", "s18-12": "dbf33028", "s18-13": "914ab522", "s18-14": "a64f396b", "s18-15": "08dae3aa", "s18-16": "64fd9a0d", "s18-17": "be7d866e", "s19-0": "4bf96c96", "s19-1": "af26f2b3", "s19-2": "3f702e99", "s19-3": "5a06a689", "s19-4": "49e4c919", "s19-5": "5706a1d0", "s19-6": "efa466aa", "s19-7": "79d8c2fa", "s19-8": "2d763cc5", "s19-9": "e7eb1678", "s19-10": "fc0f4c81", "s20-0": "15ec1eac", "s20-1": "06abf487", "s20-2": "c5da5515", "s20-3": "5f561a94", "s20-4": "204c7e48", "s20-5": "852473e4", "s20-6": "f38a4fa1", "s20-7": "395dffc0", "s20-8": "896033c3", "s20-9": "61ebaf09", "s21-0": "5773d54d", "s21-1": "b6caf2eb", "s21-2": "a8670a43", "s21-3": "0ab2b8c1", "s21-4": "aa772197", "s21-5": "c256b34f", "s21-6": "a7df8c38", "s21-7": "dd4e77c1", "s21-8": "a91cc9af", "s21-9": "c725085e", "s21-10": "6bc0c0d2", "s21-11": "281e96f4", "s21-12": "b7792a2e", "s21-13": "0dd97f8c", "s21-14": "638728b7", "s21-15": "a9670bd6", "s21-16": "533ce9ed", "s21-17": "6ad91ccb", "s21-18": "865d6889", "s21-19": "28ed1f5b", "s21-20": "667b104b", "s21-21": "a91cd15f", "s21-22": "6e359353", "s21-23": "b5cb5cc8", "s21-24": "aa670d69", "s21-25": "c1f45924", "s22-0": "3f4b47b0", "s22-1": "671d6134", "s22-2": "49e67567", "s22-3": "52e0ccf7", "s22-4": "3b7e2000", "s22-5": "67f62af6", "s22-6": "07af6e2b", "s22-7": "541db5cf", "s22-8": "8d6d62ac", "s22-9": "f6ad52f3", "s22-10": "d82844fd", "s22-11": "9fe7b41e", "s22-12": "ec035c0f", "s23-0": "9744ac69", "s23-1": "4b8c0538", "s23-2": "7729d781", "s23-3": "1734dcd1", "s23-4": "8c25b57d", "s23-5": "6f8e16d0", "s23-6": "0d76d74a", "s23-7": "4b64d328", "s23-8": "d17bb529", "s23-9": "79cce2f8", "s23-10": "35101004", "s23-11": "0867ffb9", "s23-12": "0a2683e7", "s23-13": "203bf3c3", "s23-14": "4b7a98a8", "s23-15": "04caea5f", "s23-16": "3e88b24e", "s23-17": "90f7ed32", "s23-18": "b4279d3d", "s23-19": "2b02421d", "s23-20": "0419e6af", "s24-0": "f084d870", "s24-1": "b8e75468", "s24-2": "c4cc4409", "s24-3": "f768688b", "s24-4": "33d4cd77", "s24-5": "91918eae", "s24-6": "d8348a29", "s24-7": "28284871", "s24-8": "730d2169", "s24-9": "4ac009d3", "s24-10": "3fd2e742", "s24-11": "403108e3", "s24-12": "669ce727", "s24-13": "c033e6f3", "s24-14": "bb41f9f4", "s24-15": "f6d62fa5", "s24-16": "c4e8f47b", "s24-17": "cd1acff1", "s24-18": "61cb2084", "s24-19": "80520eff", "s24-20": "12f2db6b", "s25-0": "843bab19", "s25-1": "3cdecc03", "s25-2": "3d0852c5", "s25-3": "d0b626e9", "s25-4": "72770423", "s25-5": "9a3af86b", "s25-6": "579619c1", "s25-7": "447e535e", "s25-8": "8e9eb810", "s25-9": "18e193fd", "s25-10": "5d364816", "s25-11": "21bda31a", "s25-12": "2dacdfd3", "s25-13": "24d60fef", "s25-14": "937cbb6d", "s25-15": "9e52f65c", "s25-16": "119b38b1", "s25-17": "8290029c", "s25-18": "1d27cd37", "s26-0": "32d982a5", "s26-1": "065c83e6", "s26-2": "6b222d81", "s26-3": "762acb61", "s27-0": "e0971aad", "s27-1": "3945515b", "s27-2": "79a75f23", "s27-3": "b6d6f429", "s27-4": "fc5765b1", "s27-5": "0b98cd4c", "s28-0": "404c673d", "s28-1": "a64f29cd", "s28-2": "95b70079", "s28-3": "79d0d8a2", "s28-4": "3ba88af9", "s28-5": "a1dbd5a7", "s28-6": "0dfbf360", "s28-7": "974e4b7e", "s28-8": "45208fb5", "s28-9": "627c5b67", "s28-10": "011f2009", "s28-11": "964e49eb", "s28-12": "64be9b62", "s28-13": "8ba1e2e2", "s28-14": "42f52c2e", "s28-15": "bb41dcbd", "s28-16": "db18a49b", "s28-17": "b8ebd9f4", "s28-18": "23d4b6a4", "s28-19": "0c1c0aaa", "s28-20": "1448de89", "s28-21": "1e49e2e4", "s28-22": "cb9bca3f", "s28-23": "ba645097", "s28-24": "cfe50a48", "s28-25": "3d831838", "s28-26": "34ff2288", "s28-27": "d3b1c7bc", "s28-28": "40336fdc", "s28-29": "99f77533", "s28-30": "ed4ee852", "s28-31": "2c025a1c", "s28-32": "65dc0122", "s28-33": "bd55c7de", "s28-34": "c35bbc92", "s28-35": "25020e67", "s28-36": "fbd707ec", "s28-37": "0aa4994d", "s28-38": "934c34c6", "s28-39": "9daf2a4a", "s29-0": "93ecd167", "s29-1": "9b00e1fc", "s29-2": "027c410b", "s29-3": "eef870ea", "s29-4": "3894d73b", "s29-5": "e937c829", "s29-6": "d1c1ee16", "s29-7": "1ce98c40", "s29-8": "d024a1ae", "s29-9": "6cb16d7b", "s30-0": "265b1e62", "s30-1": "b9a20dc5", "s30-2": "cd8a88cb", "s30-3": "7fb6b2ca", "s30-4": "7b05ea67", "s30-5": "56a00f4f", "s30-6": "076f88a7", "s30-7": "c5fc85ad", "s30-8": "7bc59b3b", "s30-9": "69d1e9e1", "s30-10": "a0b79fca", "s31-0": "a2db12c2", "s31-1": "dec5d643", "s31-2": "01b03dcf", "s31-3": "c18fad41", "s31-4": "1cc0a2eb", "s31-5": "10700419", "s31-6": "2536bbb6", "s32-0": "ef795b81", "s32-1": "33b2f839", "s32-2": "7eab0346", "s32-3": "5d20c31c", "s32-4": "695d37e5", "s32-5": "6a4534e0", "s32-6": "1dbf634d", "s32-7": "f60de8dd", "s32-8": "fcb94825", "s32-9": "eb6034ee", "s32-10": "55b7611c", "s32-11": "d078425f", "s32-12": "4d1f59bc", "s32-13": "68a4d0f4", "s32-14": "f2f0d5ea", "s32-15": "d8981f8c", "s32-16": "8101ca6e", "s32-17": "544618a3", "s32-18": "52fa7b1c", "s32-19": "7cdd6dbe", "s32-20": "37bfb7c7", "s32-21": "d1775949", "s32-22": "06470674", "s32-23": "68289a13", "s32-24": "bcd0dcdf", "s32-25": "62a77ef3", "s32-26": "d0096f49", "s33-0": "388e218f", "s33-1": "3d14b0d0", "s33-2": "aacfeda4", "s33-3": "65ae728c", "s33-4": "853f1a31", "s33-5": "49668dcb", "s33-6": "5cbdc095", "s33-7": "9e365365", "s33-8": "de6b77e6", "s33-9": "d76c8b3e", "s33-10": "cf861499", "s33-11": "7ada28ec", "s33-12": "0aa74119", "s34-0": "0458ce9c", "s34-1": "61eff2a4", "s34-2": "9e341d85", "s34-3": "21bddf11", "s34-4": "c15d34a1", "s34-5": "8b193c54", "s35-0": "4ab704c5", "s35-1": "38aeca97", "s35-2": "6b5a9925", "s35-3": "60cdc2de", "s35-4": "eabaedf4", "s35-5": "4479565d", "s35-6": "a6bb19ca", "s35-7": "88fd950b", "s35-8": "6adaee6f", "s35-9": "91d3f284", "s35-10": "5ac34440", "s36-0": "5dcd3c45", "s36-1": "6cf7f550", "s36-2": "c94b498a", "s36-3": "b409e015", "s36-4": "b19a7baa", "s36-5": "00165e0c", "s36-6": "863c6a71", "s36-7": "e399aebe", "s36-8": "bc6a7f0e", "s36-9": "217449ff", "s36-10": "1f051bf4", "s36-11": "5c455d95", "s36-12": "e2d895b8", "s36-13": "358a6cc9", "s37-0": "5400ada9", "s37-1": "924a8e64", "s37-2": "aa83adca", "s37-3": "45898a09", "s37-4": "f94eeb9c", "s37-5": "22d0c378", "s37-6": "b32740b2", "s37-7": "c8d473d2", "s37-8": "d5bf15fa", "s37-9": "d8a34979", "s37-10": "8a4916e1", "s37-11": "95eb028b", "s38-0": "b4ff7e36", "s38-1": "86106882", "s38-2": "4e3dc557", "s38-3": "20928359", "s38-4": "cec27187", "s38-5": "2d860d4c", "s38-6": "b610b55a", "s38-7": "a2b90800", "s38-8": "5f60c6ea", "s38-9": "28a7d25a", "s38-10": "56beb263", "s38-11": "f7daef83", "s39-0": "55e304cc", "s39-1": "26e8eb00", "s39-2": "27e28f53", "s39-3": "fb46d2e5", "s39-4": "c972efb9", "s39-5": "b5dec0ac", "s39-6": "5d3645fc", "s39-7": "6f0ec2ae", "s39-8": "9c9d61fb", "s39-9": "51e77645", "s39-10": "a6c6bb3c", "s39-11": "580dc4d0", "s39-12": "5c097767", "s39-13": "a761d4f5", "s39-14": "9f5f3fec", "s39-15": "311df7bf", "s39-16": "ba17ff05", "s39-17": "998d4a0e", "s39-18": "f36b46a5", "s40-0": "cd9256b3", "s40-1": "ef8519e8", "s40-2": "3c36ca2b", "s40-3": "c450f7af", "s40-4": "31119092", "s40-5": "ecbc5034", "s40-6": "fe1914a6", "s40-7": "b868d598", "s40-8": "0a7b3759", "s40-9": "77d98619", "s40-10": "082a2c0b", "s40-11": "e3bd19cb", "s40-12": "03fb82ac", "s41-0": "d3bf259e", "s41-1": "e75a723e", "s41-2": "4e396938", "s41-3": "74c1045b", "s41-4": "3ed04def", "s41-5": "def62c50", "s41-6": "732f54d9", "s41-7": "558f5687", "s41-8": "a2b979bb", "s41-9": "92fe21cb", "s41-10": "840a9f07", "s42-0": "92d0a13d", "s42-1": "514a48c5", "s42-2": "eaa8d271", "s42-3": "2fe09a0d", "s42-4": "b1132afb", "s42-5": "c86cbc7a", "s42-6": "22f449ec", "s42-7": "b8668c68", "s42-8": "4fe4e45a", "s43-0": "ca725911", "s43-1": "df53afc0", "s43-2": "e5f2ec68", "s43-3": "122ee380", "s43-4": "de632edd", "s43-5": "b271bed3", "s44-0": "1a395d2d", "s44-1": "dbfab09c", "s44-2": "b6cf2a32", "s44-3": "6dff5ccb", "s44-4": "0cdbb6d6", "s44-5": "a2e2cfa7", "s45-0": "71c42a85", "s45-1": "841598bb", "s45-2": "5b1c64a9", "s45-3": "ff3f9dad", "s45-4": "28a81141", "s45-5": "91c64803", "s45-6": "448bdcd4", "s45-7": "95c4f2dc", "s45-8": "fafb6ff1", "s45-9": "d1529206", "s45-10": "21779898", "s46-0": "e9713416", "s46-1": "3ad61e6d", "s46-2": "88f695e9", "s46-3": "5993f0e7", "s46-4": "6a1673fd", "s46-5": "6db7e798", "s46-6": "ed71d66d", "s46-7": "5bae6465", "s47-0": "ceaa927c", "s47-1": "93408ad3", "s47-2": "537528eb", "s48-0": "cfa7e24e", "s48-1": "e171445e", "s48-2": "41936e9b", "s48-3": "d2491c42", "s48-4": "6deec95c", "s49-0": "29ce68c8", "s49-1": "76aa82f1", "s49-2": "4c423cac", "s49-3": "dfd0badf", "s49-4": "dc7895ce", "s49-5": "b8e80285", "s49-6": "bd97870c", "s50-0": "c1a4a9f3", "s50-1": "f62f2c01", "s50-2": "dbed6c50", "s51-0": "5072ed65", "s51-1": "a9d3cec9", "s51-2": "cd5d53f2", "s51-3": "69573d22", "s52-0": "a2f740ae", "s52-1": "8275b19c", "s52-2": "069e9c0d", "s52-3": "9a8c8ee4", "s52-4": "0ac369ff", "s52-5": "cd716c00", "s52-6": "031e42f4", "s52-7": "54c0d9fb", "s52-8": "d6bc2f9e", "s53-0": "4bf99062", "s53-1": "960749ee", "s53-2": "1a5aa565", "s53-3": "df5de4fc", "s53-4": "58de66c6", "s54-0": "bd26de2a", "s54-1": "0a780a14", "s55-0": "eadbd344", "s55-1": "1a8bc392", "s55-2": "89c08dbe", "s55-3": "4820cc25", "s56-0": "eb3a0f91", "s56-1": "0827fb45", "s56-2": "e787a8cb", "s56-3": "c4f6cccf", "s56-4": "4b751a03", "s56-5": "3b26efbb", "s56-6": "92e59081", "s56-7": "c646fc64", "s56-8": "0e075914", "s56-10": "ef6d54ea", "s56-11": "9addab51", "s56-12": "94cfa215", "s56-13": "d0553c1e", "s56-14": "18193100", "s56-15": "1072aa88", "s56-17": "17b32839", "s56-18": "988a8aae", "s56-19": "bb2ec792", "s56-20": "bba1c6f1", "s56-21": "ef3e1535", "s56-22": "9d1bba40", "s57-0": "30038030", "s57-1": "d9af9fd5", "s57-2": "cb201715", "s57-3": "e90cc9b9", "s57-4": "f5ecb71d", "s57-5": "76b9af9a", "s57-6": "a9fbbc4e", "s57-7": "aab92d3c", "s57-8": "be71194d", "s57-9": "5bd4f425", "s57-10": "22eec864", "s57-11": "3bcb7107", "s57-12": "b1a546ea", "s58-0": "fb2efd8d", "s58-1": "2a9a81ff", "s58-2": "4ee6959b", "s58-3": "233acbc9", "s58-4": "88691da6", "s58-5": "6490709c", "s58-6": "21d2c7fb", "s59-0": "3f781fa3", "s59-1": "b8f73d68", "s59-2": "1d955e6e"};
+const $ = (s, el=document) => el.querySelector(s);
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const EMOJI_TITLE = {'🟡':'Quest accepted','✅':'Quest completed','📍':'Teleport','⏸':'Pause this quest here','🏅':'Task set complete','⚙':'Repeatable activity','🔴':'Hardcore warning','📖':'Write it down','🕒':'Daily'};
+const EMO = /(🟡|✅|📍|⏸️|⏸|🏅|⚙️|⚙|🔴|📖|🕒)/g;
+const CHIP = /[\[\(]\s*((?:[A-Z][\w'’]*\s+){1,3}?(?:Beginner|Easy|Medium|Hard|Elite)\s+Tasks?|Easy Ardougne Task)\s*[\]\)]/g;
+const QRX = QUESTS.map(([t, p]) => [t, new RegExp(p, 'g')]);
+const NOTE_RX = /^\s*[\[\(]|^\s*(?:Note|NOTE|Reminder|OPTIONAL)\b/;
+
+function h32(s){ let h = 0x811c9dc5; for (const b of new TextEncoder().encode(s)) { h ^= b; h = Math.imul(h, 0x01000193) >>> 0; } return h.toString(16).padStart(8, '0'); }
+const norm = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '');
+const END = '<' + '/script', ENDX = '<' + '\\/script';
+const RX_END = new RegExp('<' + '\\/script', 'gi'), RX_ENDX = new RegExp('<' + '\\\\' + '\\/script', 'gi');
+const escG = t => t.replace(RX_END, ENDX);
+const unescG = t => t.replace(RX_ENDX, END);
+const readBlock = id => document.getElementById(id).textContent.replace(/^\n/, '').replace(/\n$/, '');
+const wiki = name => 'https://runescape.wiki/w/Special:Search?search=' + encodeURIComponent(name) + '&go=Go';
+const link = (name, text) => `<a href="${wiki(name)}" target="_blank" rel="noopener" title="${name.replace(/"/g, '&quot;')} on the RuneScape Wiki">${text}</a>`;
+
+// ---- state ----
+let state = {v:1, done:{}, folded:{}, hideDone:false};
+try { const raw = localStorage.getItem(KEY); if (raw) { const s = JSON.parse(raw); if (s && s.v === 1) state = Object.assign(state, s); } } catch (e) {}
+function save(){ try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+{ let moved = false;
+  for (const k of Object.keys(state.done)) if (/^s\d+-\d+$/.test(k)) { if (MIGRATE[k]) state.done[MIGRATE[k]] = 1; delete state.done[k]; moved = true; }
+  for (const k of Object.keys(state.folded)) if (/^sec-\d+$/.test(k)) { delete state.folded[k]; moved = true; }
+  if (moved) save(); }
+
+// ---- where is this page running? ----
+const HOSTED = /^https?:$/.test(location.protocol);
+const REPO = (() => {
+  const meta = document.querySelector('meta[name="rs3-repo"]');
+  const m = meta && meta.content.trim().match(/^([\w.-]+)\/([\w.-]+)$/);
+  if (m) return {owner: m[1], repo: m[2]};
+  const h = location.hostname; if (!h.endsWith('.github.io')) return null;
+  const owner = h.slice(0, -10); const seg = location.pathname.split('/').filter(Boolean)[0];
+  return {owner, repo: seg || (owner + '.github.io')};
+})();
+const CAN_PROPOSE = HOSTED && !!REPO;
+let BRANCH = 'main', branchChecked = false;
+async function repoBranch(){
+  if (!REPO || branchChecked) return BRANCH; branchChecked = true;
+  try { const r = await fetch(`https://api.github.com/repos/${REPO.owner}/${REPO.repo}`); if (r.ok) { const j = await r.json(); if (j.default_branch) BRANCH = j.default_branch; } } catch (e) {}
+  return BRANCH;
+}
+const ghUrl = path => REPO ? `https://github.com/${REPO.owner}/${REPO.repo}${path}` : '#';
+
+// ---- guide text: guide.txt next to this page (hosted), the embedded block (local file), or an unsent draft ----
+let embedded = '', currentText = '', draft = null, stale = false;
+function clearDraft(){ draft = null; stale = false; try { localStorage.removeItem(KEY + ':draft'); localStorage.removeItem(KEY + ':draftBase'); } catch (e) {} }
+function storeDraft(t){
+  if (t === embedded) clearDraft();
+  else {
+    if (draft === null) { stale = false; try { localStorage.setItem(KEY + ':draftBase', h32(embedded)); } catch (e) {} }
+    draft = t; try { localStorage.setItem(KEY + ':draft', t); } catch (e) {}
+  }
+  updateDraftBar();
+}
+function updateDraftBar(){
+  const bar = $('#draftBar'); bar.hidden = draft === null; if (draft === null) return;
+  $('#draftMsg').textContent = (CAN_PROPOSE
+    ? 'You have edited the guide. The changes are only in this browser until you propose them.'
+    : 'You are viewing edits that are not in the file yet. Download the file and replace the old one to keep them.')
+    + (stale ? ' Heads up: the guide was updated after you started editing, so your version may undo someone else’s changes.' : '');
+  $('#draftPrimary').textContent = CAN_PROPOSE ? 'Propose changes' : 'Download file';
+}
+
+// ---- parse ----
+function parse(text){
+  const secs = []; let cur = null, prev = null; const titles = {};
+  text.split('\n').forEach((ln, i) => {
+    if (!ln.trim()) { prev = null; return; }
+    const m = ln.match(/^([ \t]*)([-*#])\s?(.*)$/);
+    if (m && m[2] === '#') {
+      const title = m[3].trim() || 'Untitled'; const nk = norm(title) || 'x'; titles[nk] = (titles[nk] || 0) + 1;
+      cur = {title, key: nk + '#' + titles[nk], items: [], line: i}; secs.push(cur); prev = null; return;
+    }
+    if (!cur) { cur = {title: 'Guide', key: 'guide#1', items: [], line: i}; secs.push(cur); }
+    if (m) {
+      const lvl = Math.min(3, Math.floor(m[1].replace(/\t/g, '  ').length / 2));
+      const it = {raw: m[3].trim(), l: lvl, c: m[2] === '-', line: i}; cur.items.push(it); prev = it; return;
+    }
+    if (prev) prev.raw += ' ' + ln.trim();
+    else { const it = {raw: ln.trim(), l: 0, c: false, line: i}; cur.items.push(it); prev = it; }
+  });
+  for (const s of secs) {
+    s.id = 'sec-' + h32(s.key); const seen = {};
+    for (const it of s.items) {
+      const nk = norm(it.raw); seen[nk] = (seen[nk] || 0) + 1;
+      it.id = h32(s.key + '|' + nk + '|' + seen[nk]);
+      it.n = !it.c || NOTE_RX.test(it.raw.replace(EMO, '').trim());
+    }
+  }
+  return secs;
+}
+
+// ---- inline rendering ----
+function renderText(raw){
+  const tokens = []; const keep = h => { tokens.push(h); return '\u0001' + (tokens.length - 1) + '\u0001'; };
+  let t = raw.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  t = t.replace(/\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]/g, (m, name, disp) => keep(link(name.trim(), (disp || name).trim())));
+  t = t.replace(/https?:\/\/[^\s<]+/g, m => keep(`<a href="${m}" target="_blank" rel="noopener">${m}</a>`));
+  const spans = [];
+  for (const [title, rx] of QRX) { rx.lastIndex = 0; let m; while ((m = rx.exec(t))) { if (!m[0]) { rx.lastIndex++; continue; } const a = m.index, b = a + m[0].length; if (!spans.some(s => a < s[1] && b > s[0])) spans.push([a, b, title]); } }
+  spans.sort((x, y) => x[0] - y[0]); let out = '', pos = 0;
+  for (const [a, b, title] of spans) { if (a < pos) continue; out += t.slice(pos, a) + keep(link(title, t.slice(a, b))); pos = b; }
+  t = out + t.slice(pos);
+  t = t.replace(CHIP, (m, g) => keep(`<span class="chip">${g}</span>`));
+  t = t.replace(/==(?:(g|r):)?(.+?)==/g, (m, c, s) => `<mark class="hl-${c === 'g' ? 'green' : c === 'r' ? 'red' : 'yellow'}">${s}</mark>`);
+  t = t.replace(EMO, m => `<span class="mk" title="${EMOJI_TITLE[m.replace('️', '')] || ''}">${m}</span>`);
+  return t.replace(/\u0001(\d+)\u0001/g, (m, i) => tokens[+i]);
+}
+
+// ---- page render ----
+const main = $('#main'), sideList = $('#sideList'), jump = $('#jump');
+let SECS = [], TOTAL = 0, spy = null;
+function render(){
+  SECS = parse(currentText);
+  let mh = '', sh = '', jh = '';
+  for (const s of SECS) {
+    const n = s.items.filter(i => i.c).length;
+    mh += `<section class="sec${state.folded[s.id] ? ' folded' : ''}" id="${s.id}" data-n="${n}">
+      <header class="sec-h"><button class="fold" aria-label="Collapse section">▾</button><h2>${s.title.replace(/&/g,'&amp;').replace(/</g,'&lt;')}</h2><span class="sec-count num" data-count></span>
+        <div class="sec-tools"><button data-all title="Check every step in this section">All</button><button data-none title="Uncheck every step in this section">None</button></div></header>
+      <ol class="list">`;
+    for (const it of s.items) {
+      const q = it.raw.toLowerCase().replace(/&/g,'&amp;').replace(/"/g, '&quot;').replace(/</g,'&lt;');
+      const pen = `<button class="pen" title="Edit this step" aria-label="Edit this step">✎</button>`;
+      if (it.c) {
+        const done = !!state.done[it.id];
+        mh += `<li class="it l${it.l}${done ? ' done' : ''}${it.n ? ' note' : ''}" data-id="${it.id}" data-line="${it.line}" data-q="${q}"><div class="row"><label class="lab"><input type="checkbox" id="c-${it.id}"${done ? ' checked' : ''}><span class="box"></span><span class="txt">${renderText(it.raw)}</span></label>${pen}</div></li>`;
+      } else {
+        mh += `<li class="it l${it.l} note plain" data-id="${it.id}" data-line="${it.line}" data-q="${q}"><div class="row"><span class="dot"></span><span class="txt">${renderText(it.raw)}</span>${pen}</div></li>`;
+      }
+    }
+    mh += `</ol><p class="empty">All steps in this section are done.</p></section>`;
+    const title = s.title.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+    sh += `<li data-sec="${s.id}"><a href="#${s.id}"><span class="srow"><span>${title}</span><small class="num" data-side-count></small></span><span class="mini"><i></i></span></a></li>`;
+    jh += `<option value="${s.id}">${title}</option>`;
+  }
+  if (!SECS.length) mh = HOSTED && !embedded && draft === null
+    ? '<p class="nothing">Could not load guide.txt next to this page. Make sure guide.txt sits in the same folder as index.html.</p>'
+    : '<p class="nothing">The guide is empty. Open the menu and choose “Edit guide…” to add sections and steps.</p>';
+  main.innerHTML = mh; sideList.innerHTML = sh; jump.innerHTML = jh;
+  TOTAL = SECS.reduce((a, s) => a + s.items.filter(i => i.c).length, 0);
+  $('#total').textContent = TOTAL;
+  $('#secline').textContent = `${SECS.length} sections · ${TOTAL} steps`;
+  updateCounts();
+  if (spy) spy.disconnect();
+  spy = new IntersectionObserver(entries => {
+    for (const en of entries) if (en.isIntersecting) {
+      for (const li of sideList.children) li.classList.toggle('current', li.dataset.sec === en.target.id);
+      jump.value = en.target.id;
+    }
+  }, {rootMargin: '-25% 0px -65% 0px'});
+  for (const sec of main.querySelectorAll('.sec')) spy.observe(sec);
+  applySearch();
+}
+function updateCounts(){
+  let total = 0;
+  for (const s of SECS) {
+    const el = document.getElementById(s.id); if (!el) continue;
+    const n = +el.dataset.n; let d = 0;
+    for (const it of s.items) if (it.c && state.done[it.id]) d++;
+    total += d;
+    $('[data-count]', el).textContent = `${d} / ${n}`;
+    el.classList.toggle('complete', n > 0 && d === n);
+    const li = sideList.querySelector(`li[data-sec="${s.id}"]`);
+    if (li) { $('[data-side-count]', li).textContent = `${d}/${n}`; $('.mini i', li).style.width = n ? (100 * d / n) + '%' : '0%'; li.classList.toggle('full', n > 0 && d === n); }
+  }
+  $('#done').textContent = total;
+  $('#pct').textContent = (TOTAL ? Math.round(100 * total / TOTAL) : 0) + '%';
+  $('#bar').style.width = (TOTAL ? 100 * total / TOTAL : 0) + '%';
+}
+
+// ---- interactions ----
+main.addEventListener('change', e => {
+  const cb = e.target; if (cb.type !== 'checkbox') return;
+  const li = cb.closest('.it'); const id = li.dataset.id;
+  if (cb.checked) state.done[id] = 1; else delete state.done[id];
+  li.classList.toggle('done', cb.checked); save(); updateCounts();
+});
+main.addEventListener('click', e => {
+  const pen = e.target.closest('.pen');
+  if (pen) { e.preventDefault(); openEditor(+pen.closest('.it').dataset.line); return; }
+  const h = e.target.closest('.sec-h'); if (!h) return;
+  const sec = h.closest('.sec');
+  if (e.target.closest('[data-all],[data-none]')) {
+    const on = !!e.target.closest('[data-all]');
+    for (const cb of sec.querySelectorAll('input[type=checkbox]')) {
+      cb.checked = on; const li = cb.closest('.it'); li.classList.toggle('done', on);
+      if (on) state.done[li.dataset.id] = 1; else delete state.done[li.dataset.id];
+    }
+    save(); updateCounts(); return;
+  }
+  sec.classList.toggle('folded');
+  if (sec.classList.contains('folded')) state.folded[sec.id] = 1; else delete state.folded[sec.id];
+  save();
+});
+main.addEventListener('dblclick', e => {
+  const t = e.target.closest('.txt'); if (!t || e.target.closest('a')) return;
+  openEditor(+t.closest('.it').dataset.line);
+});
+function setFoldAll(fold){
+  for (const sec of main.querySelectorAll('.sec')) { sec.classList.toggle('folded', fold); if (fold) state.folded[sec.id] = 1; else delete state.folded[sec.id]; }
+  save();
+}
+$('#expandAll').onclick = () => { setFoldAll(false); closeMenu(); };
+$('#collapseAll').onclick = () => { setFoldAll(true); closeMenu(); };
+
+const hideDone = $('#hideDone');
+hideDone.checked = !!state.hideDone; document.body.classList.toggle('hide-done', hideDone.checked);
+hideDone.onchange = () => { state.hideDone = hideDone.checked; document.body.classList.toggle('hide-done', hideDone.checked); save(); };
+
+$('#next').onclick = () => {
+  const li = [...main.querySelectorAll('.it:not(.plain)')].find(li => !li.classList.contains('done'));
+  if (!li) { $('#next').textContent = 'All done!'; return; }
+  const sec = li.closest('.sec'); if (sec.classList.contains('folded')) { sec.classList.remove('folded'); delete state.folded[sec.id]; save(); }
+  li.scrollIntoView({behavior: reduced ? 'auto' : 'smooth', block: 'center'});
+  li.classList.remove('flash'); void li.offsetWidth; li.classList.add('flash');
+  setTimeout(() => li.classList.remove('flash'), 1700);
+};
+
+const q = $('#q'); let qt;
+q.addEventListener('input', () => { clearTimeout(qt); qt = setTimeout(applySearch, 80); });
+function applySearch(){
+  const v = q.value.trim().toLowerCase();
+  document.body.classList.toggle('searching', !!v);
+  for (const sec of main.querySelectorAll('.sec')) {
+    let any = false;
+    const titleHit = v && sec.querySelector('h2').textContent.toLowerCase().includes(v);
+    for (const li of sec.querySelectorAll('.it')) {
+      const hit = !v || titleHit || li.dataset.q.includes(v);
+      li.hidden = !hit; if (hit) any = true;
+    }
+    sec.hidden = !any;
+    if (v && any) sec.classList.remove('folded');
+    else if (!v) sec.classList.toggle('folded', !!state.folded[sec.id]);
+  }
+}
+
+jump.onchange = () => { const el = document.getElementById(jump.value); if (el) el.scrollIntoView({behavior: reduced ? 'auto' : 'smooth', block: 'start'}); };
+sideList.addEventListener('click', e => {
+  const a = e.target.closest('a'); if (!a) return; e.preventDefault();
+  const sec = document.getElementById(a.getAttribute('href').slice(1));
+  if (sec) sec.scrollIntoView({behavior: reduced ? 'auto' : 'smooth', block: 'start'});
+});
+
+const topBar = $('#top');
+const syncTop = () => document.documentElement.style.setProperty('--top-h', topBar.offsetHeight + 'px');
+new ResizeObserver(syncTop).observe(topBar); syncTop();
+const st = document.createElement('style'); st.textContent = '.sec{scroll-margin-top:calc(var(--top-h) + 12px)}'; document.head.appendChild(st);
+
+const menuBtn = $('#menuBtn'), menuList = $('#menuList');
+function closeMenu(){ menuList.classList.remove('open'); menuBtn.setAttribute('aria-expanded', 'false'); }
+menuBtn.onclick = e => { e.stopPropagation(); const open = !menuList.classList.contains('open'); menuList.classList.toggle('open', open); menuBtn.setAttribute('aria-expanded', String(open)); };
+document.addEventListener('click', e => { if (!e.target.closest('.menu')) closeMenu(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+
+const themeBtn = $('#themeBtn');
+let theme = 'auto'; try { theme = localStorage.getItem(KEY + ':theme') || 'auto'; } catch (e) {}
+function applyTheme(){ if (theme === 'auto') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = theme; themeBtn.textContent = 'Theme: ' + theme; }
+applyTheme();
+themeBtn.onclick = () => { theme = theme === 'auto' ? 'dark' : theme === 'dark' ? 'light' : 'auto'; try { localStorage.setItem(KEY + ':theme', theme); } catch (e) {} applyTheme(); };
+
+// ---- progress export / import ----
+const io = $('#io'), ioText = $('#ioText'), ioAct = $('#ioAct'), ioStatus = $('#ioStatus');
+let ioMode = 'export';
+function encode(){ return 'RS3GUIDE:' + btoa(unescape(encodeURIComponent(JSON.stringify({v:1, done:Object.keys(state.done)})))); }
+function decode(s){
+  s = s.trim(); if (s.startsWith('RS3GUIDE:')) s = decodeURIComponent(escape(atob(s.slice(9))));
+  const o = JSON.parse(s); const ids = Array.isArray(o.done) ? o.done : Object.keys(o.done || {});
+  if (!ids.length) throw new Error('empty'); return ids.map(id => MIGRATE[id] || id);
+}
+$('#exportBtn').onclick = () => {
+  closeMenu(); ioMode = 'export'; $('#ioTitle').textContent = 'Copy progress';
+  $('#ioHelp').textContent = 'Copy this code and paste it into “Load progress” on another device or browser.';
+  ioText.value = encode(); ioText.readOnly = true; ioAct.textContent = 'Copy'; ioStatus.textContent = ''; io.showModal(); ioText.select();
+};
+$('#importBtn').onclick = () => {
+  closeMenu(); ioMode = 'import'; $('#ioTitle').textContent = 'Load progress';
+  $('#ioHelp').textContent = 'Paste a progress code here. It replaces the checks saved in this browser.';
+  ioText.value = ''; ioText.readOnly = false; ioAct.textContent = 'Load'; ioStatus.textContent = ''; io.showModal(); ioText.focus();
+};
+ioAct.onclick = async () => {
+  if (ioMode === 'export') {
+    try { await navigator.clipboard.writeText(ioText.value); ioStatus.textContent = 'Copied'; }
+    catch (e) { ioText.select(); ioStatus.textContent = 'Select the text and copy it'; }
+    return;
+  }
+  try {
+    const ids = decode(ioText.value); const valid = new Set([...main.querySelectorAll('.it:not(.plain)')].map(li => li.dataset.id));
+    state.done = {}; for (const id of ids) if (valid.has(id)) state.done[id] = 1;
+    for (const li of main.querySelectorAll('.it:not(.plain)')) { const on = !!state.done[li.dataset.id]; li.classList.toggle('done', on); li.querySelector('input').checked = on; }
+    save(); updateCounts(); ioStatus.textContent = `Loaded ${Object.keys(state.done).length} checks`;
+  } catch (e) { ioStatus.textContent = 'That code could not be read'; }
+};
+$('#ioClose').onclick = () => io.close();
+
+$('#resetBtn').onclick = () => {
+  closeMenu();
+  if (!confirm('Uncheck every step? This cannot be undone.')) return;
+  state.done = {};
+  for (const li of main.querySelectorAll('.it:not(.plain)')) { li.classList.remove('done'); li.querySelector('input').checked = false; }
+  save(); updateCounts();
+};
+
+// ---- guide editor ----
+const ed = $('#ed'), edText = $('#edText'), edJump = $('#edJump'), edStats = $('#edStats'), edHelp = $('#edHelp'), edPrimary = $('#edPrimary');
+function openEditor(line){
+  closeMenu(); edText.value = currentText; fillJump(); updateStats(); ed.showModal();
+  if (line != null && line >= 0) gotoLine(line); else edText.focus();
+}
+function fillJump(){
+  let h = '<option value="">Jump to section…</option>';
+  edText.value.split('\n').forEach((l, i) => { if (/^\s*#/.test(l)) h += `<option value="${i}">${l.replace(/^\s*#\s*/, '').replace(/&/g,'&amp;').replace(/</g, '&lt;')}</option>`; });
+  edJump.innerHTML = h;
+}
+edJump.onchange = () => { if (edJump.value !== '') gotoLine(+edJump.value); edJump.value = ''; };
+function gotoLine(line){
+  const full = edText.value, lines = full.split('\n');
+  if (line >= lines.length) { edText.focus(); return; }
+  const start = lines.slice(0, line).reduce((a, l) => a + l.length + 1, 0);
+  edText.value = full.slice(0, start); edText.scrollTop = edText.scrollHeight; const top = edText.scrollTop; edText.value = full;
+  edText.scrollTop = Math.max(0, top - edText.clientHeight / 3);
+  edText.focus(); edText.setSelectionRange(start, start + lines[line].length);
+}
+function updateStats(){ const s = parse(edText.value); const n = s.reduce((a, x) => a + x.items.filter(i => i.c).length, 0); edStats.textContent = `${s.length} sections · ${n} steps`; }
+let edT; edText.addEventListener('input', () => { clearTimeout(edT); edT = setTimeout(() => { updateStats(); storeDraft(edText.value); }, 400); });
+function setText(t){ currentText = t; storeDraft(t); render(); }
+function primaryAction(text){ setText(text); if (CAN_PROPOSE) { ed.close(); openPropose(); } else downloadFile(text); }
+$('#edHelpBtn').onclick = () => { edHelp.hidden = !edHelp.hidden; $('#edHelpBtn').setAttribute('aria-expanded', String(!edHelp.hidden)); };
+$('#edApply').onclick = () => { setText(edText.value); };
+$('#edClose').onclick = () => ed.close();
+ed.addEventListener('close', () => { if (edText.value !== currentText) setText(edText.value); });
+ed.addEventListener('keydown', e => { if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 's') { e.preventDefault(); primaryAction(edText.value); } });
+edPrimary.onclick = () => primaryAction(edText.value);
+$('#editBtn').onclick = () => openEditor(null);
+$('#downloadBtn').onclick = () => { closeMenu(); downloadFile(currentText); };
+$('#draftPrimary').onclick = () => CAN_PROPOSE ? openPropose() : downloadFile(currentText);
+$('#draftDiscard').onclick = () => { if (confirm(CAN_PROPOSE ? 'Throw away your edits and go back to the current guide?' : 'Throw away the edits and go back to the guide as saved in the file?')) setText(embedded); };
+
+function buildFile(text){
+  const tpl = unescG(readBlock('tpl'));
+  return tpl.split(PH('GUIDE')).join(escG(text)).split(PH('TPL')).join(escG(tpl)) + '\n';
+}
+function downloadFile(text){
+  if (text !== currentText) setText(text);
+  const blob = new Blob([buildFile(text)], {type: 'text/html'});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'RS3GUIDE.html';
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 3000);
+}
+
+// ---- propose changes (GitHub pull request, done by hand in 3 steps) ----
+const pr = $('#pr');
+async function openPropose(){
+  if (!CAN_PROPOSE) { downloadFile(currentText); return; }
+  $('#prStale').hidden = !stale; $('#prStatus').textContent = ''; $('#prFallback').hidden = true;
+  $('#prOpen').href = ghUrl(`/edit/${await repoBranch()}/guide.txt`);
+  pr.showModal();
+}
+$('#prCopy').onclick = async () => {
+  try { await navigator.clipboard.writeText(currentText); $('#prStatus').textContent = 'Copied. Now do step 2.'; }
+  catch (e) { $('#prFallback').hidden = false; $('#prText').value = currentText; $('#prText').select(); $('#prStatus').textContent = 'Select the text below and copy it.'; }
+};
+$('#prClose').onclick = () => pr.close();
+
+// ---- boot ----
+async function boot(){
+  let base = unescG(readBlock('guide')), fetched = false;
+  if (HOSTED) { try { const r = await fetch('guide.txt', {cache: 'no-store'}); if (r.ok) { base = (await r.text()).replace(/\r\n?/g, '\n').replace(/\s+$/, ''); fetched = true; } } catch (e) {} }
+  embedded = base;
+  try { draft = localStorage.getItem(KEY + ':draft'); } catch (e) {}
+  if (draft !== null && draft === embedded) clearDraft();
+  if (draft !== null) { let b = null; try { b = localStorage.getItem(KEY + ':draftBase'); } catch (e) {} stale = !!b && b !== h32(embedded); }
+  currentText = draft === null ? embedded : draft;
+  edPrimary.textContent = CAN_PROPOSE ? 'Propose changes…' : 'Download file';
+  if (CAN_PROPOSE) { $('#ghLinks').hidden = false; $('#ghRepo').href = ghUrl(''); $('#ghEdit').href = ghUrl('/edit/main/guide.txt'); repoBranch().then(b => { $('#ghEdit').href = ghUrl(`/edit/${b}/guide.txt`); }); }
+  updateDraftBar(); render();
+}
+window.rs3 = {parse, buildFile, h32, openEditor, openPropose, text: () => currentText, MIGRATE, REPO, HOSTED};
+main.innerHTML = '<p class="nothing">Loading the guide…</p>';
+boot();
+</script>
+<script type="text/plain" id="tpl">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IronMan Guide 2027</title>
+<meta name="rs3-repo" content="">
+<!--
+  ================================================================
+  THE GUIDE IS THE PLAIN-TEXT BLOCK RIGHT BELOW THIS NOTE.
+
+  Easiest way to edit it: open this file in a browser, menu (⋯) →
+  "Edit guide…", make your changes, click "Download file", and
+  replace this file with the downloaded one.
+
+  You can also edit the lines below in any text editor:
+    # Bank 12                    a new section
+    - Withdraw: 25 pure essence  a step with a checkbox
+      - sub-step                 two spaces in front = sub-step
+    * a note                     a note without a checkbox
+    Emoji are typed as-is: 🟡 ✅ 📍 ⏸️ 🏅 ⚙️ 🔴 📖 🕒
+    [Lumbridge Easy Task] shows as a tag. [[Quest Name]] links to the wiki.
+    ==text== yellow highlight, ==g:text== green, ==r:text== red.
+  Leave everything after the block alone.
+  ================================================================
+-->
+<script type="text/plain" id="guide">
+%%GUIDE%%
+<\/script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root{
+  --bg:#EDEFF3; --surface:#FFFFFF; --surface-2:#F4F6F9; --text:#1A2230; --muted:#5F6B79; --border:#D5DBE3; --border-strong:#B9C2CE;
+  --accent:#9C7217; --accent-fill:#C9A038; --accent-soft:#F3E9CC; --link:#1D6A86; --focus:#2B7FD1;
+  --hl-yellow:#FFEB80; --hl-green:#BDEFB0; --hl-red:#FFB8B8; --hl-text:#1A2230;
+  --display:"Bricolage Grotesque", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono:ui-monospace, Menlo, Consolas, monospace;
+  --top-h:112px; color-scheme:light;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --bg:#13171D; --surface:#1B2027; --surface-2:#222831; --text:#E6E9EE; --muted:#97A2B0; --border:#2C333D; --border-strong:#3D4652;
+  --accent:#D9B24C; --accent-fill:#C9A038; --accent-soft:#332B14; --link:#72C6DC; --focus:#6FB1F0;
+  --hl-yellow:#6A5710; --hl-green:#1F5A2B; --hl-red:#6E2424; --hl-text:#F1F3F6; color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#13171D; --surface:#1B2027; --surface-2:#222831; --text:#E6E9EE; --muted:#97A2B0; --border:#2C333D; --border-strong:#3D4652;
+  --accent:#D9B24C; --accent-fill:#C9A038; --accent-soft:#332B14; --link:#72C6DC; --focus:#6FB1F0;
+  --hl-yellow:#6A5710; --hl-green:#1F5A2B; --hl-red:#6E2424; --hl-text:#F1F3F6; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--text);font:15px/1.45 var(--body);-webkit-font-smoothing:antialiased}
+a{color:var(--link)}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+h1,h2{font-family:var(--display);text-wrap:balance;margin:0}
+.num{font-variant-numeric:tabular-nums}
+
+.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.top-in{max-width:1180px;margin:0 auto;padding:12px 16px;display:grid;grid-template-columns:auto 1fr auto;gap:12px 24px;align-items:center}
+.brand h1{font-size:22px;font-weight:700;letter-spacing:-.01em;line-height:1.1}
+.brand .sub{margin:2px 0 0;font-size:13px;color:var(--muted)}
+.progress{display:flex;align-items:center;gap:12px;min-width:0}
+.bar{flex:1;height:8px;border-radius:999px;background:var(--surface-2);border:1px solid var(--border);overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--accent-fill);border-radius:999px;transition:width .3s ease}
+.count{font-family:var(--display);font-weight:600;font-size:14px;white-space:nowrap}
+.count small{color:var(--muted);font-weight:500;margin-left:6px}
+.tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.search{width:200px;max-width:100%;padding:7px 10px;border:1px solid var(--border-strong);border-radius:8px;background:var(--surface)}
+.btn{padding:7px 12px;border:1px solid var(--border-strong);border-radius:8px;background:var(--surface);color:var(--text);line-height:1.2}
+.btn:hover{background:var(--surface-2)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.primary:hover{filter:brightness(1.07)}
+.toggle{display:inline-flex;align-items:center;gap:6px;padding:7px 10px;border:1px solid var(--border-strong);border-radius:8px;background:var(--surface);user-select:none}
+.toggle input{accent-color:var(--accent)}
+.jump{display:none;padding:7px 8px;border:1px solid var(--border-strong);border-radius:8px;background:var(--surface);max-width:160px}
+.menu{position:relative}
+.menu-list{position:absolute;right:0;top:calc(100% + 6px);min-width:210px;background:var(--surface);border:1px solid var(--border);border-radius:10px;box-shadow:0 12px 30px rgba(0,0,0,.18);padding:6px;display:none;z-index:30}
+.menu-list.open{display:block}
+.menu-list button{display:block;width:100%;text-align:left;padding:8px 10px;border:0;background:none;border-radius:6px}
+.menu-list button:hover{background:var(--surface-2)}
+.menu-list hr{border:0;border-top:1px solid var(--border);margin:6px 0}
+
+.draft-wrap{max-width:1180px;margin:0 auto;padding:16px 16px 0}
+.draft{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:10px 12px;border:1px solid var(--accent);background:var(--accent-soft);border-radius:10px;font-size:14px}
+.draft span{flex:1;min-width:200px}
+
+.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 60px;display:grid;grid-template-columns:230px minmax(0,1fr);gap:28px;align-items:start}
+.side{position:sticky;top:calc(var(--top-h) + 16px);max-height:calc(100vh - var(--top-h) - 32px);overflow:auto;padding-right:6px}
+.side h3{font-family:var(--display);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:4px 0 8px}
+.side ol{list-style:none;margin:0;padding:0}
+.side a{display:block;padding:6px 8px;border-radius:7px;color:var(--text);text-decoration:none}
+.side a:hover{background:var(--surface-2)}
+.side li.current a{background:var(--accent-soft)}
+.side li.full a{color:var(--muted)}
+.side .srow{display:flex;justify-content:space-between;gap:8px;align-items:baseline;font-family:var(--display);font-size:13px;font-weight:600}
+.side .srow small{font:500 11px/1 var(--body);color:var(--muted)}
+.side .mini{height:3px;margin-top:5px;border-radius:2px;background:var(--border)}
+.side .mini i{display:block;height:100%;width:0;background:var(--accent-fill);border-radius:2px}
+
+.sec{background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-bottom:16px;overflow:clip}
+.sec-h{position:sticky;top:var(--top-h);z-index:5;display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--surface);border-bottom:1px solid var(--border);cursor:pointer}
+.sec.folded .sec-h{border-bottom-color:transparent}
+.fold{width:22px;height:22px;border:0;background:none;color:var(--muted);display:grid;place-items:center;transition:transform .15s}
+.sec.folded .fold{transform:rotate(-90deg)}
+.sec-h h2{font-size:17px;font-weight:700;flex:1;min-width:0}
+.sec-count{font-size:13px;color:var(--muted)}
+.sec.complete .sec-count{color:var(--accent)}
+.sec-tools{display:flex;gap:4px}
+.sec-tools button{padding:3px 8px;font-size:12px;border:1px solid var(--border);border-radius:6px;background:var(--surface);color:var(--muted)}
+.sec-tools button:hover{color:var(--text);background:var(--surface-2)}
+.list{list-style:none;margin:0;padding:6px 8px 8px}
+.sec.folded .list{display:none}
+.empty{display:none;padding:10px 12px;color:var(--muted);font-size:14px}
+.nothing{padding:40px 20px;text-align:center;color:var(--muted)}
+
+.it{margin:0}
+.row{display:flex;align-items:flex-start;gap:6px;padding:6px 8px;border-radius:7px;position:relative}
+.row:hover{background:var(--surface-2)}
+.lab{display:flex;align-items:flex-start;gap:10px;flex:1;min-width:0;cursor:pointer}
+.it.l1 .row{margin-left:26px}.it.l2 .row{margin-left:52px}.it.l3 .row{margin-left:78px}
+.it input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+.box{flex:none;width:18px;height:18px;margin-top:3px;border:1.5px solid var(--border-strong);border-radius:5px;background:var(--surface);display:grid;place-items:center;transition:background .12s,border-color .12s}
+.box::after{content:"";width:10px;height:6px;border:2.5px solid #fff;border-top:0;border-right:0;transform:rotate(-45deg) translate(1px,-1px);opacity:0}
+.it input:checked + .box{background:var(--accent-fill);border-color:var(--accent-fill)}
+.it input:checked + .box::after{opacity:1}
+.it input:focus-visible + .box{outline:2px solid var(--focus);outline-offset:2px}
+.txt{flex:1;min-width:0;overflow-wrap:anywhere}
+.it.done .txt{color:var(--muted);text-decoration:line-through;text-decoration-color:var(--border-strong);text-decoration-thickness:1px}
+.it.done .txt a{color:var(--muted)}
+.it.note .txt{color:var(--muted);font-size:14px}
+.dot{flex:none;width:18px;height:18px;margin-top:3px;display:grid;place-items:center;color:var(--muted)}
+.dot::before{content:"";width:5px;height:5px;border-radius:50%;background:currentColor}
+.pen{flex:none;opacity:0;border:0;background:none;color:var(--muted);padding:1px 5px;border-radius:5px;font-size:14px;line-height:1.3;margin-top:1px}
+.row:hover .pen,.pen:focus-visible{opacity:1}
+.pen:hover{color:var(--text);background:var(--surface)}
+@media (hover:none){.pen{opacity:.55}}
+.txt a{text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--link) 45%,transparent);text-underline-offset:2px}
+.txt a:hover{text-decoration-color:var(--link)}
+.chip{display:inline-block;font:600 10.5px/1 var(--display);letter-spacing:.04em;text-transform:uppercase;padding:3px 6px;border:1px solid var(--border-strong);border-radius:999px;color:var(--muted);vertical-align:2px;margin:0 2px;white-space:nowrap}
+.mk{font-size:.9em;line-height:1}
+mark{color:var(--hl-text);padding:0 3px;border-radius:3px}
+mark.hl-yellow{background:var(--hl-yellow)}mark.hl-green{background:var(--hl-green)}mark.hl-red{background:var(--hl-red)}
+.hide-done .it.done{display:none}
+.hide-done .sec.complete .empty{display:block}
+.flash .row{animation:flash 1.6s ease-out}
+@keyframes flash{0%{background:var(--accent-soft)}100%{background:transparent}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+
+.foot{max-width:1180px;margin:0 auto;padding:0 16px 40px;color:var(--muted);font-size:13px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:0 0 10px;padding:0;list-style:none}
+dialog{border:1px solid var(--border);border-radius:12px;background:var(--surface);color:var(--text);padding:18px;max-width:520px;width:calc(100% - 32px)}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+dialog h2{font-size:18px;margin-bottom:6px}
+dialog p{margin:0 0 10px;color:var(--muted);font-size:14px}
+dialog textarea{width:100%;height:120px;padding:8px;border:1px solid var(--border-strong);border-radius:8px;background:var(--surface-2);font:13px/1.4 var(--mono);resize:vertical}
+.dlg-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:12px;flex-wrap:wrap}
+.status{font-size:13px;color:var(--accent);margin-right:auto;align-self:center}
+
+.steps{margin:0;padding-left:22px;display:grid;gap:12px}
+.steps li{padding-left:4px}
+.steps small{color:var(--muted)}
+.steps .btn{display:inline-block;text-decoration:none}
+.warn{padding:8px 10px;border-radius:8px;background:var(--hl-yellow);color:var(--hl-text)}
+kbd{font:12px var(--mono);padding:1px 5px;border:1px solid var(--border-strong);border-bottom-width:2px;border-radius:4px;background:var(--surface-2)}
+dialog.editor{max-width:none;width:min(1100px,calc(100% - 24px));height:calc(100% - 24px);max-height:none;padding:0;overflow:hidden}
+dialog.editor[open]{display:flex;flex-direction:column}
+.ed-head{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:10px 12px;border-bottom:1px solid var(--border)}
+.ed-head h2{font-size:17px;margin:0 auto 0 0}
+.ed-stats{font-size:13px;color:var(--muted);white-space:nowrap}
+.ed-jump{padding:6px 8px;border:1px solid var(--border-strong);border-radius:8px;background:var(--surface);max-width:180px}
+.ed-help{padding:10px 12px;border-bottom:1px solid var(--border);font-size:13px;color:var(--muted);background:var(--surface-2);line-height:1.6}
+.ed-help b{color:var(--text)}
+.ed-help code{font:12px var(--mono);background:var(--surface);padding:1px 5px;border-radius:4px;color:var(--text)}
+#edText{flex:1;width:100%;height:auto;border:0;border-radius:0;resize:none;padding:12px 14px;background:var(--surface);font:13.5px/1.55 var(--mono);tab-size:2}
+#edText:focus-visible{outline:none}
+
+@media (max-width:960px){
+  .wrap{grid-template-columns:1fr}
+  .side{display:none}
+  .jump{display:block}
+  .top-in{grid-template-columns:1fr auto}
+  .progress{grid-column:1 / -1}
+  .tools{grid-column:1 / -1;justify-content:flex-start}
+  .search{width:150px}
+}
+@media (max-width:480px){
+  .brand h1{font-size:19px}
+  .row{padding:7px 4px}
+  .it.l1 .row{margin-left:16px}.it.l2 .row{margin-left:32px}.it.l3 .row{margin-left:48px}
+  dialog.editor{width:100%;height:100%;border-radius:0}
+}
+</style>
+</head>
+<body>
+<header class="top" id="top">
+  <div class="top-in">
+    <div class="brand">
+      <h1>IronMan Guide 2027</h1>
+      <p class="sub" id="secline"></p>
+    </div>
+    <div class="progress" aria-label="Overall progress">
+      <div class="bar"><i id="bar"></i></div>
+      <div class="count num"><span id="done">0</span> / <span id="total">0</span><small id="pct">0%</small></div>
+    </div>
+    <div class="tools">
+      <select class="jump" id="jump" aria-label="Jump to section"></select>
+      <input class="search" id="q" type="search" placeholder="Search steps…" autocomplete="off" aria-label="Search steps">
+      <label class="toggle" for="hideDone"><input type="checkbox" id="hideDone"> Hide done</label>
+      <button class="btn primary" id="next" title="Scroll to the first unchecked step">Next step</button>
+      <div class="menu">
+        <button class="btn" id="menuBtn" aria-haspopup="true" aria-expanded="false" aria-label="More actions">⋯</button>
+        <div class="menu-list" id="menuList" role="menu">
+          <button id="editBtn">Edit guide…</button>
+          <button id="downloadBtn">Download a copy of this page</button>
+          <hr>
+          <button id="expandAll">Expand all sections</button>
+          <button id="collapseAll">Collapse all sections</button>
+          <hr>
+          <button id="exportBtn">Copy progress…</button>
+          <button id="importBtn">Load progress…</button>
+          <hr>
+          <button id="themeBtn">Theme: auto</button>
+          <hr>
+          <button id="resetBtn">Reset all checks</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="draft-wrap" id="draftBar" hidden>
+  <div class="draft"><span id="draftMsg"></span><button class="btn primary" id="draftPrimary">Download file</button><button class="btn" id="draftDiscard">Discard edits</button></div>
+</div>
+
+<div class="wrap">
+  <nav class="side" id="side" aria-label="Sections">
+    <h3>Banks</h3>
+    <ol id="sideList"></ol>
+  </nav>
+  <main id="main"></main>
+</div>
+
+<footer class="foot">
+  <ul class="legend">
+    <li>🟡 quest accepted</li><li>✅ quest completed</li><li>📍 teleport</li><li>⏸️ pause the quest here</li><li>🏅 task set complete</li><li>⚙️ repeatable</li><li>🔴 hardcore warning</li><li>📖 write it down</li><li>🕒 daily</li>
+  </ul>
+  <p id="ghLinks" hidden>This guide is maintained on <a id="ghRepo" target="_blank" rel="noopener">GitHub</a>. Anyone can improve it: edit a step here, then click “Propose changes”. Or <a id="ghEdit" target="_blank" rel="noopener">edit guide.txt on GitHub</a> directly.</p>
+  <p>Quest names link to the RuneScape Wiki. Progress is saved in this browser; use “Copy progress” to move it to another device. To change the guide itself, use “Edit guide…” in the menu, or hover a step and click ✎.</p>
+</footer>
+
+<dialog id="io">
+  <h2 id="ioTitle">Copy progress</h2>
+  <p id="ioHelp"></p>
+  <textarea id="ioText" spellcheck="false"></textarea>
+  <div class="dlg-actions">
+    <span class="status" id="ioStatus"></span>
+    <button class="btn" id="ioClose">Close</button>
+    <button class="btn primary" id="ioAct">Copy</button>
+  </div>
+</dialog>
+
+<dialog id="pr" aria-labelledby="prTitle">
+  <h2 id="prTitle">Propose your changes</h2>
+  <p>Your edits get sent to the guide's owner as a “pull request” on GitHub, where they can review and accept them. Only the guide text is sent, never your checkmarks. You need a free GitHub account.</p>
+  <p class="warn" id="prStale" hidden>Heads up: the guide was updated by someone else after you started editing, so your version may undo their changes. Consider discarding your edits and redoing them on the current guide.</p>
+  <ol class="steps">
+    <li><button class="btn primary" id="prCopy">Copy guide text</button> <span class="status" id="prStatus"></span>
+      <div id="prFallback" hidden><textarea id="prText" readonly spellcheck="false"></textarea></div></li>
+    <li><a class="btn" id="prOpen" target="_blank" rel="noopener">Open guide.txt on GitHub ↗</a><br><small>GitHub asks you to sign in or create an account, then opens the guide in an editor. It may say it will “fork” the project for you; that is normal, just continue.</small></li>
+    <li>In that editor: select everything (<kbd>Ctrl</kbd>+<kbd>A</kbd> or <kbd>⌘</kbd>+<kbd>A</kbd>), paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> or <kbd>⌘</kbd>+<kbd>V</kbd>), then click <b>Commit changes…</b>, then <b>Propose changes</b>, then <b>Create pull request</b>. Write one line about what you changed.</li>
+  </ol>
+  <div class="dlg-actions"><button class="btn" id="prClose">Close</button></div>
+</dialog>
+
+<dialog id="ed" class="editor" aria-label="Edit guide">
+  <div class="ed-head">
+    <h2>Edit guide</h2>
+    <span class="ed-stats num" id="edStats"></span>
+    <select class="ed-jump" id="edJump" aria-label="Jump to section in the text"></select>
+    <button class="btn" id="edHelpBtn" aria-expanded="false">Format help</button>
+    <button class="btn" id="edApply" title="Show the changes on the page (they stay in this browser until you download the file)">Apply</button>
+    <button class="btn primary" id="edPrimary" title="Ctrl/Cmd+S">Download file</button>
+    <button class="btn" id="edClose">Close</button>
+  </div>
+  <div class="ed-help" id="edHelp" hidden>
+    <b>#</b> Bank 12 → a new section &nbsp;·&nbsp; <b>-</b> a step with a checkbox &nbsp;·&nbsp; two spaces before the <b>-</b> → a sub-step &nbsp;·&nbsp; <b>*</b> a note without a checkbox<br>
+    Emoji are typed as-is: 🟡 accepted · ✅ completed · 📍 teleport · ⏸️ pause · 🏅 task set done · ⚙️ repeatable · 🔴 warning · 📖 · 🕒<br>
+    <code>[Lumbridge Easy Task]</code> shows as a tag &nbsp;·&nbsp; <code>[[Quest Name]]</code> links to the wiki (known quest names link on their own) &nbsp;·&nbsp; <code>==text==</code> highlight, <code>==g:text==</code> green, <code>==r:text==</code> red<br>
+    A line with no marker continues the step above it. Changing a step's wording clears its checkmark for everyone; adding or moving steps keeps existing checks.
+  </div>
+  <textarea id="edText" spellcheck="false" wrap="soft"></textarea>
+</dialog>
+
+<script>
+const KEY = 'rs3guide.v1';
+const PH = s => '%%' + s + '%%';
+const QUESTS = [["The Restless Ghost", "The Restless Ghost"], ["The Restless Ghost", "Restless Ghost"], ["The Blood Pact", "The Blood Pact"], ["Rune Mysteries", "Rune Mysteries"], ["Imp Catcher", "Imp Catcher"], ["Vampyre Slayer", "Vampyre Slayer"], ["Stolen Hearts", "Stolen Hearts"], ["Ernest the Chicken", "Ernest The Chicken"], ["Swept Away", "Swept Away"], ["Visions of Havenhythe", "Visions of Havenhythe"], ["Pirate's Treasure", "Pirate['’]s Trea[s]?ure"], ["Once Upon a Slime", "Once Upon A Slime"], ["Song from the Depths", "Song From The Depths"], ["There's No Place Like Home", "There['’]s No Place Like Home"], ["Witch's Potion", "Witch['’]s Potion"], ["Wolf Whistle", "Wolf Whistle"], ["Druidic Ritual", "Druidic Ritual"], ["Death Plateau", "Death Plateau"], ["Troll Invasion", "Troll Invasion"], ["Let Them Eat Pie", "Let Them Eat Pie"], ["Duck Quest", "Duck Quest"], ["Cook's Assistant", "Cook['’]s Assistant"], ["Sheep Shearer", "Sheep Shearer"], ["Gertrude's Cat", "Ge[r]?trude['’]?s Cat"], ["Gunnar's Ground", "Gunnar['’]s Ground"], ["Heartstealer", "Heart ?[Ss]tealer"], ["Enter the Abyss", "Enter The Abyss(?:: Miniquest)?"], ["Benedict's World Tour", "Benedict['’]?s? (?:World Tour|Around the World)"], ["Once Upon a Time in Gielinor: Foreshadowing", "Once Upon A Time in Gielinor:\\s?Foreshadowing"], ["Once Upon a Time in Gielinor: Flashback", "Once [Uu]pon A Time In Ge?i?linor: Flashback"], ["Once Upon a Time in Gielinor: Fortunes", "Once [Uu]pon A Time In Ge?i?linor: Fortunes"], ["Once Upon a Time in Gielinor: Finale", "Once Upon A Time In Gielinor: Finale"], ["Once Upon a Time in Gielinor", "Once Upon A Time [Ii]n Ge?i?linor"], ["New Foundations", "New Foundations"], ["Priest in Peril", "Priest [Ii]n Peril"], ["Shield of Arrav", "Shield of Arrav"], ["Demon Slayer", "Demon Slayer"], ["Natural History Quiz", "Natural History Quiz"], ["Herby Werby", "Herby Werby"], ["Violet is Blue II", "Violet [Ii]s Blue II"], ["Violet is Blue", "Violet [Ii]s Blue"], ["What's Yours Is Mine", "What['’]s Yours [Ii]s [Mm]ine"], ["Perils of Ice Mountain", "Perils of Ice Mountain"], ["The Knight's Sword", "The Knight['’]?s Sword"], ["Recruitment Drive", "Recruitment Drive"], ["Dealing with Scabaras", "Dealing with Scabaras"], ["Doric's Task I", "Doric['’]s Task I(?!I)(?:: Miniquest)?"], ["Doric's Task II", "Doric['’]s Task II(?:: Miniquest)?"], ["Necromancy!", "Necromancy!"], ["Kili Row", "Kili['’]?s? Row"], ["Rune Mythos", "Rune Mythos"], ["Bringing Home the Bacon", "Bringing Home [Tt]he Bacon"], ["Dragon Slayer", "Dragon Slayer"], ["Missing, Presumed Death", "Missing, Presumed Death"], ["Rag and Bone Man", "Rag and Bone(?: Quest| quest)?"], ["Sea Slug", "Sea Slug"], ["Player-owned farm", "Player Owned Farm"], ["Plague City", "Plague [Cc]ity"], ["Biohazard", "Biohazard"], ["Diamond in the Rough", "Diamond In The Rough"], ["One Piercing Note", "One Piercing Note"], ["The Tourist Trap", "(?:The )?Tourist Trap"], ["Jack of Spades", "Jack of Spades"], ["The Lost Tribe", "Lost Tribe"], ["Goblin Diplomacy", "Goblin Diplomacy"], ["Recipe for Disaster: Another Cook's Quest", "Recipe For Disaster: Another Cook['’]s Quest"], ["Recipe for Disaster", "Recipe for Disaster"], ["Wanted!", "Wanted!"], ["Nemi Forest", "Nemi Forest"], ["Witch's House", "Witch['’]s House"], ["Fight Arena", "Fight Arena"], ["Monk's Friend", "Monk['’]?s Friend"], ["Sheep Herder", "Sheep He[a]?rder"], ["Dwarf Cannon", "Dwarf Cannon"], ["Bar Crawl", "Bar ?Crawl(?:: ?Mini[Qq]uest)?"], ["Waterfall Quest", "Waterfall Quest"], ["Hazeel Cult", "Hazeel Cult"], ["Tree Gnome Village", "Tree Gnome Village"], ["The Grand Tree", "(?:The )?Grand Tree"], ["Tribal Totem", "Tribal Totem"], ["Family Crest", "Family Crest"], ["Observatory Quest", "Observatory Quest"], ["Animal Magnetism", "Animal Magnetism"], ["Tai Bwo Wannai Trio", "Tai Bwo Wannai Trio"], ["Murder on the Border", "Murder on the Border"], ["Unwelcomed Guest", "Unwelcomed Guest"], ["Merlin's Crystal", "Merlin['’]s Crystal"], ["Holy Grail", "Holy Grail"], ["Murder Mystery", "Murder Mystery"], ["Dead and Buried", "Dead and Buried"], ["Buyers and Cellars", "Buyers and Cellars"], ["From Tiny Acorns", "From Tiny Acorns"], ["The Feud", "The Feud"], ["Rogue Trader", "Rogue Trader Miniquest"], ["Penguin Hide and Seek", "Penguin Hide and Seek"], ["Temple of Ikov", "Temple of Ikov"], ["The Fremennik Isles", "The Fremennik Isles"], ["Legends' Quest", "Legend['’]s Quest"], ["Icthlarin's Little Helper", "Icthlarin['’]s Little Helper"], ["The Eyes of Glouphrie", "The Eyes of Glouphrie"], ["Song of the Elves", "Song of the Elves"], ["One Small Favour", "One Small Favour"], ["Rat Catchers", "Rat Catchers"], ["Soul Searching", "Soul Searching"], ["Defender of Varrock", "[Dd]efender of [Vv]arrock"], ["Runesphere", "Runespheres?"], ["Memorial to Guthix", "Memorial Guthix"], ["Circus", "\\bCircus\\b"], ["Mourning's End Part I", "Mournings? ?['’]?s? End (?:Pt|Part|pt) 1"], ["Mourning's End Part II", "Mournings? ?['’]?s? End (?:Pt|Part|pt) 2"], ["The Giant Dwarf", "The Giant Dwarf"], ["Stronghold of Security", "Stronghold of Security"], ["Elvarg", "Elvarg"]];
+const MIGRATE = {"s0-0": "4e32b835", "s0-1": "ec2bd6ad", "s0-2": "7eeaa341", "s0-3": "3657d967", "s0-4": "43136ddc", "s0-5": "d7b0797c", "s0-6": "a4fa840e", "s0-7": "b56b1ddd", "s0-8": "6a402c46", "s0-9": "bf1c34c1", "s0-10": "e33eec98", "s0-11": "ca742c2a", "s1-0": "6d7ba585", "s1-1": "a1fa2abc", "s1-2": "d83ec4a0", "s1-3": "de89f690", "s1-4": "77f5065a", "s1-5": "0413f2ae", "s1-6": "58befeff", "s1-7": "f6020451", "s1-8": "bba99dfb", "s1-9": "3f7e9567", "s1-10": "f85a0877", "s1-11": "4bd2429d", "s1-12": "bb93e21c", "s1-13": "09092731", "s1-14": "e500d555", "s1-15": "ea0f9e2d", "s1-16": "915aa83d", "s1-17": "1027b2a0", "s1-18": "6339e18d", "s1-19": "9cb4ad5f", "s1-20": "3fdc605c", "s1-21": "084b2d12", "s1-22": "4b6c46a7", "s1-23": "45afc891", "s1-24": "6dee76f9", "s2-0": "b7d50c5c", "s2-1": "9fa80b92", "s2-2": "b117046e", "s2-3": "79476093", "s2-4": "d64c5db4", "s2-5": "a1321219", "s2-6": "c6633213", "s2-7": "4326f87d", "s2-8": "5e6f22b6", "s2-9": "45ab109a", "s2-10": "edf07c92", "s2-11": "aa7a648c", "s2-12": "138598f9", "s2-13": "e3c4aa37", "s2-14": "19c47d3e", "s2-15": "38dd39ba", "s2-16": "1807840d", "s2-17": "148999d2", "s2-18": "794edf90", "s2-19": "099b7024", "s2-20": "e28b5e3f", "s2-21": "81fcd5e2", "s2-22": "decd37e7", "s2-23": "7b528bb3", "s2-24": "8a8af6b8", "s2-25": "d7594142", "s2-26": "34af0f01", "s2-27": "9626f8d3", "s2-28": "5e0023f7", "s2-29": "6f9de067", "s2-30": "fb5b2053", "s2-31": "481af807", "s2-32": "ed2d3b82", "s2-33": "a2b8376c", "s3-0": "09839ade", "s3-1": "162d6691", "s3-2": "a33e5e84", "s3-3": "d5b70304", "s3-4": "40322187", "s3-5": "d24e9228", "s3-6": "52789102", "s3-7": "5be42111", "s4-0": "6c7df32c", "s4-1": "e76b3aab", "s4-2": "60e8f916", "s4-3": "91074639", "s4-4": "0e808ffa", "s4-5": "5803b468", "s4-6": "10138ba1", "s4-7": "416d3cd3", "s4-8": "9ffafbfd", "s4-9": "0e775bc2", "s4-10": "ecfa7a62", "s4-11": "3ab55519", "s4-12": "dba47b90", "s4-13": "90d68855", "s4-14": "5cc658aa", "s4-15": "e8beb1b1", "s4-16": "a5ac2519", "s4-17": "3cc05533", "s4-18": "7137e8ca", "s4-19": "3259cc9f", "s4-20": "8a6f4a0e", "s5-0": "a2e97591", "s5-1": "9abf0fc8", "s5-2": "5ea9e256", "s5-3": "ab25f55b", "s5-4": "f779f67b", "s5-5": "db12a079", "s5-6": "d767212d", "s5-7": "e0bcd752", "s5-8": "e7d218b2", "s5-9": "49a0a1f5", "s5-10": "ae65f1ca", "s5-11": "4d3e8f2d", "s5-12": "3c46b4dd", "s5-13": "3c18a1e8", "s5-14": "5bf42756", "s5-15": "8e63b16e", "s5-16": "0a8849f3", "s5-17": "facadb70", "s5-18": "4bd8a189", "s5-19": "2213aa4b", "s5-20": "84be0eb4", "s5-21": "1a58f0b7", "s5-22": "ba78e337", "s5-23": "80a0184b", "s5-24": "33ad9528", "s6-0": "4be4b5f6", "s6-1": "5d7ffa0c", "s6-2": "b4b43b88", "s6-3": "b2b7cf1b", "s6-4": "59e4e05b", "s6-5": "4cd6ced0", "s6-6": "5eb582ff", "s6-7": "d875f4ee", "s6-8": "c10ce96f", "s6-9": "d577b778", "s6-10": "2adae532", "s6-11": "422346d5", "s6-12": "31adc434", "s6-13": "af1a3399", "s6-14": "008ac18f", "s6-15": "eee07aee", "s6-16": "87d521f3", "s6-17": "5ba93bd2", "s6-18": "7e97e37b", "s6-19": "eed9f6e7", "s6-20": "854d1973", "s7-0": "177c7463", "s7-1": "b763ac07", "s7-2": "c3c25d9d", "s7-3": "80c19c23", "s7-4": "246ff141", "s7-5": "4aa98d9d", "s7-6": "946a75c9", "s7-7": "4dfb4682", "s7-8": "a2f6f092", "s8-0": "6b7ed0ca", "s8-1": "29cde9f8", "s8-2": "0fe90586", "s8-3": "fdfae487", "s8-4": "e760d5bf", "s8-5": "bd37bbb0", "s8-6": "f1249b8b", "s8-7": "7f617574", "s8-8": "91b65aac", "s8-9": "bd53548c", "s9-0": "ce1981f7", "s9-1": "b8a5ccd0", "s9-2": "9d9c8bb6", "s9-3": "6d24bd25", "s9-4": "95da9894", "s9-5": "e707236c", "s9-6": "5709172a", "s9-7": "9cd1a40c", "s9-8": "a6bab8ca", "s9-9": "0bd6dfad", "s9-10": "7b5e26dd", "s9-11": "d95907c8", "s9-12": "e8038cd6", "s9-13": "9fbaced9", "s9-14": "68a39909", "s9-15": "b1ecc9c3", "s9-16": "1875b961", "s9-17": "c734fae8", "s10-0": "e72677fc", "s10-1": "1eb7f56e", "s10-2": "e68eeac6", "s10-3": "6482dead", "s10-4": "e3296677", "s10-5": "d0f772a6", "s10-6": "96beab15", "s10-7": "58b8d114", "s10-8": "1ff070b3", "s10-9": "1cb9d584", "s10-10": "24cdb0f1", "s10-11": "35d3b296", "s10-12": "7756d36f", "s10-13": "58b69baf", "s10-14": "43cf3c44", "s10-15": "c6bb8e6a", "s10-16": "ec67e327", "s10-17": "51c85ec4", "s10-18": "f684ab73", "s10-19": "d9f8b026", "s10-20": "0bce2c7a", "s10-21": "ff349c5d", "s10-22": "b167fe4a", "s10-23": "161c948d", "s10-24": "f47511da", "s11-0": "f8aaa48b", "s11-1": "4c326df6", "s11-2": "6510b91e", "s11-3": "817cf685", "s11-4": "1eec5d00", "s11-5": "b805513b", "s11-6": "46ff797a", "s11-7": "da76b5f4", "s11-8": "310f3baa", "s11-9": "77e66693", "s11-10": "052691a6", "s11-11": "e240d26e", "s11-12": "27227844", "s12-0": "2bc86239", "s12-1": "f21ae287", "s12-2": "dcc3eff3", "s12-3": "b012e8c1", "s12-4": "91d5317e", "s12-5": "940aadc3", "s12-6": "2f784749", "s12-7": "6cb65a18", "s12-8": "d7890fd0", "s12-9": "d43d6fbf", "s13-0": "4bf30b51", "s13-1": "7000f28f", "s13-2": "76aea19e", "s13-3": "6225a9a8", "s13-4": "cd5089e6", "s13-5": "d55bb68a", "s13-6": "fee6de60", "s13-7": "24199ed4", "s13-8": "981bed12", "s13-9": "21c80577", "s13-10": "bba6076a", "s13-11": "77a34498", "s13-12": "e9556c43", "s13-13": "04c14abf", "s13-14": "2bb91185", "s13-15": "7cda521a", "s13-16": "ec5bc5f0", "s13-17": "31918bdf", "s13-18": "40aa0e7a", "s13-19": "8d874a4c", "s13-20": "fb2534f4", "s13-21": "b1542411", "s13-22": "e7d33ce6", "s13-23": "6ee892fe", "s13-24": "4d3d9b06", "s13-25": "bc879b1a", "s13-26": "ed0d3ab1", "s13-27": "cd502164", "s13-28": "9725481a", "s13-29": "7d42c511", "s13-30": "f764af84", "s13-31": "106bb00a", "s13-32": "858fd82f", "s13-33": "1b1345a9", "s13-34": "97184095", "s13-35": "b745b0b2", "s13-36": "df978fcc", "s13-37": "d7767810", "s13-38": "6f0ff832", "s13-39": "ca089b8d", "s13-40": "64459a47", "s13-41": "093fae4c", "s13-42": "3662943e", "s13-43": "f9e83d7c", "s13-44": "2e900be7", "s13-45": "ac5cca22", "s13-46": "3be4a1e7", "s13-47": "40d516a7", "s13-48": "5bfd0ca1", "s13-49": "817e5fc1", "s13-50": "bab7f1ef", "s13-51": "f1015c68", "s13-52": "fa9850b1", "s13-53": "43c1e594", "s13-54": "d0a0bdcd", "s13-55": "0a01aca6", "s13-56": "cbe5c892", "s13-57": "02b49307", "s13-58": "2dde6737", "s14-0": "7b061bbb", "s14-1": "d05f69ca", "s14-2": "bc7170e1", "s14-3": "ea05c1bd", "s14-4": "5b8b16c6", "s14-5": "4a07d250", "s14-6": "0bcf34c1", "s14-7": "fb49a27f", "s14-8": "5c9905ce", "s14-9": "0ad9175b", "s14-10": "708a8435", "s14-11": "53bd6b09", "s14-12": "dc528562", "s14-13": "f63e22ee", "s14-14": "ac881a77", "s14-15": "d633c3d7", "s14-16": "0e17e1d7", "s14-17": "e181b394", "s14-18": "b4a87639", "s14-19": "863aa50a", "s14-20": "0eac01e8", "s14-21": "04b4f6cc", "s14-22": "1019bac8", "s14-23": "a3b8f268", "s15-0": "efdfbaa7", "s15-1": "e4dd3c60", "s15-2": "21ffd929", "s15-3": "6782c487", "s15-4": "3aa6aa77", "s15-5": "dae98727", "s15-6": "7650a3c1", "s15-7": "f78a986c", "s15-8": "4f1a686e", "s15-9": "6155e4da", "s15-10": "ff97f73a", "s15-11": "2dbcc380", "s15-12": "0e384f33", "s15-13": "9f4376cf", "s15-14": "9d7b0240", "s15-15": "753bf266", "s15-16": "9a2c943f", "s15-17": "e52729a6", "s15-18": "b66eab81", "s15-19": "e8108300", "s15-20": "bfecc757", "s15-21": "eb1087b9", "s16-0": "dba7a45a", "s16-1": "3381e2a9", "s16-2": "63541e10", "s16-3": "340e0772", "s16-4": "fb35f302", "s16-5": "1b9b8adf", "s16-6": "84b8d5bc", "s16-7": "aa311553", "s16-8": "89d91824", "s16-9": "479e0e81", "s16-10": "81975355", "s16-11": "2eaee405", "s16-12": "64535f24", "s16-13": "c62b10a3", "s16-14": "46bdbb70", "s16-15": "a4bffb3b", "s16-16": "49bdc029", "s16-17": "b504f28c", "s16-18": "463f213e", "s16-19": "0fa6a137", "s17-0": "a4e953af", "s17-1": "cc29efb0", "s17-2": "c9ee3ba3", "s17-3": "d6476279", "s17-4": "69797601", "s17-5": "cc2edb7e", "s17-6": "595b4b5e", "s17-7": "909f2e9a", "s18-0": "708a67a3", "s18-1": "85def3ff", "s18-2": "62274189", "s18-3": "2d77ef13", "s18-4": "0e3c8ffa", "s18-5": "6430b91f", "s18-7": "ccabbb77", "s18-8": "41266f6b", "s18-9": "3b0c589c", "s18-10": "579ab34c", "s18-11": "c96fd955", "s18-12": "dbf33028", "s18-13": "914ab522", "s18-14": "a64f396b", "s18-15": "08dae3aa", "s18-16": "64fd9a0d", "s18-17": "be7d866e", "s19-0": "4bf96c96", "s19-1": "af26f2b3", "s19-2": "3f702e99", "s19-3": "5a06a689", "s19-4": "49e4c919", "s19-5": "5706a1d0", "s19-6": "efa466aa", "s19-7": "79d8c2fa", "s19-8": "2d763cc5", "s19-9": "e7eb1678", "s19-10": "fc0f4c81", "s20-0": "15ec1eac", "s20-1": "06abf487", "s20-2": "c5da5515", "s20-3": "5f561a94", "s20-4": "204c7e48", "s20-5": "852473e4", "s20-6": "f38a4fa1", "s20-7": "395dffc0", "s20-8": "896033c3", "s20-9": "61ebaf09", "s21-0": "5773d54d", "s21-1": "b6caf2eb", "s21-2": "a8670a43", "s21-3": "0ab2b8c1", "s21-4": "aa772197", "s21-5": "c256b34f", "s21-6": "a7df8c38", "s21-7": "dd4e77c1", "s21-8": "a91cc9af", "s21-9": "c725085e", "s21-10": "6bc0c0d2", "s21-11": "281e96f4", "s21-12": "b7792a2e", "s21-13": "0dd97f8c", "s21-14": "638728b7", "s21-15": "a9670bd6", "s21-16": "533ce9ed", "s21-17": "6ad91ccb", "s21-18": "865d6889", "s21-19": "28ed1f5b", "s21-20": "667b104b", "s21-21": "a91cd15f", "s21-22": "6e359353", "s21-23": "b5cb5cc8", "s21-24": "aa670d69", "s21-25": "c1f45924", "s22-0": "3f4b47b0", "s22-1": "671d6134", "s22-2": "49e67567", "s22-3": "52e0ccf7", "s22-4": "3b7e2000", "s22-5": "67f62af6", "s22-6": "07af6e2b", "s22-7": "541db5cf", "s22-8": "8d6d62ac", "s22-9": "f6ad52f3", "s22-10": "d82844fd", "s22-11": "9fe7b41e", "s22-12": "ec035c0f", "s23-0": "9744ac69", "s23-1": "4b8c0538", "s23-2": "7729d781", "s23-3": "1734dcd1", "s23-4": "8c25b57d", "s23-5": "6f8e16d0", "s23-6": "0d76d74a", "s23-7": "4b64d328", "s23-8": "d17bb529", "s23-9": "79cce2f8", "s23-10": "35101004", "s23-11": "0867ffb9", "s23-12": "0a2683e7", "s23-13": "203bf3c3", "s23-14": "4b7a98a8", "s23-15": "04caea5f", "s23-16": "3e88b24e", "s23-17": "90f7ed32", "s23-18": "b4279d3d", "s23-19": "2b02421d", "s23-20": "0419e6af", "s24-0": "f084d870", "s24-1": "b8e75468", "s24-2": "c4cc4409", "s24-3": "f768688b", "s24-4": "33d4cd77", "s24-5": "91918eae", "s24-6": "d8348a29", "s24-7": "28284871", "s24-8": "730d2169", "s24-9": "4ac009d3", "s24-10": "3fd2e742", "s24-11": "403108e3", "s24-12": "669ce727", "s24-13": "c033e6f3", "s24-14": "bb41f9f4", "s24-15": "f6d62fa5", "s24-16": "c4e8f47b", "s24-17": "cd1acff1", "s24-18": "61cb2084", "s24-19": "80520eff", "s24-20": "12f2db6b", "s25-0": "843bab19", "s25-1": "3cdecc03", "s25-2": "3d0852c5", "s25-3": "d0b626e9", "s25-4": "72770423", "s25-5": "9a3af86b", "s25-6": "579619c1", "s25-7": "447e535e", "s25-8": "8e9eb810", "s25-9": "18e193fd", "s25-10": "5d364816", "s25-11": "21bda31a", "s25-12": "2dacdfd3", "s25-13": "24d60fef", "s25-14": "937cbb6d", "s25-15": "9e52f65c", "s25-16": "119b38b1", "s25-17": "8290029c", "s25-18": "1d27cd37", "s26-0": "32d982a5", "s26-1": "065c83e6", "s26-2": "6b222d81", "s26-3": "762acb61", "s27-0": "e0971aad", "s27-1": "3945515b", "s27-2": "79a75f23", "s27-3": "b6d6f429", "s27-4": "fc5765b1", "s27-5": "0b98cd4c", "s28-0": "404c673d", "s28-1": "a64f29cd", "s28-2": "95b70079", "s28-3": "79d0d8a2", "s28-4": "3ba88af9", "s28-5": "a1dbd5a7", "s28-6": "0dfbf360", "s28-7": "974e4b7e", "s28-8": "45208fb5", "s28-9": "627c5b67", "s28-10": "011f2009", "s28-11": "964e49eb", "s28-12": "64be9b62", "s28-13": "8ba1e2e2", "s28-14": "42f52c2e", "s28-15": "bb41dcbd", "s28-16": "db18a49b", "s28-17": "b8ebd9f4", "s28-18": "23d4b6a4", "s28-19": "0c1c0aaa", "s28-20": "1448de89", "s28-21": "1e49e2e4", "s28-22": "cb9bca3f", "s28-23": "ba645097", "s28-24": "cfe50a48", "s28-25": "3d831838", "s28-26": "34ff2288", "s28-27": "d3b1c7bc", "s28-28": "40336fdc", "s28-29": "99f77533", "s28-30": "ed4ee852", "s28-31": "2c025a1c", "s28-32": "65dc0122", "s28-33": "bd55c7de", "s28-34": "c35bbc92", "s28-35": "25020e67", "s28-36": "fbd707ec", "s28-37": "0aa4994d", "s28-38": "934c34c6", "s28-39": "9daf2a4a", "s29-0": "93ecd167", "s29-1": "9b00e1fc", "s29-2": "027c410b", "s29-3": "eef870ea", "s29-4": "3894d73b", "s29-5": "e937c829", "s29-6": "d1c1ee16", "s29-7": "1ce98c40", "s29-8": "d024a1ae", "s29-9": "6cb16d7b", "s30-0": "265b1e62", "s30-1": "b9a20dc5", "s30-2": "cd8a88cb", "s30-3": "7fb6b2ca", "s30-4": "7b05ea67", "s30-5": "56a00f4f", "s30-6": "076f88a7", "s30-7": "c5fc85ad", "s30-8": "7bc59b3b", "s30-9": "69d1e9e1", "s30-10": "a0b79fca", "s31-0": "a2db12c2", "s31-1": "dec5d643", "s31-2": "01b03dcf", "s31-3": "c18fad41", "s31-4": "1cc0a2eb", "s31-5": "10700419", "s31-6": "2536bbb6", "s32-0": "ef795b81", "s32-1": "33b2f839", "s32-2": "7eab0346", "s32-3": "5d20c31c", "s32-4": "695d37e5", "s32-5": "6a4534e0", "s32-6": "1dbf634d", "s32-7": "f60de8dd", "s32-8": "fcb94825", "s32-9": "eb6034ee", "s32-10": "55b7611c", "s32-11": "d078425f", "s32-12": "4d1f59bc", "s32-13": "68a4d0f4", "s32-14": "f2f0d5ea", "s32-15": "d8981f8c", "s32-16": "8101ca6e", "s32-17": "544618a3", "s32-18": "52fa7b1c", "s32-19": "7cdd6dbe", "s32-20": "37bfb7c7", "s32-21": "d1775949", "s32-22": "06470674", "s32-23": "68289a13", "s32-24": "bcd0dcdf", "s32-25": "62a77ef3", "s32-26": "d0096f49", "s33-0": "388e218f", "s33-1": "3d14b0d0", "s33-2": "aacfeda4", "s33-3": "65ae728c", "s33-4": "853f1a31", "s33-5": "49668dcb", "s33-6": "5cbdc095", "s33-7": "9e365365", "s33-8": "de6b77e6", "s33-9": "d76c8b3e", "s33-10": "cf861499", "s33-11": "7ada28ec", "s33-12": "0aa74119", "s34-0": "0458ce9c", "s34-1": "61eff2a4", "s34-2": "9e341d85", "s34-3": "21bddf11", "s34-4": "c15d34a1", "s34-5": "8b193c54", "s35-0": "4ab704c5", "s35-1": "38aeca97", "s35-2": "6b5a9925", "s35-3": "60cdc2de", "s35-4": "eabaedf4", "s35-5": "4479565d", "s35-6": "a6bb19ca", "s35-7": "88fd950b", "s35-8": "6adaee6f", "s35-9": "91d3f284", "s35-10": "5ac34440", "s36-0": "5dcd3c45", "s36-1": "6cf7f550", "s36-2": "c94b498a", "s36-3": "b409e015", "s36-4": "b19a7baa", "s36-5": "00165e0c", "s36-6": "863c6a71", "s36-7": "e399aebe", "s36-8": "bc6a7f0e", "s36-9": "217449ff", "s36-10": "1f051bf4", "s36-11": "5c455d95", "s36-12": "e2d895b8", "s36-13": "358a6cc9", "s37-0": "5400ada9", "s37-1": "924a8e64", "s37-2": "aa83adca", "s37-3": "45898a09", "s37-4": "f94eeb9c", "s37-5": "22d0c378", "s37-6": "b32740b2", "s37-7": "c8d473d2", "s37-8": "d5bf15fa", "s37-9": "d8a34979", "s37-10": "8a4916e1", "s37-11": "95eb028b", "s38-0": "b4ff7e36", "s38-1": "86106882", "s38-2": "4e3dc557", "s38-3": "20928359", "s38-4": "cec27187", "s38-5": "2d860d4c", "s38-6": "b610b55a", "s38-7": "a2b90800", "s38-8": "5f60c6ea", "s38-9": "28a7d25a", "s38-10": "56beb263", "s38-11": "f7daef83", "s39-0": "55e304cc", "s39-1": "26e8eb00", "s39-2": "27e28f53", "s39-3": "fb46d2e5", "s39-4": "c972efb9", "s39-5": "b5dec0ac", "s39-6": "5d3645fc", "s39-7": "6f0ec2ae", "s39-8": "9c9d61fb", "s39-9": "51e77645", "s39-10": "a6c6bb3c", "s39-11": "580dc4d0", "s39-12": "5c097767", "s39-13": "a761d4f5", "s39-14": "9f5f3fec", "s39-15": "311df7bf", "s39-16": "ba17ff05", "s39-17": "998d4a0e", "s39-18": "f36b46a5", "s40-0": "cd9256b3", "s40-1": "ef8519e8", "s40-2": "3c36ca2b", "s40-3": "c450f7af", "s40-4": "31119092", "s40-5": "ecbc5034", "s40-6": "fe1914a6", "s40-7": "b868d598", "s40-8": "0a7b3759", "s40-9": "77d98619", "s40-10": "082a2c0b", "s40-11": "e3bd19cb", "s40-12": "03fb82ac", "s41-0": "d3bf259e", "s41-1": "e75a723e", "s41-2": "4e396938", "s41-3": "74c1045b", "s41-4": "3ed04def", "s41-5": "def62c50", "s41-6": "732f54d9", "s41-7": "558f5687", "s41-8": "a2b979bb", "s41-9": "92fe21cb", "s41-10": "840a9f07", "s42-0": "92d0a13d", "s42-1": "514a48c5", "s42-2": "eaa8d271", "s42-3": "2fe09a0d", "s42-4": "b1132afb", "s42-5": "c86cbc7a", "s42-6": "22f449ec", "s42-7": "b8668c68", "s42-8": "4fe4e45a", "s43-0": "ca725911", "s43-1": "df53afc0", "s43-2": "e5f2ec68", "s43-3": "122ee380", "s43-4": "de632edd", "s43-5": "b271bed3", "s44-0": "1a395d2d", "s44-1": "dbfab09c", "s44-2": "b6cf2a32", "s44-3": "6dff5ccb", "s44-4": "0cdbb6d6", "s44-5": "a2e2cfa7", "s45-0": "71c42a85", "s45-1": "841598bb", "s45-2": "5b1c64a9", "s45-3": "ff3f9dad", "s45-4": "28a81141", "s45-5": "91c64803", "s45-6": "448bdcd4", "s45-7": "95c4f2dc", "s45-8": "fafb6ff1", "s45-9": "d1529206", "s45-10": "21779898", "s46-0": "e9713416", "s46-1": "3ad61e6d", "s46-2": "88f695e9", "s46-3": "5993f0e7", "s46-4": "6a1673fd", "s46-5": "6db7e798", "s46-6": "ed71d66d", "s46-7": "5bae6465", "s47-0": "ceaa927c", "s47-1": "93408ad3", "s47-2": "537528eb", "s48-0": "cfa7e24e", "s48-1": "e171445e", "s48-2": "41936e9b", "s48-3": "d2491c42", "s48-4": "6deec95c", "s49-0": "29ce68c8", "s49-1": "76aa82f1", "s49-2": "4c423cac", "s49-3": "dfd0badf", "s49-4": "dc7895ce", "s49-5": "b8e80285", "s49-6": "bd97870c", "s50-0": "c1a4a9f3", "s50-1": "f62f2c01", "s50-2": "dbed6c50", "s51-0": "5072ed65", "s51-1": "a9d3cec9", "s51-2": "cd5d53f2", "s51-3": "69573d22", "s52-0": "a2f740ae", "s52-1": "8275b19c", "s52-2": "069e9c0d", "s52-3": "9a8c8ee4", "s52-4": "0ac369ff", "s52-5": "cd716c00", "s52-6": "031e42f4", "s52-7": "54c0d9fb", "s52-8": "d6bc2f9e", "s53-0": "4bf99062", "s53-1": "960749ee", "s53-2": "1a5aa565", "s53-3": "df5de4fc", "s53-4": "58de66c6", "s54-0": "bd26de2a", "s54-1": "0a780a14", "s55-0": "eadbd344", "s55-1": "1a8bc392", "s55-2": "89c08dbe", "s55-3": "4820cc25", "s56-0": "eb3a0f91", "s56-1": "0827fb45", "s56-2": "e787a8cb", "s56-3": "c4f6cccf", "s56-4": "4b751a03", "s56-5": "3b26efbb", "s56-6": "92e59081", "s56-7": "c646fc64", "s56-8": "0e075914", "s56-10": "ef6d54ea", "s56-11": "9addab51", "s56-12": "94cfa215", "s56-13": "d0553c1e", "s56-14": "18193100", "s56-15": "1072aa88", "s56-17": "17b32839", "s56-18": "988a8aae", "s56-19": "bb2ec792", "s56-20": "bba1c6f1", "s56-21": "ef3e1535", "s56-22": "9d1bba40", "s57-0": "30038030", "s57-1": "d9af9fd5", "s57-2": "cb201715", "s57-3": "e90cc9b9", "s57-4": "f5ecb71d", "s57-5": "76b9af9a", "s57-6": "a9fbbc4e", "s57-7": "aab92d3c", "s57-8": "be71194d", "s57-9": "5bd4f425", "s57-10": "22eec864", "s57-11": "3bcb7107", "s57-12": "b1a546ea", "s58-0": "fb2efd8d", "s58-1": "2a9a81ff", "s58-2": "4ee6959b", "s58-3": "233acbc9", "s58-4": "88691da6", "s58-5": "6490709c", "s58-6": "21d2c7fb", "s59-0": "3f781fa3", "s59-1": "b8f73d68", "s59-2": "1d955e6e"};
+const $ = (s, el=document) => el.querySelector(s);
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const EMOJI_TITLE = {'🟡':'Quest accepted','✅':'Quest completed','📍':'Teleport','⏸':'Pause this quest here','🏅':'Task set complete','⚙':'Repeatable activity','🔴':'Hardcore warning','📖':'Write it down','🕒':'Daily'};
+const EMO = /(🟡|✅|📍|⏸️|⏸|🏅|⚙️|⚙|🔴|📖|🕒)/g;
+const CHIP = /[\[\(]\s*((?:[A-Z][\w'’]*\s+){1,3}?(?:Beginner|Easy|Medium|Hard|Elite)\s+Tasks?|Easy Ardougne Task)\s*[\]\)]/g;
+const QRX = QUESTS.map(([t, p]) => [t, new RegExp(p, 'g')]);
+const NOTE_RX = /^\s*[\[\(]|^\s*(?:Note|NOTE|Reminder|OPTIONAL)\b/;
+
+function h32(s){ let h = 0x811c9dc5; for (const b of new TextEncoder().encode(s)) { h ^= b; h = Math.imul(h, 0x01000193) >>> 0; } return h.toString(16).padStart(8, '0'); }
+const norm = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '');
+const END = '<' + '/script', ENDX = '<' + '\\/script';
+const RX_END = new RegExp('<' + '\\/script', 'gi'), RX_ENDX = new RegExp('<' + '\\\\' + '\\/script', 'gi');
+const escG = t => t.replace(RX_END, ENDX);
+const unescG = t => t.replace(RX_ENDX, END);
+const readBlock = id => document.getElementById(id).textContent.replace(/^\n/, '').replace(/\n$/, '');
+const wiki = name => 'https://runescape.wiki/w/Special:Search?search=' + encodeURIComponent(name) + '&go=Go';
+const link = (name, text) => `<a href="${wiki(name)}" target="_blank" rel="noopener" title="${name.replace(/"/g, '&quot;')} on the RuneScape Wiki">${text}</a>`;
+
+// ---- state ----
+let state = {v:1, done:{}, folded:{}, hideDone:false};
+try { const raw = localStorage.getItem(KEY); if (raw) { const s = JSON.parse(raw); if (s && s.v === 1) state = Object.assign(state, s); } } catch (e) {}
+function save(){ try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+{ let moved = false;
+  for (const k of Object.keys(state.done)) if (/^s\d+-\d+$/.test(k)) { if (MIGRATE[k]) state.done[MIGRATE[k]] = 1; delete state.done[k]; moved = true; }
+  for (const k of Object.keys(state.folded)) if (/^sec-\d+$/.test(k)) { delete state.folded[k]; moved = true; }
+  if (moved) save(); }
+
+// ---- where is this page running? ----
+const HOSTED = /^https?:$/.test(location.protocol);
+const REPO = (() => {
+  const meta = document.querySelector('meta[name="rs3-repo"]');
+  const m = meta && meta.content.trim().match(/^([\w.-]+)\/([\w.-]+)$/);
+  if (m) return {owner: m[1], repo: m[2]};
+  const h = location.hostname; if (!h.endsWith('.github.io')) return null;
+  const owner = h.slice(0, -10); const seg = location.pathname.split('/').filter(Boolean)[0];
+  return {owner, repo: seg || (owner + '.github.io')};
+})();
+const CAN_PROPOSE = HOSTED && !!REPO;
+let BRANCH = 'main', branchChecked = false;
+async function repoBranch(){
+  if (!REPO || branchChecked) return BRANCH; branchChecked = true;
+  try { const r = await fetch(`https://api.github.com/repos/${REPO.owner}/${REPO.repo}`); if (r.ok) { const j = await r.json(); if (j.default_branch) BRANCH = j.default_branch; } } catch (e) {}
+  return BRANCH;
+}
+const ghUrl = path => REPO ? `https://github.com/${REPO.owner}/${REPO.repo}${path}` : '#';
+
+// ---- guide text: guide.txt next to this page (hosted), the embedded block (local file), or an unsent draft ----
+let embedded = '', currentText = '', draft = null, stale = false;
+function clearDraft(){ draft = null; stale = false; try { localStorage.removeItem(KEY + ':draft'); localStorage.removeItem(KEY + ':draftBase'); } catch (e) {} }
+function storeDraft(t){
+  if (t === embedded) clearDraft();
+  else {
+    if (draft === null) { stale = false; try { localStorage.setItem(KEY + ':draftBase', h32(embedded)); } catch (e) {} }
+    draft = t; try { localStorage.setItem(KEY + ':draft', t); } catch (e) {}
+  }
+  updateDraftBar();
+}
+function updateDraftBar(){
+  const bar = $('#draftBar'); bar.hidden = draft === null; if (draft === null) return;
+  $('#draftMsg').textContent = (CAN_PROPOSE
+    ? 'You have edited the guide. The changes are only in this browser until you propose them.'
+    : 'You are viewing edits that are not in the file yet. Download the file and replace the old one to keep them.')
+    + (stale ? ' Heads up: the guide was updated after you started editing, so your version may undo someone else’s changes.' : '');
+  $('#draftPrimary').textContent = CAN_PROPOSE ? 'Propose changes' : 'Download file';
+}
+
+// ---- parse ----
+function parse(text){
+  const secs = []; let cur = null, prev = null; const titles = {};
+  text.split('\n').forEach((ln, i) => {
+    if (!ln.trim()) { prev = null; return; }
+    const m = ln.match(/^([ \t]*)([-*#])\s?(.*)$/);
+    if (m && m[2] === '#') {
+      const title = m[3].trim() || 'Untitled'; const nk = norm(title) || 'x'; titles[nk] = (titles[nk] || 0) + 1;
+      cur = {title, key: nk + '#' + titles[nk], items: [], line: i}; secs.push(cur); prev = null; return;
+    }
+    if (!cur) { cur = {title: 'Guide', key: 'guide#1', items: [], line: i}; secs.push(cur); }
+    if (m) {
+      const lvl = Math.min(3, Math.floor(m[1].replace(/\t/g, '  ').length / 2));
+      const it = {raw: m[3].trim(), l: lvl, c: m[2] === '-', line: i}; cur.items.push(it); prev = it; return;
+    }
+    if (prev) prev.raw += ' ' + ln.trim();
+    else { const it = {raw: ln.trim(), l: 0, c: false, line: i}; cur.items.push(it); prev = it; }
+  });
+  for (const s of secs) {
+    s.id = 'sec-' + h32(s.key); const seen = {};
+    for (const it of s.items) {
+      const nk = norm(it.raw); seen[nk] = (seen[nk] || 0) + 1;
+      it.id = h32(s.key + '|' + nk + '|' + seen[nk]);
+      it.n = !it.c || NOTE_RX.test(it.raw.replace(EMO, '').trim());
+    }
+  }
+  return secs;
+}
+
+// ---- inline rendering ----
+function renderText(raw){
+  const tokens = []; const keep = h => { tokens.push(h); return '\u0001' + (tokens.length - 1) + '\u0001'; };
+  let t = raw.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  t = t.replace(/\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]/g, (m, name, disp) => keep(link(name.trim(), (disp || name).trim())));
+  t = t.replace(/https?:\/\/[^\s<]+/g, m => keep(`<a href="${m}" target="_blank" rel="noopener">${m}</a>`));
+  const spans = [];
+  for (const [title, rx] of QRX) { rx.lastIndex = 0; let m; while ((m = rx.exec(t))) { if (!m[0]) { rx.lastIndex++; continue; } const a = m.index, b = a + m[0].length; if (!spans.some(s => a < s[1] && b > s[0])) spans.push([a, b, title]); } }
+  spans.sort((x, y) => x[0] - y[0]); let out = '', pos = 0;
+  for (const [a, b, title] of spans) { if (a < pos) continue; out += t.slice(pos, a) + keep(link(title, t.slice(a, b))); pos = b; }
+  t = out + t.slice(pos);
+  t = t.replace(CHIP, (m, g) => keep(`<span class="chip">${g}</span>`));
+  t = t.replace(/==(?:(g|r):)?(.+?)==/g, (m, c, s) => `<mark class="hl-${c === 'g' ? 'green' : c === 'r' ? 'red' : 'yellow'}">${s}</mark>`);
+  t = t.replace(EMO, m => `<span class="mk" title="${EMOJI_TITLE[m.replace('️', '')] || ''}">${m}</span>`);
+  return t.replace(/\u0001(\d+)\u0001/g, (m, i) => tokens[+i]);
+}
+
+// ---- page render ----
+const main = $('#main'), sideList = $('#sideList'), jump = $('#jump');
+let SECS = [], TOTAL = 0, spy = null;
+function render(){
+  SECS = parse(currentText);
+  let mh = '', sh = '', jh = '';
+  for (const s of SECS) {
+    const n = s.items.filter(i => i.c).length;
+    mh += `<section class="sec${state.folded[s.id] ? ' folded' : ''}" id="${s.id}" data-n="${n}">
+      <header class="sec-h"><button class="fold" aria-label="Collapse section">▾</button><h2>${s.title.replace(/&/g,'&amp;').replace(/</g,'&lt;')}</h2><span class="sec-count num" data-count></span>
+        <div class="sec-tools"><button data-all title="Check every step in this section">All</button><button data-none title="Uncheck every step in this section">None</button></div></header>
+      <ol class="list">`;
+    for (const it of s.items) {
+      const q = it.raw.toLowerCase().replace(/&/g,'&amp;').replace(/"/g, '&quot;').replace(/</g,'&lt;');
+      const pen = `<button class="pen" title="Edit this step" aria-label="Edit this step">✎</button>`;
+      if (it.c) {
+        const done = !!state.done[it.id];
+        mh += `<li class="it l${it.l}${done ? ' done' : ''}${it.n ? ' note' : ''}" data-id="${it.id}" data-line="${it.line}" data-q="${q}"><div class="row"><label class="lab"><input type="checkbox" id="c-${it.id}"${done ? ' checked' : ''}><span class="box"></span><span class="txt">${renderText(it.raw)}</span></label>${pen}</div></li>`;
+      } else {
+        mh += `<li class="it l${it.l} note plain" data-id="${it.id}" data-line="${it.line}" data-q="${q}"><div class="row"><span class="dot"></span><span class="txt">${renderText(it.raw)}</span>${pen}</div></li>`;
+      }
+    }
+    mh += `</ol><p class="empty">All steps in this section are done.</p></section>`;
+    const title = s.title.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+    sh += `<li data-sec="${s.id}"><a href="#${s.id}"><span class="srow"><span>${title}</span><small class="num" data-side-count></small></span><span class="mini"><i></i></span></a></li>`;
+    jh += `<option value="${s.id}">${title}</option>`;
+  }
+  if (!SECS.length) mh = HOSTED && !embedded && draft === null
+    ? '<p class="nothing">Could not load guide.txt next to this page. Make sure guide.txt sits in the same folder as index.html.</p>'
+    : '<p class="nothing">The guide is empty. Open the menu and choose “Edit guide…” to add sections and steps.</p>';
+  main.innerHTML = mh; sideList.innerHTML = sh; jump.innerHTML = jh;
+  TOTAL = SECS.reduce((a, s) => a + s.items.filter(i => i.c).length, 0);
+  $('#total').textContent = TOTAL;
+  $('#secline').textContent = `${SECS.length} sections · ${TOTAL} steps`;
+  updateCounts();
+  if (spy) spy.disconnect();
+  spy = new IntersectionObserver(entries => {
+    for (const en of entries) if (en.isIntersecting) {
+      for (const li of sideList.children) li.classList.toggle('current', li.dataset.sec === en.target.id);
+      jump.value = en.target.id;
+    }
+  }, {rootMargin: '-25% 0px -65% 0px'});
+  for (const sec of main.querySelectorAll('.sec')) spy.observe(sec);
+  applySearch();
+}
+function updateCounts(){
+  let total = 0;
+  for (const s of SECS) {
+    const el = document.getElementById(s.id); if (!el) continue;
+    const n = +el.dataset.n; let d = 0;
+    for (const it of s.items) if (it.c && state.done[it.id]) d++;
+    total += d;
+    $('[data-count]', el).textContent = `${d} / ${n}`;
+    el.classList.toggle('complete', n > 0 && d === n);
+    const li = sideList.querySelector(`li[data-sec="${s.id}"]`);
+    if (li) { $('[data-side-count]', li).textContent = `${d}/${n}`; $('.mini i', li).style.width = n ? (100 * d / n) + '%' : '0%'; li.classList.toggle('full', n > 0 && d === n); }
+  }
+  $('#done').textContent = total;
+  $('#pct').textContent = (TOTAL ? Math.round(100 * total / TOTAL) : 0) + '%';
+  $('#bar').style.width = (TOTAL ? 100 * total / TOTAL : 0) + '%';
+}
+
+// ---- interactions ----
+main.addEventListener('change', e => {
+  const cb = e.target; if (cb.type !== 'checkbox') return;
+  const li = cb.closest('.it'); const id = li.dataset.id;
+  if (cb.checked) state.done[id] = 1; else delete state.done[id];
+  li.classList.toggle('done', cb.checked); save(); updateCounts();
+});
+main.addEventListener('click', e => {
+  const pen = e.target.closest('.pen');
+  if (pen) { e.preventDefault(); openEditor(+pen.closest('.it').dataset.line); return; }
+  const h = e.target.closest('.sec-h'); if (!h) return;
+  const sec = h.closest('.sec');
+  if (e.target.closest('[data-all],[data-none]')) {
+    const on = !!e.target.closest('[data-all]');
+    for (const cb of sec.querySelectorAll('input[type=checkbox]')) {
+      cb.checked = on; const li = cb.closest('.it'); li.classList.toggle('done', on);
+      if (on) state.done[li.dataset.id] = 1; else delete state.done[li.dataset.id];
+    }
+    save(); updateCounts(); return;
+  }
+  sec.classList.toggle('folded');
+  if (sec.classList.contains('folded')) state.folded[sec.id] = 1; else delete state.folded[sec.id];
+  save();
+});
+main.addEventListener('dblclick', e => {
+  const t = e.target.closest('.txt'); if (!t || e.target.closest('a')) return;
+  openEditor(+t.closest('.it').dataset.line);
+});
+function setFoldAll(fold){
+  for (const sec of main.querySelectorAll('.sec')) { sec.classList.toggle('folded', fold); if (fold) state.folded[sec.id] = 1; else delete state.folded[sec.id]; }
+  save();
+}
+$('#expandAll').onclick = () => { setFoldAll(false); closeMenu(); };
+$('#collapseAll').onclick = () => { setFoldAll(true); closeMenu(); };
+
+const hideDone = $('#hideDone');
+hideDone.checked = !!state.hideDone; document.body.classList.toggle('hide-done', hideDone.checked);
+hideDone.onchange = () => { state.hideDone = hideDone.checked; document.body.classList.toggle('hide-done', hideDone.checked); save(); };
+
+$('#next').onclick = () => {
+  const li = [...main.querySelectorAll('.it:not(.plain)')].find(li => !li.classList.contains('done'));
+  if (!li) { $('#next').textContent = 'All done!'; return; }
+  const sec = li.closest('.sec'); if (sec.classList.contains('folded')) { sec.classList.remove('folded'); delete state.folded[sec.id]; save(); }
+  li.scrollIntoView({behavior: reduced ? 'auto' : 'smooth', block: 'center'});
+  li.classList.remove('flash'); void li.offsetWidth; li.classList.add('flash');
+  setTimeout(() => li.classList.remove('flash'), 1700);
+};
+
+const q = $('#q'); let qt;
+q.addEventListener('input', () => { clearTimeout(qt); qt = setTimeout(applySearch, 80); });
+function applySearch(){
+  const v = q.value.trim().toLowerCase();
+  document.body.classList.toggle('searching', !!v);
+  for (const sec of main.querySelectorAll('.sec')) {
+    let any = false;
+    const titleHit = v && sec.querySelector('h2').textContent.toLowerCase().includes(v);
+    for (const li of sec.querySelectorAll('.it')) {
+      const hit = !v || titleHit || li.dataset.q.includes(v);
+      li.hidden = !hit; if (hit) any = true;
+    }
+    sec.hidden = !any;
+    if (v && any) sec.classList.remove('folded');
+    else if (!v) sec.classList.toggle('folded', !!state.folded[sec.id]);
+  }
+}
+
+jump.onchange = () => { const el = document.getElementById(jump.value); if (el) el.scrollIntoView({behavior: reduced ? 'auto' : 'smooth', block: 'start'}); };
+sideList.addEventListener('click', e => {
+  const a = e.target.closest('a'); if (!a) return; e.preventDefault();
+  const sec = document.getElementById(a.getAttribute('href').slice(1));
+  if (sec) sec.scrollIntoView({behavior: reduced ? 'auto' : 'smooth', block: 'start'});
+});
+
+const topBar = $('#top');
+const syncTop = () => document.documentElement.style.setProperty('--top-h', topBar.offsetHeight + 'px');
+new ResizeObserver(syncTop).observe(topBar); syncTop();
+const st = document.createElement('style'); st.textContent = '.sec{scroll-margin-top:calc(var(--top-h) + 12px)}'; document.head.appendChild(st);
+
+const menuBtn = $('#menuBtn'), menuList = $('#menuList');
+function closeMenu(){ menuList.classList.remove('open'); menuBtn.setAttribute('aria-expanded', 'false'); }
+menuBtn.onclick = e => { e.stopPropagation(); const open = !menuList.classList.contains('open'); menuList.classList.toggle('open', open); menuBtn.setAttribute('aria-expanded', String(open)); };
+document.addEventListener('click', e => { if (!e.target.closest('.menu')) closeMenu(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
+
+const themeBtn = $('#themeBtn');
+let theme = 'auto'; try { theme = localStorage.getItem(KEY + ':theme') || 'auto'; } catch (e) {}
+function applyTheme(){ if (theme === 'auto') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = theme; themeBtn.textContent = 'Theme: ' + theme; }
+applyTheme();
+themeBtn.onclick = () => { theme = theme === 'auto' ? 'dark' : theme === 'dark' ? 'light' : 'auto'; try { localStorage.setItem(KEY + ':theme', theme); } catch (e) {} applyTheme(); };
+
+// ---- progress export / import ----
+const io = $('#io'), ioText = $('#ioText'), ioAct = $('#ioAct'), ioStatus = $('#ioStatus');
+let ioMode = 'export';
+function encode(){ return 'RS3GUIDE:' + btoa(unescape(encodeURIComponent(JSON.stringify({v:1, done:Object.keys(state.done)})))); }
+function decode(s){
+  s = s.trim(); if (s.startsWith('RS3GUIDE:')) s = decodeURIComponent(escape(atob(s.slice(9))));
+  const o = JSON.parse(s); const ids = Array.isArray(o.done) ? o.done : Object.keys(o.done || {});
+  if (!ids.length) throw new Error('empty'); return ids.map(id => MIGRATE[id] || id);
+}
+$('#exportBtn').onclick = () => {
+  closeMenu(); ioMode = 'export'; $('#ioTitle').textContent = 'Copy progress';
+  $('#ioHelp').textContent = 'Copy this code and paste it into “Load progress” on another device or browser.';
+  ioText.value = encode(); ioText.readOnly = true; ioAct.textContent = 'Copy'; ioStatus.textContent = ''; io.showModal(); ioText.select();
+};
+$('#importBtn').onclick = () => {
+  closeMenu(); ioMode = 'import'; $('#ioTitle').textContent = 'Load progress';
+  $('#ioHelp').textContent = 'Paste a progress code here. It replaces the checks saved in this browser.';
+  ioText.value = ''; ioText.readOnly = false; ioAct.textContent = 'Load'; ioStatus.textContent = ''; io.showModal(); ioText.focus();
+};
+ioAct.onclick = async () => {
+  if (ioMode === 'export') {
+    try { await navigator.clipboard.writeText(ioText.value); ioStatus.textContent = 'Copied'; }
+    catch (e) { ioText.select(); ioStatus.textContent = 'Select the text and copy it'; }
+    return;
+  }
+  try {
+    const ids = decode(ioText.value); const valid = new Set([...main.querySelectorAll('.it:not(.plain)')].map(li => li.dataset.id));
+    state.done = {}; for (const id of ids) if (valid.has(id)) state.done[id] = 1;
+    for (const li of main.querySelectorAll('.it:not(.plain)')) { const on = !!state.done[li.dataset.id]; li.classList.toggle('done', on); li.querySelector('input').checked = on; }
+    save(); updateCounts(); ioStatus.textContent = `Loaded ${Object.keys(state.done).length} checks`;
+  } catch (e) { ioStatus.textContent = 'That code could not be read'; }
+};
+$('#ioClose').onclick = () => io.close();
+
+$('#resetBtn').onclick = () => {
+  closeMenu();
+  if (!confirm('Uncheck every step? This cannot be undone.')) return;
+  state.done = {};
+  for (const li of main.querySelectorAll('.it:not(.plain)')) { li.classList.remove('done'); li.querySelector('input').checked = false; }
+  save(); updateCounts();
+};
+
+// ---- guide editor ----
+const ed = $('#ed'), edText = $('#edText'), edJump = $('#edJump'), edStats = $('#edStats'), edHelp = $('#edHelp'), edPrimary = $('#edPrimary');
+function openEditor(line){
+  closeMenu(); edText.value = currentText; fillJump(); updateStats(); ed.showModal();
+  if (line != null && line >= 0) gotoLine(line); else edText.focus();
+}
+function fillJump(){
+  let h = '<option value="">Jump to section…</option>';
+  edText.value.split('\n').forEach((l, i) => { if (/^\s*#/.test(l)) h += `<option value="${i}">${l.replace(/^\s*#\s*/, '').replace(/&/g,'&amp;').replace(/</g, '&lt;')}</option>`; });
+  edJump.innerHTML = h;
+}
+edJump.onchange = () => { if (edJump.value !== '') gotoLine(+edJump.value); edJump.value = ''; };
+function gotoLine(line){
+  const full = edText.value, lines = full.split('\n');
+  if (line >= lines.length) { edText.focus(); return; }
+  const start = lines.slice(0, line).reduce((a, l) => a + l.length + 1, 0);
+  edText.value = full.slice(0, start); edText.scrollTop = edText.scrollHeight; const top = edText.scrollTop; edText.value = full;
+  edText.scrollTop = Math.max(0, top - edText.clientHeight / 3);
+  edText.focus(); edText.setSelectionRange(start, start + lines[line].length);
+}
+function updateStats(){ const s = parse(edText.value); const n = s.reduce((a, x) => a + x.items.filter(i => i.c).length, 0); edStats.textContent = `${s.length} sections · ${n} steps`; }
+let edT; edText.addEventListener('input', () => { clearTimeout(edT); edT = setTimeout(() => { updateStats(); storeDraft(edText.value); }, 400); });
+function setText(t){ currentText = t; storeDraft(t); render(); }
+function primaryAction(text){ setText(text); if (CAN_PROPOSE) { ed.close(); openPropose(); } else downloadFile(text); }
+$('#edHelpBtn').onclick = () => { edHelp.hidden = !edHelp.hidden; $('#edHelpBtn').setAttribute('aria-expanded', String(!edHelp.hidden)); };
+$('#edApply').onclick = () => { setText(edText.value); };
+$('#edClose').onclick = () => ed.close();
+ed.addEventListener('close', () => { if (edText.value !== currentText) setText(edText.value); });
+ed.addEventListener('keydown', e => { if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 's') { e.preventDefault(); primaryAction(edText.value); } });
+edPrimary.onclick = () => primaryAction(edText.value);
+$('#editBtn').onclick = () => openEditor(null);
+$('#downloadBtn').onclick = () => { closeMenu(); downloadFile(currentText); };
+$('#draftPrimary').onclick = () => CAN_PROPOSE ? openPropose() : downloadFile(currentText);
+$('#draftDiscard').onclick = () => { if (confirm(CAN_PROPOSE ? 'Throw away your edits and go back to the current guide?' : 'Throw away the edits and go back to the guide as saved in the file?')) setText(embedded); };
+
+function buildFile(text){
+  const tpl = unescG(readBlock('tpl'));
+  return tpl.split(PH('GUIDE')).join(escG(text)).split(PH('TPL')).join(escG(tpl)) + '\n';
+}
+function downloadFile(text){
+  if (text !== currentText) setText(text);
+  const blob = new Blob([buildFile(text)], {type: 'text/html'});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'RS3GUIDE.html';
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 3000);
+}
+
+// ---- propose changes (GitHub pull request, done by hand in 3 steps) ----
+const pr = $('#pr');
+async function openPropose(){
+  if (!CAN_PROPOSE) { downloadFile(currentText); return; }
+  $('#prStale').hidden = !stale; $('#prStatus').textContent = ''; $('#prFallback').hidden = true;
+  $('#prOpen').href = ghUrl(`/edit/${await repoBranch()}/guide.txt`);
+  pr.showModal();
+}
+$('#prCopy').onclick = async () => {
+  try { await navigator.clipboard.writeText(currentText); $('#prStatus').textContent = 'Copied. Now do step 2.'; }
+  catch (e) { $('#prFallback').hidden = false; $('#prText').value = currentText; $('#prText').select(); $('#prStatus').textContent = 'Select the text below and copy it.'; }
+};
+$('#prClose').onclick = () => pr.close();
+
+// ---- boot ----
+async function boot(){
+  let base = unescG(readBlock('guide')), fetched = false;
+  if (HOSTED) { try { const r = await fetch('guide.txt', {cache: 'no-store'}); if (r.ok) { base = (await r.text()).replace(/\r\n?/g, '\n').replace(/\s+$/, ''); fetched = true; } } catch (e) {} }
+  embedded = base;
+  try { draft = localStorage.getItem(KEY + ':draft'); } catch (e) {}
+  if (draft !== null && draft === embedded) clearDraft();
+  if (draft !== null) { let b = null; try { b = localStorage.getItem(KEY + ':draftBase'); } catch (e) {} stale = !!b && b !== h32(embedded); }
+  currentText = draft === null ? embedded : draft;
+  edPrimary.textContent = CAN_PROPOSE ? 'Propose changes…' : 'Download file';
+  if (CAN_PROPOSE) { $('#ghLinks').hidden = false; $('#ghRepo').href = ghUrl(''); $('#ghEdit').href = ghUrl('/edit/main/guide.txt'); repoBranch().then(b => { $('#ghEdit').href = ghUrl(`/edit/${b}/guide.txt`); }); }
+  updateDraftBar(); render();
+}
+window.rs3 = {parse, buildFile, h32, openEditor, openPropose, text: () => currentText, MIGRATE, REPO, HOSTED};
+main.innerHTML = '<p class="nothing">Loading the guide…</p>';
+boot();
+<\/script>
+<script type="text/plain" id="tpl">
+%%TPL%%
+<\/script>
+</body>
+</html>
+</script>
+</body>
+</html>
