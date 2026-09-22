@@ -312,7 +312,7 @@
 - Continue Demon Slayer
 - When you go back up the ladder read the Scroll to the north of you
 - Go south to the Varrock Museum, go down the stairs.
-- Talk to Orlando, Option 1, complete the Natural History Quiz.
+- Talk to Orlando, Option 1, complete the Natural history Quiz.
 - Go back upstairs, head south to bank, bank all
 - Destroy party hat, USE last will and testament in inventory on a Banker. Once Upon A Time in Gielinor
 
@@ -345,22 +345,22 @@
 # Bank 13
 - [Note: add basic abilities to revolution bar as you unlock them]
 - Withdraw: 300 earth runes, 300 air runes,set attack to earth spells
-- Teleport to Falador run north, Accept Quest, What's Yours Is mine 🟡
+- Teleport to Falador run north, Accept Quest, What's Mine Is Yours 🟡
 - Before going into Dwarven Mine, Talk to Lakki The Delivery Dwarf at the stairs
 - Option 1, Option 2, Accept Quest, Perils of Ice Mountain 🟡
 - [Note: do this step for Perils of Ice Mountain before continuing]
 - Search bushes to the west, you will get a crate, Go up to the Dwarven Mine, [Before you climb down ladder to mine] to the West, enter the building and speak to Drorkar, Option 1, Option 2. After conversation, pickpocket Drorkar, you should get a key (Perils of Ice Mountain) ⏸️
-- Continue What's Yours Is mine [Note: Go to Artisan’s Workshop then Falador Castle]
+- Continue What's Mine Is Yours [Note: Go to Artisan’s Workshop then Falador Castle]
 - [Note: When you go to Varrock East Mine pick three cadava berries] [Soul Searching]
-- [Note:Before talking to Squire Cerlyn in Falador Castle, What's Yours Is mine]
+- [Note:Before talking to Squire Cerlyn in Falador Castle, What's Mine Is Yours]
 - Buy 1010 woad leaves from Wyson the Gardener
 - Go north into Falador Castle Courtyard, talk to Squire Asrol
 - Option 1, Option 1, Option 2, Option 1, Accept Quest, The Knight's Sword 🟡
 - Climb stairs to the West, go all the way up to the top, (Falador Easy Task)
 - Take shiny Monocle (Benedict’s World Tour]) [you will get a small xp lamp use on smithing]
 - Climb downstairs ONCE, Talk to Sir Amik Varze, Option 2, Accept Quest, Recruitment Drive 🟡
-- Go back downstairs, Speak to Squire Cerlyn Continue What's Yours Is mine
-- Complete What's Yours Is Mine Quest, Quest Completed ✅
+- Go back downstairs, Speak to Squire Cerlyn Continue What's Mine Is Yours
+- Complete What's Mine Is Yours Quest, Quest Completed ✅
 - Right-click Gofannon amulet, select smithing Option 1
 - 📍 Teleport to Burthorpe, bank all
 - 📍 Teleport to Lumbridge, from Bob's Brilliant Axes, Buy Steel hatchet, two mithril hatchet [one for Animal Magnetism], adamant hatchet, steel pickaxe, mithril pickaxe, adamant pickaxe. Iron hatchet and iron pickaxe as well [Mourning’s End Pt 2]
@@ -678,8 +678,8 @@
 - Continue Diamond In The Rough,
 - [Note: After you solve the first sun dial, speak with Irena, Start The Tourist Trap] 🟡
 - Complete Diamond In The Rough, combat xp lamp into prayer ✅
-- When you get back to the Palace speak to Emir Ali Mirza, to Acceot Quest Jack of Spades
-- Complete Jack of Spades
+- When you get back to the Palace speak to Emir Ali Mirza, to Accept Quest The Jack of Spades
+- Complete The Jack of Spades
 - After Quest is completed, Activate Menaphos Lodestone South.
 - 📍 Teleport to Taverely Lodestone, enter House Portal, right-click house portal and select "exit to another portal go to Pollnivneach
 - Continue Tourist Trap, After you kill the Captain Mercenary cut a Kharidian cactus until you get the task, just keep trying while you continue quest if you keep failing(Desert Easy Task)
@@ -763,7 +763,7 @@
 - 📍 Teleport to Ardougne Lodestone
 - Head into the pub, talk to Bartender (Flying Horse Inn) for the Barcrawl
 - Start Hazeel Cult [Side with Hazeel]
-- Collect 2x Purple Dye when passing [Goblin RFD][Song of the Elves]
+- Collect 2x Purple Dye when passing [Goblin RFD][Plague's End]
 - Complete Hazeel Cult ✅
 - Head to Tree Gnome Village
 - Kill something on the Khazard Battlefield [Ardougne Easy Task]
@@ -902,7 +902,7 @@
 - Withdraw: necro gear, ectoplasm, full inventory of best food
 - Start Quest Murder on the Border, Speak to Aster 🟡
 - Quest Completed Murder on the Border. Destroy potions, destroy prismatic lamp for Herblore @ Lvl 30 we will reclaim ✅
-- Complete Unwelcomed Guest ✅
+- Complete Unwelcome Guests ✅
 * Note when you must kill 10 zombies in wilderness. Aggro one zombie at a time and safe spot. All the zombies can be safe spotted. You should take zero damage here. Use Tree stumps/stones to safe spot. When you repair the walls just eat up and fix everything, do not kill any zombies.
 
 # Bank 52
