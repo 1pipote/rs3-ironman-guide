@@ -1136,6 +1136,7 @@
 - 📍 Teleport Lumbridge, Complete [[Lost City]]
 - Go to South Draynor and pick 8 onions
 - Speak to Aggie, the witch in Draynor Village. ( 1•3•2) [[One Small Favour]]
+- Right-click Aggie, "make dyes" with all the resources in your inventory
 - Go to Olivia and buy 10 onion seeds, 10 cabbage seeds, 10 jute seed, 10 marigold
 - Talk to Martin the Master Gardener in Draynor Village. ( 2•1•✓•1), Accept Quest, [[Fairy Tale I]]
 
