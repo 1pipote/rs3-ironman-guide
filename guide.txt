@@ -1281,7 +1281,7 @@
 
 # Bank 79
 - Equip: adamant armour, adamant sword and off hand sword
-- Withdraw: Excalibur, two Magic whistles, Holy table napkin, Poison chalice, teleport runes, 3 red vine worms, garlic, one limpwurt, red spider eggs, three steel bars
+- Withdraw: Excalibur, two Magic whistles, Holy table napkin, Poison chalice, teleport runes, 3 red vine worms, garlic, one limpwurt, red spider eggs, three steel bars, unfired bowl, wizards mind bomb, silk, crayfish cage
 - Complete Holy Grail, drop Holy table napkin, Magic whistle, Grail bell, Magic gold feather
 - When you go to Karamja: mine gold ore Northwest, you could grab extra for jewelry [Karamja Easy Task]
 - Use the rope swing to travel to the moss giant island north-west of Karamja [Karamja Easy Task]
@@ -1307,7 +1307,7 @@
 - Equip: Desert Robes, Archaeology journal, Traveller's necklace
 - Withdraw: teleport runes, vial (empty), 4 soft clay, papyrus
 - Use Traveller's necklace to Eagles Eyrie
-- Go South, set bird trap South and trap a golden warbler [Desert Easy Task]
+- Go South, set bird trap south and trap a golden warbler [Desert Easy Task]
 - Complete The Golem Quest
 - During quest, Enter the Dominion Tower, spectate a match by clicking on the staircase [Desert Easy Task]
 - During quest, Remove gems from Throne to get an achievement
