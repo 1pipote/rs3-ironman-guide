@@ -1363,7 +1363,7 @@
 - Go to Bank, Deposit all
 
 # Bank 83
-- Withdraw: teleport runes, 10 stews, cat (teleport to house and get cat if in Pet House)
+- Withdraw: 10 stews, cat (teleport to house and get cat if in Pet House)
 - Complete RFD: Freeing Evil Dave
 - [Note: Bring Grimoire 1 to send ashes to bank as well]
 - I would refer to the quick guide on the wiki for this quest
