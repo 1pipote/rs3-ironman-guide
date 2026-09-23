@@ -1088,7 +1088,8 @@
 - Withdraw: magic runes, anti poison, trade Tureal, buy 9 bags of salt and a mirror shield, invitation box, a few food, rock crabs are going to group up on you.
 - Collect 9 logs on the way to Odd Old Man
 - Complete [[Fur 'n Seek]], if you don’t have Relleka Lodestone unlocked use house portal, then unlock Lodestone during quest
-- 📍 Teleport to Burthorpe, deposit all at Bank
+- 📍 Teleport to Burthorpe, deposit all 
+# Bank 67
 - Withdraw: teleport runes, some food, dusty key, anti-dragon shield, games necklace 
 - Teleport to the Seers' Village lodestone 
 - Talk to Thormac on the top floor of the Sorcerer's Tower, south of Seers' Village, north-east of the Ardougne Lodestone. Be sure to get the scorpion cage from him and don't skip any dialogue. (Chat 1•✓) Accept Quest, Scorpion Catcher 
@@ -1101,7 +1102,7 @@
 - You can safespot the ogres 
 - During quest Copernicus Glyph is located just south of Yanille castle, Juna Guthix 
 
-# Bank 67
+# Bank 68
 - Deposit all, withdraw: ring of kingship, train some dungeoneering if you haven’t already
 - Solo Dungeoneering Guide
 - If you need to AFK:
@@ -1111,14 +1112,14 @@
 - Go to fort make kitchen tier 2/Chapel tier 2 with Acadia logs in bank
 - At 50 firemaking complete [[Tears of Guthix]] (get it done by Tuesday, weeklies reset on Wednesdays 00:00 UTC)
 
-# Bank 68
+# Bank 69
 - Make sure you have a harralander and marrentill clean. If not grow some. If you did get any seeds thieving then go to Druids and thieve)
 - Withdraw: air runes(if you need more buy more, i have 79 air runes to start), willow log (chop one in lumbridge), super antipoison, tinderbox, 3 waterskins, bucket of sap, one bag of salt, cat/kitten, plenty of food 8 inventory slots I brought
 - Complete [[Icthlarin’s Little Helper]] [Use house portal to Pollnivneach]
 - 📍 Teleport to Karamja, take Cart to Shilo village
 - Start [[One Small Favour]] Quest Talk to Yanni Salika ( 2•5•✓)
 
-# Bank 69
+# Bank 70
 - Deposit all, Withdraw: fishing bait, eye of newt, greenmans ale, rotten tomato, 1 ashes, fruit blast
 - Note: if you haven’t made a water rune yet, grab one essence and water talisman. Do this when we start [[Lost City]]
 - Talk to one of the jungle foresters south of the village. You will receive their blunt hatchet. ( 4•1)
@@ -1129,7 +1130,7 @@
 - Complete [[Another Cook’s Quest]]
 - Start [[Recipe for Disaster]] Quest
 
-# Bank 70
+# Bank 71
 - Deposit all, withdraw: 2 thread, 1 log, air and fire runes, 6 red berries, 10 woad leaves, essence and water talisman if you are yet to make a water rune
 - Talk to the Warrior northwest of the Lumbridge swamp to start the quest. ( 1•1•1•2•✓), Start [[Lost City]] Quest, make a water rune now if you haven’t
 - Attempt to chop the swamp tree south of the campsite - There will be an option to "chop" tree instead of "chop down" tree, and a quest icon on the tooltip.
@@ -1147,7 +1148,7 @@
 - Go to Olivia and buy 10 onion seeds, 10 cabbage seeds, 10 jute seed, 10 marigold
 - Talk to Martin the Master Gardener in Draynor Village. ( 2•1•✓•1), Accept Quest, [[Fairy Tale I]]
 
-# Bank 71
+# Bank 72
 - Equip: full adamant armour, adamant off hand sword Withdraw: dramen staff, ghost speak, teleport runes
 - Continue [[Fairy Tale I]]
 - Frizzy, on the other side of the wall, just west of Martin. ( 2)
@@ -1182,7 +1183,7 @@
 - Teleport to Burthorpe Lodestone 
 - Trade with Tureal, buy 2 enchanted gems, fishing explosive, 2x facemask and earmuffs 
 
-# Bank 72
+# Bank 73
 - Deposit all 
 - You can continue my guide or stop and train Necro 
 - Here you can follow the RS3 Wiki Efficient Ironman Path Guide. For training early game Necromancy: 
