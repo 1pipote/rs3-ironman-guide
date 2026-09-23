@@ -669,7 +669,8 @@
 - Immediately Accept Quest, Diamond In The Rough 🟡
 - Continue Diamond In The Rough until you need to go to Shantay pass.
 - Complete One Piercing Note, drop quest items after you’re done. Keep Citharede robes
-- Ozan will go back to the palace, we will meet up soon.
+- [Note: After quest Perform the troubadour dance emote near the dancers outside the Citharede Abbey] [Desert Easy Task]
+- [Note: Ozan will go back to the palace, we will meet up soon]
 - 📍 Teleport to Al-Kharid Lodestone, Talk to Ozan so he follows you head to Shantay Pass
 
 # Bank 31
