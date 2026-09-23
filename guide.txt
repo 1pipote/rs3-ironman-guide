@@ -1329,7 +1329,13 @@
 - Go north to Fire Altar, make a fire rune [Desert Easy Task]
 - Go Northeast towards Mage Training Arena, check your water filration if you need to
 - Bank deposit all, withdraw nature, law, cosmic, earth, water, and air runes
-- Go to Mage Training Arena, do the rooms once each, buy a mud rune [The Eyes of Glouphrie]
+- Go to Mage Training Arena, do telekinetic room or enchantment room, buy a mud rune [The Eyes of Glouphrie]
+- [Note: 2 telekinetic points for law rune or 5 enchantment points for cosmic rune]
+- [Note: Telekinetic room you can step back outside to reset the room until you find an easier room]
+- If you haven't used a carpet ride yet, teleport to house, go to Pollnivneach and ride the carpet.
+- Congratulations you have completed the Easy Desert Achievements!
+- Claim your reward from Grand Vizier Hassan in Menaphos (you can wait, 2,000xp reward lamp can only be used on any skill 29 or higher)
+- [Note: A bag of lost items can be claimed once per day from any rug merchant. You could get your magic logs this way if lucky for Desert Treasure]
 - Go to Lumbridge, deposit all
 
 # Bank 81
