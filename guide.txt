@@ -1312,7 +1312,7 @@
 
 # Bank 80
 - Equip: Desert Robes, Archaeology journal, Traveller's necklace
-- Withdraw: teleport runes, vial (empty), 4 soft clay, papyrus
+- Withdraw: teleport runes, vial (empty), 4 soft clay, papyrus, fire talisman, one pure essence
 - Use Traveller's necklace to Eagles Eyrie
 - Go South, set bird trap south and trap a golden warbler [Desert Easy Task]
 - Complete The Golem Quest (drop letter, phoenix quill pen, varmen's notes)
