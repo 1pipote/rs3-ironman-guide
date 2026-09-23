@@ -1322,3 +1322,20 @@
 - KEEP Black mushroom ink [Shadow of the Storm, Land of the Goblins,  Some Like It Cold]
 - KEEP strange implement [Shadow of the Storm]
 - drop letter, phoenix quill pen, varmen's notes, display cabinet key
+- Go to Lumbridge, deposit all
+
+# Bank 81
+- make 150 steel nails, 18 willow planks, 6 maple planks (get wood if needed, go to fort/Rimmington if planks needed)
+- Equip: adamant sword and off hand sword, no necklace
+- Withdraw: law, water, and air runes, 6 seaweed (obtainable during quest), ball of wool, 3 rope, 12 willow planks, 150 steel nails
+- Teleport to Wendlewick Lodestone
+- Read the Noticeboard outside the Burnt Lobster Tavern fencing to Accept Quest, [Hermit Permits]
+- Go South, Repair Dilapidated Canoe Station
+- Continue Hermit Permit
+- [Note: When you go to South Central Beach to speak with crabs, repair the dilapidated canoe station]
+- BEFORE going back to South Central Beach to complete Hermit Permits, grab 6 willow planks, make sure you still have the steel nails
+- Use canoe transportation when you have to go back down to South Central Beach (Wendlewick Grotto)
+- Complete Hermit Permit rub lamps (should be 40 crafting or close to it)
+- Go north after the quest towards Amberfell, we are going to build one more canoe stations
+- Before crossing the first bridge, repair the dilapidated canoe station
+- Continue to Amberfell
