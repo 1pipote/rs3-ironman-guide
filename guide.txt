@@ -1283,7 +1283,7 @@
 # Bank 79
 - Equip: adamant armour, adamant sword and off hand sword
 - Withdraw: Excalibur, two Magic whistles, Holy table napkin, Poison chalice, teleport runes, 3 red vine worms, garlic, one limpwurt, red spider eggs, three steel bars, unfired bowl, wizards mind bomb, silk, crayfish cage
-- [Note: If you have no silk go to Al-Kharid and buy some from silk trader]
+- [Note: If you have no silk go to Varrock and buy some from Thessalia]
 - Complete Holy Grail, drop Holy table napkin, Magic whistle, Grail bell, Magic gold feather
 - When you go to Karamja: mine gold ore Northwest, you could grab extra for jewelry [Karamja Easy Task]
 - Use the rope swing to travel to the moss giant island north-west of Karamja [Karamja Easy Task]
