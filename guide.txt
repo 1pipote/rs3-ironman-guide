@@ -1356,4 +1356,5 @@
 - Withdraw: excalibur, Teleport runes, silver bar, vial(empty), strange implement, traveller's necklace, some food, 6 free inventory slots
 - Use Traveller's necklace and teleport to Eagle's Eyrie
 - Complete Shadow of the Storm, use combat xp lamp on Ranged
-- [Note: Protect from Magic when fighting the Demon, ultimate strength prayer is good too, fight should be a cake walk]
+- [Note: Protect from Magic when fighting the Demon, ultimate strength prayer is good too, activate excalibur for +8 defence, fight should be a cake walk]
+- After Shadow of the Storm is completed, drop demonic tome, demonic sigil, demonic sigil mould, and the strange implement
