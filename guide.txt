@@ -1375,8 +1375,9 @@
 - Go to bank, Deposit all
 
 # Bank 84
-- Equip: full green dhide armour besides boots, avas attractor, explorers ring 2, maple shortbow
+- Equip: full green dhide armour besides boots, maple shortbow, couple food (I survived with no food)
 - Withdraw: light source, 20 limpwurts
 - Complete Temple of Ikov, on the way to talk to Lucien in Ardougne, Cross the River Dougne using the log balance shortcut [Ardougne Medium Task]
+- WARNING, before crossing the bridge unequip green dhide armour and drop at the front door. Make sure weight is 0 or below. You should only wear lucien pendant, maple shortbow, and boots of lightness
 - Now is a good time to train slayer with The Raptor to lvl 35, we will stop slayer to complete [Smoking Kills]
 - AFK slayer is a good option as well
