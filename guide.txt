@@ -999,13 +999,7 @@
 # Bank 60
 - Withdraw: Air runes, water runes, earth runes, nature runes, law runes, fire runes, wicked hood, super compost, herb seed, optional birdhouse run (seeds and two oak logs)
 - Complete [[Wiz Kid]] (you can now 📍 teleport directly to the marigold farm)
-- 📍 Teleport to Varrrock and buy full batwing armour and weapons
-- Go to bank, Withdraw: teleport runes, some food, dusty key, anti dragon shield
-- Go to Taverely dungeon, kill two baby dragons, collect bones, ([[Fairy Tale I]]/[[Mourning's End Pt 2]]) kill two blue dragon, take hide and dragon bones ([[Watchtower]]/[[Fairy Tale I]]) pick up some blue dragon scales as well.
-- Complete [[Watchtower]], grind bat bones, if you don't have a guam, go to Taverely and take the free one at Jatix's shop.
-- Grab jangerberries spawn on small island when you speak with Grew during quest
-- You can safespot the ogres
-- During quest Copernicus Glyph is located just south of Yanille castle, Juna Guthix
+- Teleport to Bank
 
 # Bank 61
 - Withdraw: Bar Crawl car, 3 planks, bronze bar, molten glass
