@@ -1362,6 +1362,6 @@
 - Go to Forester's Arm, trade with bartender, buy 10 stews minimum
 - Go to Bank, Deposit all
 
-# Bank 83
-- Withdraw: teleport runes, 10 stews, cat (teleport to house and get cat if in Pet House)
+# 83 Bank
+- Withdraw: 10 stews, cat (teleport to house and get cat if in Pet House)
 - Complete RFD: Freeing Evil Dave
