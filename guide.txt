@@ -1322,6 +1322,14 @@
 - KEEP Black mushroom ink [Shadow of the Storm, Land of the Goblins,  Some Like It Cold]
 - KEEP strange implement [Shadow of the Storm]
 - drop letter, phoenix quill pen, varmen's notes, display cabinet key
+- Teleport to Al-kharid Lodestone
+- Go into the palace, Talk to Khoochak the bird in the throne room about a quest [Desert Easy Task]
+- Eagle dive into hay cart [Desert Easy Task]
+- [Note: Fastest route after quest, go up to the palace roof from the northwest staircase, drop off the west side, and then shimmy-across the rope to get to the roof of the bank]
+- Go north to Fire Altar, make a fire rune [Desert Easy Task]
+- Go Northeast towards Mage Training Arena, check your water filration if you need to
+- Bank deposit all, withdraw nature, law, cosmic, earth, water, and air runes
+- Go to Mage Training Arena, do the rooms once each, buy a mud rune [The Eyes of Glouphrie]
 - Go to Lumbridge, deposit all
 
 # Bank 81
