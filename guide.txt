@@ -1345,6 +1345,8 @@
 - BEFORE going back to South Central Beach to complete Hermit Permits, grab 6 willow planks, make sure you still have the steel nails
 - Use canoe transportation when you have to go back down to South Central Beach (Wendlewick Grotto)
 - Complete Hermit Permit rub lamps (should be 40 crafting or close to it)
-- Go north after the quest towards Amberfell, we are going to build one more canoe stations
+- Go north after the quest towards Amberfell, we are going to repair one more canoe station
 - Before crossing the first bridge, repair the dilapidated canoe station
-- Continue to Amberfell
+
+# Bank 82
+- Now is a good time to train slayer with The Raptor to lvl 35, we will stop slayer to complete [Smoking Kills]
