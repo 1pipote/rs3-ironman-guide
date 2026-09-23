@@ -1307,7 +1307,7 @@
 - Equip: Desert Robes, Archaeology journal, Traveller's necklace
 - Withdraw: teleport runes, vial (empty), 4 soft clay, papyrus
 - Use Traveller's necklace to Eagles Eyrie
-- Go South, set bird south and trap a golden warbler [Desert Easy Task]
+- Go South, set bird trap South and trap a golden warbler [Desert Easy Task]
 - Complete The Golem Quest
 - During quest, Enter the Dominion Tower, spectate a match by clicking on the staircase [Desert Easy Task]
 - During quest, Remove gems from Throne to get an achievement
