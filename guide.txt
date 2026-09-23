@@ -1354,5 +1354,4 @@
 - AFK slayer is a good option as well
 - Equip: full black armour, adamant boots and gloves,  silverlight and adamant off hand sword, grimiore 1, explorers ring 2
 - Withdraw: excalibur, Teleport runes, silver bar, vial(empty), strange implement, traveller's necklace, some food, 6 free inventory slots
-- Use Traveller's necklace and teleport to Eagle's Eyrie
 - Complete Shadow of the Storm
