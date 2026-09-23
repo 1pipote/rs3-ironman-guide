@@ -1297,10 +1297,14 @@
 - Talk to Apothecary again, (💬 2•1) [Varrock Medium Task]
 - Go to Barbarian Village
 - Go to Barbarian Village (also called Gunnarsgrunn) and talk to Tassie Slipcast, located within the pottery building in the south-east. (💬 1) [One Small Favour]
+- Continue Dragon Slayer, Talk to the Oracle on Ice Mountain. (💬1)
 - Continue Dwarf Cannon
 - In the outpost, talk to Nulodion. He is standing right next to the Dwarf multicannon, outside of the entrance to the Dwarven Mine north of Falador
 - If you drop the ammo mould he gives you and speak to him again he will give you another. The second ammo mould can be added to your tool belt after the quest (with 35 Smithing) to save having to revisit him
-- Enter the Dwarven Mine and find Hammerspike Stoutbeard on the far west side ("Hammerspike's hangout" on the map). Ask him about Tassie Slipcast. (💬 4•2) [One Small Favour]
+- Enter the Dwarven Mine  
+- Find the room with a sealed door in the north-eastern area of the mine and use all the items on the "Magic door". (Unfired bowl, wizard's mind bomb, lobster pot or a crayfish cage, and silk) [Dragon Slayer]
+- Open the chest in the room and search for the second map part after opening. You need to click again to search after the dialogue, it does not automatically loot or search. [Dragon Slayer]
+- Find Hammerspike Stoutbeard on the far west side ("Hammerspike's hangout" on the map). Ask him about Tassie Slipcast. (💬 4•2) [One Small Favour]
 - Congratulations! 150 Quest Points completed, you can claim your reward anytime.
 - Go to bank deposit all, unequip all
 
