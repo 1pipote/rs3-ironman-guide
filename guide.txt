@@ -1309,6 +1309,10 @@
 - Withdraw: teleport runes, vial (empty), 4 soft clay, papyrus
 - Use Traveller's necklace to Eagles Eyrie
 - Go South, set bird trap south and trap a golden warbler [Desert Easy Task]
-- Complete The Golem Quest
+- Complete The Golem Quest (drop letter, phoenix quill pen, varmen's notes)
 - During quest, Enter the Dominion Tower, spectate a match by clicking on the staircase [Desert Easy Task]
-- During quest, Remove gems from Throne to get an achievement
+- During quest, Remove gems from Throne to get an achievement [Looting the Demon Throne Achievement]
+- After The Golem is complete 
+- KEEP Black mushroom ink [Shadow of the Storm, Land of the Goblins,  Some Like It Cold]
+- KEEP strange implement [Shadow of the Storm]
+- drop letter, phoenix quill pen, varmen's notes, display cabinet key
