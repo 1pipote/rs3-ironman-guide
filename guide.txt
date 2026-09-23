@@ -123,6 +123,7 @@
 - Go Northeast and use spinning wheel, make balls of wool
 - Go North, Bank ALL,, go north buy 1 bag of salt of Tureal
 - Go East, Activate Burthorpe Lodestone
+- Go East, trade with Apprentice Clara at Carwens Magical Runes Shop, take 1 free mind talisman, keep this
 - Continue directly East, Beside the Red Wicked Stall, speak with Tam McGrubor, (💬 1)
 - Go North, Speak to Commander Denulth, (💬 1), Accept Quest, Death Plateau 🟡
 - Complete Death Plateau ✅
