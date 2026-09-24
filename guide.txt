@@ -1378,6 +1378,6 @@
 - Equip: full green dhide armour besides boots, maple shortbow, couple food (I survived with no food)
 - Withdraw: light source, 20 limpwurts
 - Complete Temple of Ikov, on the way to talk to Lucien in Ardougne, Cross the River Dougne using the log balance shortcut [Ardougne Medium Task]
-- WARNING, before crossing the bridge unequip green dhide armour and drop at the front door. Make sure weight is 0 or below. You should only wear lucien pendant, maple shortbow, and boots of lightness
+- WARNING, during [Temple of Ikov], before crossing the bridge unequip green dhide armour and drop at the front gate. Make sure weight is 0 or below. You should only be wearingn lucien pendant, maple shortbow, and boots of lightness when you walk over the bridge. Pick the items back up after you grab the lever piece. 
 - Now is a good time to train slayer with The Raptor to lvl 35, we will stop slayer to complete [Smoking Kills]
 - AFK slayer is a good option as well
