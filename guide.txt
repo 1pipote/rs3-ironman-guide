@@ -1222,7 +1222,7 @@
 - Enter house click "build mode", search "oak pet house" click it and add it to the ground anywhere, use your cat and pig on the pet house.
 - Teleport to Varrock Lodestone
 - Grab another kitten from Gertrude, we will raise this one to trade in to west ardougne for task
-- Continue Imp Catcher, talk to Sanguine Imp.
+- Continue Imp Catcher, talk to Sanguine Imp. Pick up the Sanguine bead.
 - Go Northwest to Barb Village and lure a fishing spot, catch a trout [Varrock Easy Task]
 - Mine an inventory of coal
 - Teleport to Runecrafting Guild, descend beam 2x
@@ -1378,6 +1378,6 @@
 - Equip: full green dhide armour besides boots, maple shortbow, couple food (I survived with no food)
 - Withdraw: light source, 20 limpwurts
 - Complete Temple of Ikov, on the way to talk to Lucien in Ardougne, Cross the River Dougne using the log balance shortcut [Ardougne Medium Task]
-- WARNING, during [Temple of Ikov], before crossing the bridge unequip green dhide armour and drop at the front gate. Make sure weight is 0 or below. You should only be wearingn lucien pendant, maple shortbow, and boots of lightness when you walk over the bridge. Pick the items back up after you grab the lever piece. 
+- WARNING, before crossing the bridge unequip green dhide armour and drop at the front door. Make sure weight is 0 or below. You should only wear lucien pendant, maple shortbow, and boots of lightness
 - Now is a good time to train slayer with The Raptor to lvl 35, we will stop slayer to complete [Smoking Kills]
 - AFK slayer is a good option as well
