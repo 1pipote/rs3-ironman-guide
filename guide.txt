@@ -13,11 +13,11 @@
 # First steps
 - Speak with Doomsayer about Warning System, complete dialogue [Lumbridge Beginner Task]
 - Talk To The Lumbridge Sage Directly Southeast [Lumbridge Beginner Task]
-- Go to Lumbridge Church Southeast. Talk to Father Aereck to start, (💬 1) Accept Quest, The Restless Ghost 🟡
+- Go to Lumbridge Church Southeast. Talk to Father Aereck to start, (💬 1) Accept Quest, The Restless Ghost 
 - North, play the organ [Lumbridge Beginner Task]
 - Climb to the top floor and ring the bell. [Lumbridge Beginner Task]
-- Go back down, Head South to Graveyard and speak to Xenia, (💬 1•1) to Accept Quest, The Blood Pact 🟡
-- Complete The Blood Pact open lamps, equip staff train magic, add abilities as you unlock ✅
+- Go back down, Head South to Graveyard and speak to Xenia, (💬 1•1) to Accept Quest, The Blood Pact 
+- Complete The Blood Pact open lamps, equip staff train magic, add abilities as you unlock 
 - Chop down the swamp tree south of you [Lumbridge Easy Task]
 - Kill a giant rat in the Swamp, Pick up ALL items [Lumbridge Easy Task]
 - Light a campfire using standard logs [Lumbridge Easy Task]
@@ -29,12 +29,12 @@
 - Equip Ghostspeak Amulet, Pick up leather gloves on the table and equip. [leather gloves Mourning's End Pt 2 item]
 - Head North, walk into small building aka shed, [Lumbridge Easy Task]
 - Head West to the Wizards' Tower, across the bridge
-- Talk to Ariane, (💬 1•2), Accept the quest Rune Mysteries 🟡
-- Complete Rune Mysteries, equip First Tower Hat, destroy books ✅
+- Talk to Ariane, (💬 1•2), Accept the quest Rune Mysteries 
+- Complete Rune Mysteries, equip First Tower Hat, destroy books 
 - Before/After quest Taunt Lesser Demon on 2nd Floor [Lumbridge Easy Task]
 - Climb to the top of the Wizards' Tower [Lumbridge Beginner Task]
 - When atop the Wizards' Tower, Enter low-level runespan, collect some floating essence, and siphon air essling. Get minimum 5 Runecrafting for Enter The Abyss.
-- Floor 2 Speak with Wizard Mizgog to the Southeast, (💬 1), Accept Quest Imp Catcher (message from Mizgog should go into inventory) 🟡
+- Floor 2 Speak with Wizard Mizgog to the Southeast, (💬 1), Accept Quest Imp Catcher (message from Mizgog should go into inventory) 
 - Run to Draynor Bank, Pick up 6 onions on the way, open bank [Lumbridge Easy Task]
 
 # Bank 1
@@ -43,21 +43,21 @@
 - Go through Dialogue, at the end, (💬 4•1) [Lumbridge Easy Task]
 - Climb up the stairs, Observe the Telescope at the window, [Lumbridge Easy Task]
 - Climb down the stairs, Speak to the Town Crier in Draynor Village, (💬 2•2) [Lumbridge Beginner Task]
-- Head Northeast, Speak to Morgan (could be inside house or outside), (💬 2), Accept quest Vampyre Slayer 🟡
+- Head Northeast, Speak to Morgan (could be inside house or outside), (💬 2), Accept quest Vampyre Slayer 
 - Climb up the stairs, search the Drawers on the North side of the bed, search it 4x garlic
 - Go North, Talk to Ozan, Accept Quest, Stolen Hearts
 - Continue quest until you need to go to Al Kharid (pick up the three bones after you kill enemies)
 - Write down passphrase from Leela so you don't forget. 📖
 - Run North, Activate Draynor Village Lodestone
-- Run North, Talk to Veronica, Accept Quest, Ernest The Chicken 🟡
-- Complete Ernest The Chicken (Lumbridge Beginner Task) ✅
-- 📍 Teleport to Draynor Village Lodestone
-- Go West talk to Maggie (💬 1•1), Accept Quest, Swept Away, (💬 1) (sweep broom should go into inventory) 🟡
+- Run North, Talk to Veronica, Accept Quest, Ernest The Chicken 
+- Complete Ernest The Chicken (Lumbridge Beginner Task) 
+-  Teleport to Draynor Village Lodestone
+- Go West talk to Maggie (💬 1•1), Accept Quest, Swept Away, (💬 1) (sweep broom should go into inventory) 
 - Go Southwest, Kill Highwayman on road, pick up bones, (Falador Easy Task)
-- Go to the Rusty Anchor Tavern, talk to Bartender, (💬 1), Accept Quest, Visions of Havenhythe. Drink Dragonfire mead 🟡
-- Complete Visions of Havenhythe 🟡
+- Go to the Rusty Anchor Tavern, talk to Bartender, (💬 1), Accept Quest, Visions of Havenhythe. Drink Dragonfire mead 
+- Complete Visions of Havenhythe 
 - steps to complete in the middle of quest:
-- When you leave Tavern speak to Redbeard Frank, (💬 1), Accept Quest, Pirate's Treasure 🟡
+- When you leave Tavern speak to Redbeard Frank, (💬 1), Accept Quest, Pirate's Treasure 
 - Before boarding the ship with Captain Lorris, buy eye of newt, and Full Wizards Robe outfit,from Betty's Magic Emporium, equip wizards robes,then Activate Port Sarim Lodestone to the South
 - Go North into Gerrant's Fishy Business, buy 10 raw sardine
 - Speak to Captain Lorris to sail to Wendlewick
@@ -66,18 +66,18 @@
 - At Wendlewick get these items:
 - When you kill 10 crabs collect 6 seaweed (members)
 - Buy a piece of cheese and 10 buckets of milk, 10 onions, at The Village Grocery, bank
-- After quest Visions of Havenhythe is completed teleport back to Port Sarim Lodestone ✅
-- Head west Talk to Peter at the well in the center of Rimmington, (💬 1•1), Accept quest, Once Upon A Slime 🟡
+- After quest Visions of Havenhythe is completed teleport back to Port Sarim Lodestone 
+- Head west Talk to Peter at the well in the center of Rimmington, (💬 1•1), Accept quest, Once Upon A Slime 
 - Continue Quest until you need to go to Varrock and speak to Thessalia
-- Go West, enter building, speak to Lucille, (💬 1•1), Accept Quest, Song From The Depths 🟡
-- Complete Song From The Depths ✅
+- Go West, enter building, speak to Lucille, (💬 1•1), Accept Quest, Song From The Depths 
+- Complete Song From The Depths 
 - Head North to Shopkeeper, buy 30 buckets, ten pots, two tinderbox, 1 bowl,
 
 # Bank 2
 - Withdraw: cooked meat, eye of newt, onion, broomstick
-- Talk to Alfred Stonemason, Complete There's No Place Like Home, rub lamp ✅
-- Head back South, USE the cooked meat on the range, speak to Hetty South, (💬 1•3), Accept Quest, Witch's Potion 🟡
-- Kill a rat south, pick up rat tail, Talk to Hetty, (💬 1), Drink from the cauldron. Witch's Potion Quest Completed ✅
+- Talk to Alfred Stonemason, Complete There's No Place Like Home, rub lamp 
+- Head back South, USE the cooked meat on the range, speak to Hetty South, (💬 1•3), Accept Quest, Witch's Potion 
+- Kill a rat south, pick up rat tail, Talk to Hetty, (💬 1), Drink from the cauldron. Witch's Potion Quest Completed 
 - Talk to Hetty again
 - Enter trap door south outside of building, Talk to Gus, (💬 1)
 - Complete Puzzle, grab a newt, go back upstairs, Talk to Hetty, (💬 1), obtain Broom Ointment, use the ointment to the broomstick.
@@ -99,7 +99,7 @@
 - Go East, Talk to Aggie, (💬 2•1), solve puzzle
 - Go North Talk to Maggie, (💬 1•1), use Broomstick on Maggie's Cauldron
 - Talk to Maggie again, (💬 1)
-- Complete Swept Away ✅
+- Complete Swept Away 
 - Do not drink from the cauldron yet. We want more XP.
 - Go west, Rake all the patches Northwest
 - Plant 2 potatoes with compost, 1 marigold (center patch) with compost, keep one compost bucket
@@ -114,17 +114,17 @@
 - Crawl down plant roots Falador Easy Task)
 - Go Northwest outside Falador Gate, Activate Lodestone
 - Go Northwest thru Gate to enter Taverley
-- Speak to Pikkupstix, (💬 2), Accept Quest, Wolf Whistle 🟡
+- Speak to Pikkupstix, (💬 2), Accept Quest, Wolf Whistle 
 - Go North, talk to Copernicus Glyph, beside tall rock, select Juna (Guthix), after complete pray at altar
-- Go North, Talk to Kaqemeex at Altar, (💬 1•1•1), Accept Quest, Druidic Ritual 🟡
+- Go North, Talk to Kaqemeex at Altar, (💬 1•1•1), Accept Quest, Druidic Ritual 
 - Go West, Shear sheep until full inventory
 - Go Northeast and use spinning wheel, make balls of wool
 - Go North, Bank ALL,, go north buy 1 bag of salt of Tureal
 - Go East, Activate Burthorpe Lodestone
 - Go East, trade with Apprentice Clara at Carwens Magical Runes Shop, take 1 free mind talisman, keep this
 - Continue directly East, Beside the Red Wicked Stall, speak with Tam McGrubor, (💬 1)
-- Go North, Speak to Commander Denulth, (💬 1), Accept Quest, Death Plateau 🟡
-- Complete Death Plateau ✅
+- Go North, Speak to Commander Denulth, (💬 1), Accept Quest, Death Plateau 
+- Complete Death Plateau 
 - [Note: pick up bones after killing The Map]
 - [if hardcore ironman make sure to eat rabbit sandwiches Sabbot gave you, attack then run away to take less damage]
 - Put three lamps into Agility
@@ -151,10 +151,10 @@
 - Rake potato patch, lay compost, plant potato seed
 - Rake Tree Patch, drop weeds
 - Head South, Activate Taverley Lodestone
-- Talk to Nails Newton, Accept Quest, Let Them Eat Pie 🟡
+- Talk to Nails Newton, Accept Quest, Let Them Eat Pie 
 - Go east, trade with Mess Sergeant Ramsey's Cooking Supply Shop, take free pot, buy cake tin, 5 flour, two cups of tea,
 - Go South, Talk to Scalectrix, (💬 1) Wolf Whistle
-- Complete Let Them Eat Pie ✅
+- Complete Let Them Eat Pie 
 - Go south and bank
 
 # Bank 6
@@ -175,8 +175,8 @@
 - Go Northwest into White Wolf Mountain, continue North up the trail.
 - Click Stikklebrix body, take the Ancient Wolfbone Amulet Wolf Whistle
 - 📍 Teleport to Taverley Lodestone
-- Go Southeast across the bridge and talk to Sanfew again to complete Druidic Ritual ✅
-- Go South, Talk to Pikkipstix, (💬 2), Complete Wolf Whistle, rub lamp ✅
+- Go Southeast across the bridge and talk to Sanfew again to complete Druidic Ritual 
+- Go South, Talk to Pikkipstix, (💬 2), Complete Wolf Whistle, rub lamp 
 - Go North buy 1 compost, buy harvest potato patch, trade take 3 free potato seeds, buy 10 potato seeds. Plant new potato's, use potato on tool leprechaun
 - Rake Tree Patch
 
@@ -210,18 +210,18 @@
 - Go South end mining location in Lumbridge Swamp, mine three iron ore (Lumbridge Easy Task)
 - Go to the water altar, Talk to Phlegmatic Imp, (💬 3), Talk to Imp again, (💬 1), pick up Phlegmatic Bead (Imp Catcher)
 - Pick up some swamp tar when running through Lumbridge Swamp
-- PAUSE Duck Quest, after grabbing nest debris in cemetery ⏸️
+- PAUSE Duck Quest, after grabbing nest debris in cemetery 
 - When you get to Lumbridge Cemetery, open coffin, (💬 1) (Restless Ghost)
 - Go south search rocks for skull (beside mining location east) do not attack skeleton run away
 - Head East across dock, walk into Al Kharid (Lumbridge Beginner Task)
 - Continue into Al Kharid activate Lodestone, Teleport back to Lumbridge Lodestone
-- Go back to coffin, open coffin, use skull on coffin, cutscene, Restless Ghost Quest Completed ✅
+- Go back to coffin, open coffin, use skull on coffin, cutscene, Restless Ghost Quest Completed 
 - Rub prayer XP lamp, bury ancient bones.
 - Go north to Father Aereck in Church, use clay ring on him. (Lumbridge Easy Task)
 - [Note: Ring of Devotion works as a Saradomin item in God Wars]
 - Right click Father Aereck, view gravestone, (💬 1) (Lumbridge Beginner Task)
-- Enter Lumbridge Castle, Talk to Cook, (💬 1), Accept Quest, Cook's Assistant 🟡
-- Hand-in items, Complete Quest Cook's Assistant, 5 cooking ✅
+- Enter Lumbridge Castle, Talk to Cook, (💬 1), Accept Quest, Cook's Assistant 
+- Hand-in items, Complete Quest Cook's Assistant, 5 cooking 
 - Climb up staircase, once
 - Speak to Duke Horacio (Lumbridge Beginner Task)
 - Climb up staircase, pick up 4 logs, climb up ladder (Lumbridge Beginner Task)
@@ -237,8 +237,8 @@
 - Go East, pickpocket women to lvl 5 thieving
 - Continue collecting nest debris
 - Enter Fred the Farmer's house (Lumbridge Beginner Task)
-- Talk to Fred the Farmer, (💬 1), Accept Quest, Sheep Shearer, (💬 1•1) 🟡
-- Talk to Fred the Farmer again, (💬 1), Sheep Shearer Quest Completed ✅
+- Talk to Fred the Farmer, (💬 1), Accept Quest, Sheep Shearer, (💬 1•1) 
+- Talk to Fred the Farmer again, (💬 1), Sheep Shearer Quest Completed 
 - All Lumbridge Beginner Task Completed use XP lamp on farming 🏅
 - Go South, Talk to Explorer Jack
 
@@ -251,13 +251,13 @@
 - Run East, Activate Varrock Lodestone
 - If you see the stray dog on the Southwest corner of Varrock give it bones, if not we will do this later (Varrock Easy Task)
 - Talk to Breakstix to the West, (💬 2•2)
-- Complete Duck Quest, Quest Completed, rub Herblore XP Lamp ✅
+- Complete Duck Quest, Quest Completed, rub Herblore XP Lamp 
 - Run North,grab Doogle leaves, Speak to Gertrude, Accept Quest, Gertrude's Cat
 
 # Bank 12
 - Deposit all
 - Withdraw: soft clay, bones, look for stray dog if its around. If not we will be back later
-- Run west to Barbarian Village, when you cross the bridge, Speak to Dororan, (💬 Any•1•Any•2•1), Accept Quest, Gunnar's Ground [Love poem should go into inventory] 🟡
+- Run west to Barbarian Village, when you cross the bridge, Speak to Dororan, (💬 Any•1•Any•2•1), Accept Quest, Gunnar's Ground [Love poem should go into inventory] 
 - Go west, make a bowl at potters wheel, fire it in oven (Varrock Easy Task)
 - Go West, Enter Security Stronghold, Complete all 4 floors
 - Enter 2nd Floor of Stronghold (Varrock Easy Task)
@@ -269,9 +269,9 @@
 - [Optional: complete Player Safety for extra GP]
 - Go North to Edgeville, Activate Lodestone
 - Head East, Talk to Jeffery, (💬 1•1•1•1•1) Gunnar's Ground
-- Go into building West of Moldark, Emissary of Zamorak, Quest Icon is in the building. Go upstairs, Talk to Caelyn Kadaan, (💬 2•1•1), Accept Quest, Heartstealer (💬 1•3) ⏸️
+- Go into building West of Moldark, Emissary of Zamorak, Quest Icon is in the building. Go upstairs, Talk to Caelyn Kadaan, (💬 2•1•1), Accept Quest, Heartstealer (💬 1•3) 
 - Go North, into Wilderness (Wilderness Easy Task)
-- Talk to Mage, Accept Quest, Enter The Abyss 🟡
+- Talk to Mage, Accept Quest, Enter The Abyss 
 - 📍 Teleport to Edgeville Lodestone, Run south back to Gunnar
 - Continue Gunnar's Ground
 - Speak to Dororan, (💬 1•2), Click the "engrave" option on ring
@@ -287,10 +287,10 @@
 - 📍 Teleport to Varrock Lodestone, claim rewards from May, 25 QP Achieved!
 - Roll dice, 250k GP add to coin pouch, random clue item
 - Current stats and QP
-- Go North into Varrock, Talk to Benedict, Accept Quest, Benedict's World Tour 🟡
+- Go North into Varrock, Talk to Benedict, Accept Quest, Benedict's World Tour 
 - Give bone to stray dog when you see it (Varrock Easy Task)
 - Continue Vampyre Slayer, Enter Blue Moon's Inn, Talk to Bartender, (💬 1), Talk to Dr. Harlow (💬 2), Talk to him again. Stake and stake hammer should be in your inventory now.
-- North, Talk to Relomia, Accept Quest, Once Upon a Time in Gielinor: Foreshadowing 🟡
+- North, Talk to Relomia, Accept Quest, Once Upon a Time in Gielinor: Foreshadowing 
 - After Death's Hourglass, and speaking to Elvarg Teleport back to Varrock [Last Will and Testament in inventory]
 - Go North down the path, Talk to Thessalia, (💬 1), after Dialogue you should receive Giant Top Hat (Once Upon A Slime)
 - Talk to Thessalia again, (💬 2), you should have Masquerade masks <3 in your inventory (Heartstealer)
@@ -299,15 +299,15 @@
 - Talk to Benny North by the water feature. (💬 1•1) (Varrock Easy Task) drop newspaper
 - Talk to Shilop or Willough, (💬 2•2)
 - Go North into the Castle, Click on the blue quest icon at King Roald's door, (💬 1)
-- Open Door, Talk to King Roald, Accept Quest, New Foundations, (💬 2) 🟡
-- Talk to King Roald again, Accept Quest, Priest In Peril) 🟡
-- Go west out the door, then North Talk to Reldo in Library, (💬 1), Accept Quest, Shield of Arrav 🟡
+- Open Door, Talk to King Roald, Accept Quest, New Foundations, (💬 2) 
+- Talk to King Roald again, Accept Quest, Priest In Peril) 
+- Go west out the door, then North Talk to Reldo in Library, (💬 1), Accept Quest, Shield of Arrav 
 - On the EAST bookshelf, click the shelf with the pink outlined book rd shelf starting from the southside), read the book. Talk to Reldo, (💬 1)
 - Go up the staircase at the Northwest corner, beside you.
 - Climb to the top, (Varrock Easy Task)
 - Click fox pelt, cutscene [Benedict's World Tour]
 - Go downstairs, head south out of castle, go east to Estate Agent, talk to him, (💬 3•2) Taverley, (Varrock Easy Task)
-- Go East to church, talk to Gideon Bede, Accept Quest, Demon Slayer 🟡
+- Go East to church, talk to Gideon Bede, Accept Quest, Demon Slayer 
 - Continue Demon Slayer
 - When you go back up the ladder read the Scroll to the north of you
 - Go south to the Varrock Museum, go down the stairs.
