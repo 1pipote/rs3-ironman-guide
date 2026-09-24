@@ -88,7 +88,7 @@
 - Bank all, chops trees until 10 woodcutting, make wooden box
 - Deposit ALL
 - Withdraw: broomstick, go Northeast mine 2 copper 2 tin
-- Go Northeast rake the bush patch (members only)
+- Go Northwest rake the bush patch (members only)
 - Head West to the Peninsula to grab Snape Grass (members only)
 - Head East, attack an Air Wizard with an Air Spell (Falador Easy Task)
 - Continuing Swept Away,Talk to Betty in Magic Shop (💬 1)
@@ -147,19 +147,21 @@
 - Sell bow strings to Jack Oval directly north of spinning wheel, for extra GP
 - Take free items, 10 thread, bucket, pot, 10 fishing bait, buy 1 rope
 - Go north to Burthorpe bank deposit all
-- Withdraw three potato seed, head south, trade with Head Farmer Jones, take three free potato seeds 1 free raw potato, buy one compost and buy 10 potato seeds
+- Head south, trade with Head Farmer Jones, take three free potato seeds 1 free raw potato, buy one compost and buy 10 potato seeds
 - Rake potato patch, lay compost, plant potato seed
 - Rake Tree Patch, drop weeds
+- Catch 1 crayfish at the pond east of the tree patch
 - Head South, Activate Taverley Lodestone
 - Talk to Nails Newton, Accept Quest, Let Them Eat Pie 🟡
 - Go east, trade with Mess Sergeant Ramsey's Cooking Supply Shop, take free pot, buy cake tin, 5 flour, two cups of tea,
 - Go South, Talk to Scalectrix, (💬 1) Wolf Whistle
+- Pick up fishing bait and wheat east of the bridge
 - Complete Let Them Eat Pie ✅
 - Go south and bank
 
 # Bank 6
 - Deposit all, Continue Druidic Ritual
-- On the way Trade with Jatix, take free guam, eye of newt, vial of water, buy 1 vial of water pack, buy 5 redberries, 5 limpwurts, 5 whiteberries, 5 unicorn ash
+- On the way Trade with Jatix, take free guam, eye of newt, vial of water, buy 1 vial of water pack, buy 5 redberries, 5 limpwurts, 5 whiteberries, 5 unicorn horn dust
 - Talk to Sanfew to continue Druidic Ritual (💬 1•4)
 - North, Talk to Pikkupstix, (💬 2•5) Wolf Whistle
 - Climb upstairs, search cluttered drawers on the North wall, make sure to get the embroidered pouch.
@@ -182,7 +184,7 @@
 
 # Bank 8
 - South, bank all, clean the guams, make 16 attack potions
-- Go East to the dock, Talk to Bryll Thoksdottir, (💬 1)
+- Go West to the dock, Talk to Bryll Thoksdottir, (💬 1)
 - Go West to the base camp, talk to Dungeoneering Tutor at the entrance of the building, get the ring of kingship
 - 📍 Teleport to Draynor Village Lodestone
 - Drop weeds/bucket, Mine Clay Northeast (Lumbridge Beginner Task)
@@ -204,7 +206,7 @@
 - Deposit all
 - Withdraw, 1 egg, 1 pot of flour, 1 bucket of milk, 1 clay ring, 1 bowl of water
 - Go East and enter trap door, kill a zombie, take bones and coins. [Lumbridge Easy Task]
-- Go back up, head south and start Duck Quest, don't click the screen during cutscene.
+- Go back up, head southwest and start Duck Quest, don't click the screen during cutscene.
 - Follow the glowing nest debris, click them and follow the next one
 - While following the debris cut down tree for a log, light the log, make a bowl of hot water
 - Go South end mining location in Lumbridge Swamp, mine three iron ore (Lumbridge Easy Task)
