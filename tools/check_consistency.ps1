@@ -30,18 +30,40 @@ $curlyApos1 = [char]0x2019
 $curlyApos2 = [char]0x2018
 $curlyOpenQ = [char]0x201C
 $curlyCloseQ = [char]0x201D
+$bubble = [char]::ConvertFromUtf32(0x1F4AC)
 
 $lines = Get-Content $Path -Encoding UTF8
 $issues = @()   # each: [pscustomobject]@{ Line=n; Category='...'; Detail='...' }
 
 # --- known misspellings (case-insensitive substring). Seed list -- extend as found. ---
 $Misspellings = @(
-  @{ Wrong = 'Geilinor';   Right = 'Gielinor' }
-  @{ Wrong = 'Archeology'; Right = 'Archaeology' }
-  @{ Wrong = 'Taverly';    Right = 'Taverley' }
-  @{ Wrong = 'Al-khaird';  Right = 'Al Kharid' }
-  @{ Wrong = 'Alkharid';   Right = 'Al Kharid' }
-  @{ Wrong = 'Barcrawl';   Right = 'Bar Crawl' }
+  @{ Wrong = 'Geilinor';        Right = 'Gielinor' }
+  @{ Wrong = 'Archeology';      Right = 'Archaeology' }
+  @{ Wrong = 'Archeaology';     Right = 'Archaeology' }
+  @{ Wrong = 'Taverly';         Right = 'Taverley' }
+  @{ Wrong = 'Taverely';        Right = 'Taverley' }
+  @{ Wrong = 'Al-khaird';       Right = 'Al Kharid' }
+  @{ Wrong = 'Al-kharid';       Right = 'Al Kharid' }
+  @{ Wrong = 'Alkharid';        Right = 'Al Kharid' }
+  @{ Wrong = 'Barcrawl';        Right = 'Bar Crawl' }
+  @{ Wrong = 'Ardounge';        Right = 'Ardougne' }
+  @{ Wrong = 'Treaure';         Right = 'Treasure' }
+  @{ Wrong = 'hairdesser';      Right = 'hairdresser' }
+  @{ Wrong = 'entrace';         Right = 'entrance' }
+  @{ Wrong = 'Pikkipstix';      Right = 'Pikkupstix' }
+  @{ Wrong = 'Horvic';          Right = 'Horvik' }
+  @{ Wrong = 'Jatixs';          Right = "Jatix's" }
+  @{ Wrong = 'Lourehound';      Right = 'Lorehound' }
+  @{ Wrong = 'arterfacts';      Right = 'artefacts' }
+  @{ Wrong = 'dwavern';         Right = 'dwarven' }
+  @{ Wrong = 'filration';       Right = 'filtration' }
+  @{ Wrong = 'grimiore';        Right = 'grimoire' }
+  @{ Wrong = 'Hearder';         Right = 'Herder' }
+  @{ Wrong = 'Ghost Ahoy';      Right = 'Ghosts Ahoy' }
+  @{ Wrong = "Lower's Archery"; Right = "Lowe's Archery" }
+  @{ Wrong = 'Grimey';          Right = 'Grimy' }
+  @{ Wrong = 'Varrrock';        Right = 'Varrock' }
+  @{ Wrong = '\btheres\b';      Right = "there's"; Rx = $true }
 )
 
 # --- missing apostrophe in common contractions (case-insensitive whole word) ---
@@ -65,6 +87,23 @@ $ItemCasing = @(
   @{ Wrong = 'Monkey Paw';            Right = 'Monkey paw' }
   @{ Wrong = 'Grimey Rogue''s Purse'; Right = 'Grimy rogue''s purse' }
   @{ Wrong = 'Shiny Light foot';      Right = 'Shiny light foot' }
+  @{ Wrong = 'Phlegmatic Bead';       Right = 'Phlegmatic bead' }
+  @{ Wrong = 'Runescape';             Right = 'RuneScape' }
+  @{ Wrong = 'Mcgrubers';             Right = "McGrubor's" }
+  @{ Wrong = "Mcgrubor's";            Right = "McGrubor's" }
+  @{ Wrong = 'excalibur';             Right = 'Excalibur' }
+  @{ Wrong = 'silverlight';           Right = 'Silverlight' }
+  @{ Wrong = 'strange implement';     Right = 'Strange implement' }
+  @{ Wrong = 'display cabinet key';   Right = 'Display cabinet key' }
+  @{ Wrong = 'phoenix quill pen';     Right = 'Phoenix quill pen' }
+  @{ Wrong = "varmen's notes";        Right = "Varmen's notes" }
+  @{ Wrong = 'demonic sigil';         Right = 'Demonic sigil' }
+  @{ Wrong = 'demonic tome';          Right = 'Demonic tome' }
+  @{ Wrong = "traveller's necklace";  Right = "Traveller's necklace" }
+  @{ Wrong = 'Big Day out';           Right = 'Big Day Out' }
+  @{ Wrong = 'Hermit Permit(?!s)';    Right = 'Hermit Permits'; Rx = $true }
+  @{ Wrong = '\bxp\b';                Right = 'XP'; Rx = $true }
+  @{ Wrong = '\bosrs\b';              Right = 'OSRS'; Rx = $true }
 )
 
 for ($i = 0; $i -lt $lines.Count; $i++) {
@@ -83,8 +122,24 @@ for ($i = 0; $i -lt $lines.Count; $i++) {
   if ($l -match '(?i)\bOption\s+\d' -or $l -match '(?i)\(Chat\s+\d+\)') {
     $issues += [pscustomobject]@{ Line=$ln; Category='legacy-dialogue-notation'; Detail=$l.Trim() }
   }
+  if ($l -match '(?i)\[?\(?Note:\S') {
+    $issues += [pscustomobject]@{ Line=$ln; Category='note-colon-spacing'; Detail=$l.Trim() }
+  }
+  if ($l -match [regex]::Escape($bubble) + '\d') {
+    $issues += [pscustomobject]@{ Line=$ln; Category='bubble-spacing'; Detail=$l.Trim() }
+  }
+  if ($l -match '\S {2,}\S') {
+    $issues += [pscustomobject]@{ Line=$ln; Category='double-space'; Detail=$l.Trim() }
+  }
+  if ($l -match ',,|, ,') {
+    $issues += [pscustomobject]@{ Line=$ln; Category='double-comma'; Detail=$l.Trim() }
+  }
+  if ($l -cmatch '^\s*[-*]\s+[a-z]' -and $l -notmatch '^\s*[-*]\s+https?://') {
+    $issues += [pscustomobject]@{ Line=$ln; Category='lowercase-step-start'; Detail=$l.Trim() }
+  }
   foreach ($m in $Misspellings) {
-    if ($l -match [regex]::Escape($m.Wrong)) {
+    $pat = if ($m.Rx) { $m.Wrong } else { [regex]::Escape($m.Wrong) }
+    if ($l -match $pat) {
       $issues += [pscustomobject]@{ Line=$ln; Category='misspelling'; Detail="'$($m.Wrong)' -> should be '$($m.Right)' | $($l.Trim())" }
     }
   }
@@ -94,7 +149,8 @@ for ($i = 0; $i -lt $lines.Count; $i++) {
     }
   }
   foreach ($c in $ItemCasing) {
-    if ($l -cmatch [regex]::Escape($c.Wrong)) {
+    $cpat = if ($c.Rx) { $c.Wrong } else { [regex]::Escape($c.Wrong) }
+    if ($l -cmatch $cpat) {
       $issues += [pscustomobject]@{ Line=$ln; Category='item-casing'; Detail="'$($c.Wrong)' -> should be '$($c.Right)' | $($l.Trim())" }
     }
   }
@@ -130,7 +186,7 @@ if ($Fix) {
   } else {
     Write-Output "No mechanical fixes needed."
   }
-  $issues = $issues | Where-Object { $_.Category -notin @('curly-apostrophe','curly-quote','trailing-whitespace') }
+  $issues = @($issues | Where-Object { $_.Category -notin @('curly-apostrophe','curly-quote','trailing-whitespace') })
 }
 
 # --- report ---
