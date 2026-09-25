@@ -1388,7 +1388,7 @@
 - Equip: full adamant armour, adamant sword, anti-dragon shield, desert amulet, explorers ring, grimoire
 - Withdraw: Excalibur, teleport runes, three planks, 90 steel nails(buy at Fort), map part, maze key 15 food
 - Make sure you have full prayer
-- Complete Dragon Slayer [Karamja Medium Task]
+- Complete [Dragon Slayer] [Karamja Medium Task]
 - [Note: Protect for mage, activate Excalibur before fight]
 - [Note: The fight is slow, just keep eating. I ran out of prayer at the end and I was fine. I had 6 food left out of 15, just eat up.]
 - After quest leave out the shortcut to the south [Karamja Medium Task]
@@ -1404,5 +1404,5 @@
 - Go buy an adamant scimitar from Zeke's Superior Scimitars shop
 - Teleport to Falador, buy one adamant mace from Flynn's Mace Market
 - Teleport to Varrock, buy 20 adamant arrows
-- Complete Spirits of Elid, to get to Nardah quickly,use house teleport, teleport to Pollnivneach House Teleport and take carpet ride to Nardah.
+- Complete [Spirits of the Elid], to get to Nardah quickly,use house teleport, teleport to Pollnivneach House Teleport and take carpet ride to Nardah.
 - drop ancestral key and the robes 
