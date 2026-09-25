@@ -557,16 +557,16 @@
 
 # Bank 25
 - Withdraw: wood box and grimoire 1 equip, upgrade to oak box when you start chopping oak logs, At lvl 20 Woodcutting add Steel hatchet to toolbelt
-- Collect 116 wooden planks, 120 oak planks
-- After planks are made, get 30 firemaking (Sea Slug) logs to lvl 15 WC then oaks to lvl 30. (auto bank ashes with grimoire 1)
-- [Note: Optional, you can wait to get 30 firemaking at Sea Slug quest start location. Oak Trees are close to each other]
+- Chop and burn regular and oak trees until 30 Firemaking for Sea Slug (auto bank ashes with grimoire 1)
+- [Note: We need a total of 192 regular and 240 oak planks for Fort Forinthry, it's a good idea to get them now]
 
 # Bank 26
 - Equip: Full Necro Gear, Grimoire 1, Withdraw: Archaeology journal
 - Teleport to Archaeology Campus with Archaeology journal
 - Continue Imp Catcher, Talk to Happy Imp at Earth Altar, (💬 3•2•1)
 - Continue Once Upon a Time in Gielinor: Flashback, until you need to go back to Draynor Village
-- Continue New Foundations Quest (we will need to buy 250 limestone bricks from Bill to complete quest) (need 386 limestone total to finish everything)
+- Continue New Foundations Quest (we will need to buy 250 limestone bricks from Bill to complete quest)
+- [Note: We will need 250 limestone bricks for the quest and 648 for all future upgrades, get as many as you can now]
 - After you build the workshop Bank
 
 # Bank 27
