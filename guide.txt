@@ -452,9 +452,9 @@
 - Talk to Kili, Accept Quest, Kili Row 🟡
 - 📍 Teleport to Draynor Lodestone, Enter underworld portal
 - Deposit Big Bones/spider silk gloves into Focus storage (Underworld Easy Task)
-- Continue Kili Row (should complete 2 Underworld Easy Task on first ritual unless you missed wandering soul)
-- Perform 7 lesser necroplasm rituals
+- Perform 7 lesser necroplasm rituals (should complete 2 Underworld Easy Task on first ritual unless you missed wandering soul)
 - Take lesser necroplasm out of the Ritual Chest, click lesser necroplasm, craft two regular ghostly ink [Underworld Easy Task]
+- Continue Kili Row
 - After that, perform Lesser ensoul material with Kili's Tools
 - Collect items in Ritual Chest, deposit all bones, and memento into focus storage
 - Talk to Malignius Mortifer, (💬 1), Accept Quest, Rune Mythos
