@@ -6,7 +6,7 @@
 - In the settings tab search "notifications", uncheck everything in "Broadcast - Global/Broadcasts - World" [So your chatbox doesn't spam]
 - 🔴 IF Hardcore ironman be careful going afk while in starter areas, highwaymen will kill you
 - ⚙️ Keep up on Repeatable Events
-  - Runespheres, Nemi Forest, Herby Werby, Troll Invasion, Memorial Guthix, Circus, Penguin Hide and Seek, Familiarisation are all a MUST early game. They will expedite your XP gains tremendously. If you aren't familiar with these mini games learn them. 
+  - Runespheres, Nemi Forest, Herby Werby, Troll Invasion, Memorial Guthix, Circus, Penguin Hide and Seek, Familiarisation are all a MUST early game. They will expedite your XP gains tremendously. If you aren't familiar with these mini games learn them.
   - The beginning of this guide is F2P until a certain point. Without members you won't see certain items in the shops FYI. I would advise members, but it's not necessary for the beginning.
     - The Circus has 13 spawn locations. Depending on spawn location will dictate if you can reach it. If it has a close spawn go to it when we quest or you can run to it now to unlock Surge. For those of us who don't have a close spawn we will finish Death Plateau soon and unlock surge that way.
 
@@ -1104,8 +1104,8 @@
 - Deposit all, withdraw: ring of kingship, train some dungeoneering if you haven't already
 - Solo Dungeoneering Guide
 - Obtain 2,000 Dungeoneering tokens by training (now or later)
-- we want to buy a gem bag as our first purchase 
-- Do high complexity small floors with a group 
+- We want to buy a gem bag as our first purchase
+- Do high complexity small floors with a group
 - If you need to AFK:
 - Fish to lvl 53, cook all the trout and salmon
 - Firemaking to 50 (once you run out of wood chop and burn)
@@ -1385,14 +1385,14 @@
 
 # Bank 85
 - Equip: full adamant armour, adamant sword, anti-dragon shield, desert amulet, explorers ring, grimoire
-- Withdraw: excalibur, teleport runes, three planks, 90 steel nails(buy at Fort), map part, maze key 15 food
+- Withdraw: Excalibur, teleport runes, three planks, 90 steel nails(buy at Fort), map part, maze key 15 food
 - Make sure you have full prayer
 - Complete Dragon Slayer [Karamja Medium Task]
-- [Note: Protect for mage, activate excalibur before fight]
+- [Note: Protect for mage, activate Excalibur before fight]
 - [Note: The fight is slow, just keep eating. I ran out of prayer at the end and I was fine. I had 6 food left out of 15, just eat up.]
 - After quest leave out the shortcut to the south [Karamja Medium Task]
 - Go to Tzhaar City, if you have an Alt/friend who can meet you at TzHaar Fight Pits, do so now. [Karamja Easy Task]
 - Congratulations! Easy Karamja Achievements completed, claim your reward from Pirate Jackie the Fruit at Brimhaven Agility Arena entrance.
 - Browse through Oziach's Armour Shop [Varrock Medium Task]
-- rub defence lamp, destroy strength lamp, we will reclaim it @ 40 Strength
-- Go to Shattered Worlds, train magic until you get 50 defence. 
+- Rub defence lamp, destroy strength lamp, we will reclaim it @ 40 Strength
+- Go to Shattered Worlds, train magic until you get 50 defence.
