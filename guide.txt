@@ -1336,7 +1336,7 @@
 # Bank 81
 - Make 150 steel nails, 18 willow planks, 6 maple planks (get wood if needed, go to fort/Rimmington if planks needed)
 - Equip: adamant sword and off hand sword, no necklace
-- Withdraw: law, water, and air runes, 6 seaweed, ball of wool, 3 rope, 12 willow planks, 150 steel nails
+- Withdraw: law, water, and air runes, 6 seaweed (obtainable during quest), ball of wool, 3 rope, 12 willow planks, 150 steel nails
 - Teleport to Wendlewick Lodestone
 - Read the Noticeboard outside the Burnt Lobster Tavern fencing to Accept Quest, [Hermit Permits]
 - Go South, Repair Dilapidated Canoe Station
@@ -1377,3 +1377,5 @@
 - Withdraw: light source, 20 limpwurts
 - Complete Temple of Ikov, on the way to talk to Lucien in Ardougne, Cross the River Dougne using the log balance shortcut [Ardougne Medium Task]
 - WARNING, before crossing the bridge unequip green dhide armour and drop at the front door. Make sure weight is 0 or below. You should only wear Pendant of Lucien, maple shortbow, and boots of lightness
+- Teleport to Port Sarim, go to Shattered Worlds train magic, continue until 50 defence so we can equip full mystics. 
+- [Note: If you haven't started the Familiarisation mini game, do it when it's available. Talk to Pikkupstix and find location. Once in the Spirit plane, players need to gather as many piles of raw shards as possible while avoiding certain other familiars. An obelisk will only remain active for 20 minutes after which it will become inactive. A new obelisk becomes active every two hours.]
