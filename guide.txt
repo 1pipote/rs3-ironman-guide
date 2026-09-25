@@ -542,8 +542,8 @@
 - Continue Once Upon a Time in Gielinor: Flashback, until you need to go back to Draynor Village
 - Complete Once Upon A Slime, cook redberry pie on the range nearby.
 - Continue The Knights Sword until you need to go to Falador
-- Pray at the church altar on the way to house [Falador Easy Task]
 - [Note: Before teleporting to Falador, go south and pick up Shiny toy ship [Benedict's World Tour]]
+- Pray at the church altar on the way to house [Falador Easy Task]
 - Teleport to Falador, Complete Pirate's Treasure (make sure to read the message before you dig) [gold ring item for Mourning's End Pt 2]
 - Complete The Knights Sword
 - [Note: MINE THREE BLURITE, one for quest, one for defender of varrock, one for medium falador task]
