@@ -1104,10 +1104,13 @@
 # Bank 69
 - Deposit all, withdraw: ring of kingship, train some dungeoneering if you haven't already
 - Solo Dungeoneering Guide
+- Obtain 2,000 Dungeoneering tokens by training (now or later)
+- we want to buy a gem bag as our first purchase 
+- Do high complexity small floors with a group 
 - If you need to AFK:
 - Fish to lvl 53, cook all the trout and salmon
 - Firemaking to 50 (once you run out of wood chop and burn)
-- Mine gems (Al Kharid for common gems, Shilo for precious gems) crafting XP and jewellery,
+- Mine gems, preferably with a gem bag
 - Go to fort make kitchen tier 2/Chapel tier 2 with Acadia logs in bank
 - At 49 firemaking complete [[Tears of Guthix]] (get it done by Tuesday, weeklies reset on Wednesdays 00:00 UTC) try to get hunter to be your lowest level so we can skip early game hunter while we quest.
 
@@ -1377,7 +1380,6 @@
 - Withdraw: light source, 20 limpwurts
 - Complete Temple of Ikov, on the way to talk to Lucien in Ardougne, Cross the River Dougne using the log balance shortcut [Ardougne Medium Task]
 - WARNING, before crossing the bridge unequip green dhide armour and drop at the front door. Make sure weight is 0 or below. You should only wear Pendant of Lucien, maple shortbow, and boots of lightness
-- Teleport to Port Sarim, go to Shattered Worlds train magic, continue until 50 defence so we can equip full mystics. 
 - [Note: If you haven't started the Familiarisation mini game, do it when it's available. Talk to Pikkupstix and find location. Once in the Spirit plane, players need to gather as many piles of raw shards as possible while avoiding certain other familiars. An obelisk will only remain active for 20 minutes after which it will become inactive. A new obelisk becomes active every two hours.]
 - [Note: To check for minigame availability click "Adventures" tab, click "mini games" tab and scroll through the minigames.]
 
@@ -1393,3 +1395,4 @@
 - Congratulations! Easy Karamja Achievements completed, claim your reward from Pirate Jackie the Fruit at Brimhaven Agility Arena entrance.
 - Browse through Oziach's Armour Shop [Varrock Medium Task]
 - rub defence lamp, destroy strength lamp, we will reclaim it @ 40 Strength
+- Go to Shattered Worlds, train magic until you get 50 defence. 
