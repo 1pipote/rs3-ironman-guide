@@ -1,14 +1,15 @@
 <#
 Consistency check for guide.txt: quote/apostrophe style, trailing whitespace,
-legacy dialogue notation, known misspellings, known item-casing regressions,
-and Bank header sequencing.
+emoji (only the chat bubble is allowed), legacy dialogue notation, known
+misspellings, known item-casing regressions, and Bank header sequencing.
 
 Usage:
   powershell -File tools\check_consistency.ps1              # report only
   powershell -File tools\check_consistency.ps1 -Fix          # also fixes the
                                                               # mechanical issues
                                                               # (curly quotes,
-                                                              # trailing whitespace)
+                                                              # trailing whitespace,
+                                                              # stray emoji)
 
 Everything else (dialogue notation, misspellings, item casing, bank headers)
 is report-only on purpose -- those need a human to judge context before
@@ -31,6 +32,8 @@ $curlyApos2 = [char]0x2018
 $curlyOpenQ = [char]0x201C
 $curlyCloseQ = [char]0x201D
 $bubble = [char]::ConvertFromUtf32(0x1F4AC)
+# any emoji/symbol except the chat bubble (U+1F4AC), the bullet (U+2022) and the check mark (U+2713)
+$emojiRx = '(?:[' + [char]0x2600 + '-' + [char]0x2712 + [char]0x2714 + '-' + [char]0x27BF + [char]0x2300 + '-' + [char]0x23FF + ']|' + [char]0xD83C + '[' + [char]0xDC00 + '-' + [char]0xDFFF + ']|' + [char]0xD83D + '[' + [char]0xDC00 + '-' + [char]0xDCAB + [char]0xDCAD + '-' + [char]0xDFFF + ']|' + [char]0xD83E + '[' + [char]0xDC00 + '-' + [char]0xDFFF + '])' + [char]0xFE0F + '?'
 
 $lines = Get-Content $Path -Encoding UTF8
 $issues = @()   # each: [pscustomobject]@{ Line=n; Category='...'; Detail='...' }
@@ -119,6 +122,9 @@ for ($i = 0; $i -lt $lines.Count; $i++) {
   if ($l -match '[ \t]+$') {
     $issues += [pscustomobject]@{ Line=$ln; Category='trailing-whitespace'; Detail=$l.Trim() }
   }
+  if ($l -match $emojiRx) {
+    $issues += [pscustomobject]@{ Line=$ln; Category='emoji'; Detail=$l.Trim() }
+  }
   if ($l -match '(?i)\bOption\s+\d' -or $l -match '(?i)\(Chat\s+\d+\)') {
     $issues += [pscustomobject]@{ Line=$ln; Category='legacy-dialogue-notation'; Detail=$l.Trim() }
   }
@@ -174,7 +180,13 @@ if ($Fix) {
   $changed = $false
   for ($i = 0; $i -lt $lines.Count; $i++) {
     $orig = $lines[$i]
-    $l = $orig -replace [regex]::Escape($curlyApos1), "'" -replace [regex]::Escape($curlyApos2), "'"
+    $l = $orig
+    if ($l -match $emojiRx) {
+      $l = [regex]::Replace($l, "[ \t]*(?:$emojiRx[ \t]*)+`$", '')
+      $l = [regex]::Replace($l, "^(\s*[-*]\s+)(?:$emojiRx[ \t]*)+", '$1')
+      $l = [regex]::Replace($l, "[ \t]*(?:$emojiRx[ \t]*)+", ' ')
+    }
+    $l = $l -replace [regex]::Escape($curlyApos1), "'" -replace [regex]::Escape($curlyApos2), "'"
     $l = $l -replace [regex]::Escape($curlyOpenQ), '"' -replace [regex]::Escape($curlyCloseQ), '"'
     $l = $l -replace '[ \t]+$', ''
     if ($l -ne $orig) { $lines[$i] = $l; $changed = $true }
@@ -182,11 +194,11 @@ if ($Fix) {
   if ($changed) {
     $out = ($lines -join "`r`n")
     [System.IO.File]::WriteAllText($Path, $out, [System.Text.UTF8Encoding]::new($false))
-    Write-Output "Fixed curly quotes/apostrophes and trailing whitespace in place."
+    Write-Output "Fixed curly quotes/apostrophes, stray emoji and trailing whitespace in place."
   } else {
     Write-Output "No mechanical fixes needed."
   }
-  $issues = @($issues | Where-Object { $_.Category -notin @('curly-apostrophe','curly-quote','trailing-whitespace') })
+  $issues = @($issues | Where-Object { $_.Category -notin @('curly-apostrophe','curly-quote','trailing-whitespace','emoji') })
 }
 
 # --- report ---

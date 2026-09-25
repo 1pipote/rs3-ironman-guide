@@ -27,8 +27,7 @@ Checkmarks are stored in each person's own browser and are never sent anywhere.
 * a note                      a note without a checkbox
 ```
 
-Emoji are typed as-is: 🟡 accepted · ✅ completed · 📍 teleport · ⏸️ pause · 🏅 task set done ·
-⚙️ repeatable · 🔴 warning · 📖 write it down · 🕒 daily.
+Chat options are written with a speech bubble: `(💬 1•2)` means pick option 1, then option 2.
 `[Lumbridge Easy Task]` shows as a tag. `[[Quest Name]]` links to the RuneScape Wiki (well-known
 quest names link on their own). `==text==` highlights (`==g:text==` green, `==r:text==` red).
 A line with no marker continues the step above it.
