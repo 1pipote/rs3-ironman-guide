@@ -527,7 +527,7 @@
 - Continue Once Upon a Time in Gielinor until you need to go to Hourglass in Draynor Village
 - [Note: grab another party hat before you speak to Relomia]
 - Complete Shield of Arrav
-- Complete the remaining supply and demand now that we have high combat lvl, 7 lamps into fletching[should be lvl 10], the rest into divination
+- Complete the remaining [[Supply and Demand]] now that we have high combat lvl, 7 lamps into fletching[should be lvl 10], the rest into divination
 - Teleport to Draynor Lodestone, Complete Once Upon a Time in Gielinor (Foreshadowing Miniquest) ==put lamp into divination==
 - Talk to Closure again, Accept Quest, Once Upon a Time in Gielinor: Flashback
 - Continue until you need to go to the Blue Moon Inn
