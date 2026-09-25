@@ -512,7 +512,7 @@
 # Bank 23
 - Withdraw: swap necro gear with Silverlight and iron armour, expensive spice necklace, grab a cup of tea, paper and crayons, chest key
 - Teleport to Varrock Lodestone Go into the Champions Guild, Talk to Guildmaster, Accept Quest Dragon Slayer (Varrock Medium Task)
-- Continue Shield of Arrav until speak with Straven to go to the Blue Moon Inn.
+- Continue Shield of Arrav until having to go to the Blue Moon Inn
 - Go back up the ladder, Complete Demon Slayer (enemies you must defeat prefight drop cooked meat about 9 in total. Plenty of food for the fight, if you need more just bring extra)
 - [Note: Turn off Auto Retaliate for fight with Delrith]
 - Demon Slayer, Quest Completed put lamps into magic/ranged
