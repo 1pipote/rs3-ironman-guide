@@ -133,7 +133,7 @@ for ($i = 0; $i -lt $lines.Count; $i++) {
   if ($l -match $emojiRx) {
     $issues += [pscustomobject]@{ Line=$ln; Category='emoji'; Detail=$l.Trim() }
   }
-  if ($l -match '(?i)\bOption\s+\d' -or $l -match '(?i)\(Chat\s+\d+\)') {
+  if ($l -match '(?i)\bOption\s+\d' -or $l -match '(?i)\(Chat\s+\d') {
     $issues += [pscustomobject]@{ Line=$ln; Category='legacy-dialogue-notation'; Detail=$l.Trim() }
   }
   if ($l -match '(?i)\[?\(?Note:\S') {

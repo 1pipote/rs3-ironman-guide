@@ -617,7 +617,7 @@
 - Once 30 mining use wicked hood to Wizards' Tower and teleport to essence and mine 25 Pure essence
 
 # Bank 28
-- Withdraw: 25 pure essence, empty bucket and Investigators notebook
+- Withdraw: 25 pure essence, empty bucket and Archaeology journal
 - Teleport to Archaeology Campus/Fort Forinthry Lodestone
 - Complete Priest In Peril, Quest Completed
 - Activate Canifis Lodestone, to the east Talk to Copernicus Glyph and sculpt the rock for XP.
@@ -1436,7 +1436,7 @@
 * Wilderness sword is new BIS herb patch location do it on herb runs, and also new quick teleport to Edgeville
 
 # Bank 88
-- Equip: Full Mystics, Wand and Orb, Grimoire, jewellery
+- Equip: Full Mystics, wand and orb, grimoire, jewellery
 - Withdraw: air runes, two steel bars(if anvil is empty), steel dagger, steel mace, 2x steel sword, steel longsword, 6 regular planks, 75 steel nails, 1 silver sickle (b), 1 druid pouch
 - Teleport to a furnace, make a steel warhammer, make four silver tiaras, deposit silver tiaras (future area tasks)
 - Complete In Search of the Myreque [Morytania Medium Task]
@@ -1450,14 +1450,14 @@
 - Pray at the Statue of Juna for full prayer
 - Go down the trapdoor, go through the wooden doors South
 - Take the Swamp Boat
-- Speak to the Zealot, north of the mine west of Burgh de Rott. (Chat 1•1•✓•1•3) Accept Quest [Haunted Mine]
-- Complete [Haunted Mine], you need three free inventory slots at the end to fully complete the quest
+- Speak to the Zealot, north of the mine west of Burgh de Rott. (💬 1•1•✓•1•3), Accept Quest, Haunted Mine
+- Complete Haunted Mine, you need three free inventory slots at the end to fully complete the quest
 * Treus Dayth boss fight, activate Excalibur before fight
 * Use Mystic Might: raises your Magic accuracy as if you had 6 more Magic levels.
 * Use Overcharge: +6% Magic damage. It only clashes with other Magic damage prayers, so it works fine alongside Mystic Might.
-* If we are in melee range he will melee us. He can potentially teleport right next to you just run away.
+* If we are in melee range he will melee us. He can potentially teleport right next to you, just run away.
 * The pickaxes, cranes and mine carts all do typeless damage, which can hit for over 700 typeless damage. Prayers will not help against those.
-- Teleport to Edgeville, talk to Oziach and get your strength xp lamp and use it now
+- Teleport to Edgeville, talk to Oziach and get your strength XP lamp and use it now
 - We will be completing What Lies Below, and The Hunt for Surok Miniquest, we need the following skills to complete it:
 * 35 Runecrafting
 * 42 Mining
@@ -1465,13 +1465,13 @@
 * If you followed the guide up to this point you should meet all the reqs. If you don't, you will need manually train now
 
 # Bank 90
-- Withdraw: 15 chaos runes (buy from Ali if needed), bowl, some food, excalibur, wilderness sword 1, wicked hood (make sure earth talisman is fed into it)
+- Withdraw: 15 chaos runes (buy from Ali if needed), bowl, some food, Excalibur, wilderness sword 1, wicked hood (make sure earth talisman is fed into it)
 - Teleport to Fort Forinthry, go South enter Earth Altar [Varrock Easy Task]
 - Teleport to Varrock Lodestone
 - Go far East, and chop down the dead tree at the Southeast corner of Varrock Castle [Varrock Easy Task]
-* Congratulations! Varrock Easy Achievements have been completed! 
+* Congratulations! Varrock Easy Achievements have been completed!
 * You can now switch Varrock teleport with Grand Exchange. This is currently our quickest teleport to a Spirit Tree FYI
-- Talk to Rat Burgiss to claim your rewards, use xp lamp on prayer
-- Talk to Rat Burgiss again, south-east of the Varrock lodestone by the crossroads to Lumbridge. (Chat 2•3•✓) Accept Quest [What Lies Below]
-- You should receive an empty folder in inventory 
-- Complete [What Lies Below]
+- Talk to Rat Burgiss to claim your rewards, use XP lamp on prayer
+- Talk to Rat Burgiss again, south-east of the Varrock lodestone by the crossroads to Lumbridge. (💬 2•3•✓), Accept Quest, What Lies Below
+- You should receive an empty folder in inventory
+- Complete What Lies Below
