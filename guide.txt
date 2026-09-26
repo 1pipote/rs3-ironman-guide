@@ -1437,7 +1437,7 @@
 # Bank 88
 - Equip: Full Mystics, Wand and Orb, Grimoire, jewellery
 - Withdraw: air runes, two steel bars(if anvil is empty), steel dagger, steel mace, 2x steel sword, steel longsword, 6 regular planks, 75 steel nails, 1 silver sickle (b), 1 druid pouch
-- Teleport to a furnace, make a steel warhammer, make two silver tiaras, deposit silver tiaras
+- Teleport to a furnace, make a steel warhammer, make four silver tiaras, deposit silver tiaras (for future Area Tasks)
 - Complete In Search of the Myreque [Morytania Medium Task]
 - While running thru the Mort Myre swamp collect 6 fungus, do not add them to your druid pouch yet.
 - Before talking to Cyreg Paddlehorn fill your druid pouch
