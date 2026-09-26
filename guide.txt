@@ -1417,4 +1417,5 @@
 - Withdraw: law runes, water runes, air runes, 1 super compost, 1 ranarr seed
 - Teleport to Marigold Farm
 - plant rannar and thieve farmers until you get at least one limpwurt seed, teleport to wendlewick to bank, teleport back to marigold farm to continue thieving
-- check willow trees you have planted. plant some if you havent yet. 
+- check willow trees you have planted. plant some if you havent yet.
+- at 35 Farming fill beehives with woad leave at POF
