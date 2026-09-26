@@ -1427,4 +1427,4 @@
 - Go East to the Chaos Altar, use bone on altar [Wilderness Easy Task]
 - Go south behind building and bank with Simon [Wilderness Easy Task]
 - Teleport to Fort Forinthry grab plenty of food.
-- Go out the north gate into the wilderness. Pull [strange switches] 10 times [Wilderness Easy Task]
+- Go out the north gate into the wilderness. Pull strange switches 10 times [Wilderness Easy Task]
