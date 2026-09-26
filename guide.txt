@@ -1454,6 +1454,23 @@
 * Treus Dayth boss fight, activate Excalibur before fight
 * Use Mystic Might: raises your Magic accuracy as if you had 6 more Magic levels.
 * Use Overcharge: +6% Magic damage. It only clashes with other Magic damage prayers, so it works fine alongside Mystic Might.
-* If we are in melee range he will melee us. He can potentially teleport right next to you so protect from melee if he does or just run away.
+* If we are in melee range he will melee us. He can potentially teleport right next to you just run away.
 * The pickaxes, cranes and mine carts all do typeless damage, which can hit for over 700 typeless damage. Prayers will not help against those.
 - Teleport to Edgeville, talk to Oziach and get your strength xp lamp and use it now
+- We will be completing What Lies Below, and The Hunt for Surok Miniquest, we need the following skills to complete it:
+* 35 Runecrafting
+* 42 Mining
+* 43 Prayer
+* If you followed the guide up to this point you should meet all the reqs. If you don't, you will need manually train now
+
+# Bank 90
+- Withdraw: 15 chaos runes (buy from Ali if needed), bowl, some food, excalibur, wilderness sword 1, wicked hood (make sure earth talisman is fed into it), silver tiara
+- Teleport to Fort Forinthry, go South enter Earth Altar [Varrock Easy Task]
+- Use tiara on the Earth Altar to make an Earth Tiara [Varrock Medium Task]
+- Teleport to Varrock Lodestone
+- Go far East, and chop down the dead tree [Varrock Easy Task]
+* Congratulations! Varrock Easy Achievements have been completed! 
+- Talk to Rat Burgiss to claim your rewards
+- Talk to Rat Burgiss again, south-east of the Varrock lodestone by the crossroads to Lumbridge. (Chat 2•3•✓)
+- You should receive an empty folder in inventory 
+- Complete [What Lies Below] 
