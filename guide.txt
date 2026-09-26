@@ -1342,9 +1342,9 @@
 - Go to Lumbridge, deposit all
 
 # Bank 81
-- Make 150 steel nails, 18 willow planks, 6 maple planks (get wood if needed, go to fort/Rimmington if planks needed)
+- buy 150+ steel nails at the Fort, make 18 willow planks, 6 maple planks (get wood if needed, go to fort/Rimmington if planks needed)
 - Equip: adamant sword and off hand sword, no necklace
-- Withdraw: law, water, and air runes, 6 seaweed (obtainable during quest), ball of wool, 3 rope, 12 willow planks, 150 steel nails
+- Withdraw: law, water, and air runes, 6 seaweed, ball of wool, 3 rope, 12 willow planks, 150 steel nails
 - Teleport to Wendlewick Lodestone
 - Read the Noticeboard outside the Burnt Lobster Tavern fencing to Accept Quest, [Hermit Permits]
 - Go South, Repair Dilapidated Canoe Station
