@@ -1432,7 +1432,7 @@
 - Go out the north gate into the wilderness. Pull strange switches 10 times [Wilderness Easy Task]
 - [Note: This is extremely dangerous for HCIM. Run far East to go back and forth. Avoid Bound Skeletons, Fetid Zombies hit about 500% less.]
 - Congratulations! You have completed the Wilderness Easy Achievement, claim your rewards from Mr. Ex in Edgeville. Use antique lamps on prayer, you should now be 45 prayer. We now have full protection prayers.
-- [Note: Wilderness sword is new BIS herb patch location do it on herb runs, and also new quick teleport to Edgeville.]
+* Wilderness sword is new BIS herb patch location do it on herb runs, and also new quick teleport to Edgeville
 
 # Bank 88
 - Equip: Full Mystics, Wand and Orb, Grimoire, jewellery
