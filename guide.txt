@@ -271,7 +271,8 @@
 - [Optional: complete Player Safety for extra GP]
 - Go North to Edgeville, Activate Lodestone
 - Head East, Talk to Jeffery, (💬 1•1•1•1•1) Gunnar's Ground
-- Go into building West of Moldark, Emissary of Zamorak, Quest Icon is in the building. Go upstairs, Talk to Caelyn Kadaan, (💬 2•1•1), Accept Quest, Heartstealer (💬 1•3)
+- Go into building West of Moldark, Emissary of Zamorak, Quest Icon is in the building. Go up ladder, Talk to Caelyn Kadaan, (💬 2•1•1), Accept Quest, Heartstealer (💬 1•3)
+- Go back down ladder, go East along the wilderness border, Read the Death list [Wilderness Easy Task]
 - Go North, into Wilderness (Wilderness Easy Task)
 - Talk to Mage, Accept Quest, Enter The Abyss
 - Teleport to Edgeville Lodestone, Run south back to Gunnar
@@ -1399,7 +1400,7 @@
 - Go to Shattered Worlds, train magic until you get 50 defence. Always choose Electric and Honourable Mutator
 
 # Bank 86
-- Withdraw: 1 law rune, 1 air rune, light source, adamant sword, rope, two thread, maple bow, travellers necklace if you have  some food (we need two free inventory slots)
+- Withdraw: 1 law rune, 1 air rune, light source, adamant sword, rope, two thread, maple bow, travellers necklace if you have one, little food (we need two free inventory slots)
 - Teleport to Al-Kharid
 - Go buy an adamant scimitar from Zeke's Superior Scimitars shop
 - Teleport to Falador, buy one adamant mace from Flynn's Mace Market
