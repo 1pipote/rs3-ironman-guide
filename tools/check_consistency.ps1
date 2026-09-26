@@ -66,11 +66,16 @@ $Misspellings = @(
   @{ Wrong = "Lower's Archery"; Right = "Lowe's Archery" }
   @{ Wrong = 'Grimey';          Right = 'Grimy' }
   @{ Wrong = 'Varrrock';        Right = 'Varrock' }
+  @{ Wrong = 'rannar';          Right = 'ranarr' }
+  @{ Wrong = 'ghost speak';     Right = 'ghostspeak' }
+  @{ Wrong = 'travellers necklace'; Right = "Traveller's necklace" }
+  @{ Wrong = 'explorers ring';  Right = "Explorer's ring" }
+  @{ Wrong = 'anti dragon';     Right = 'anti-dragon' }
   @{ Wrong = '\btheres\b';      Right = "there's"; Rx = $true }
 )
 
 # --- missing apostrophe in common contractions (case-insensitive whole word) ---
-$Contractions = @('dont','wont','cant','arent','isnt','wasnt','werent','youre','theyre','weve','ive','doesnt','didnt')
+$Contractions = @('dont','wont','cant','arent','isnt','wasnt','werent','youre','theyre','weve','ive','doesnt','didnt','havent','hasnt','hadnt','shouldnt','couldnt','wouldnt')
 
 # --- known item-casing regressions (case-SENSITIVE exact form). Seed list from
 #     the 2026-09 wiki-verification pass -- extend as new items get verified. ---
@@ -92,6 +97,7 @@ $ItemCasing = @(
   @{ Wrong = 'Shiny Light foot';      Right = 'Shiny light foot' }
   @{ Wrong = 'Phlegmatic Bead';       Right = 'Phlegmatic bead' }
   @{ Wrong = 'Runescape';             Right = 'RuneScape' }
+  @{ Wrong = 'Tzhaar';                Right = 'TzHaar' }
   @{ Wrong = 'Mcgrubers';             Right = "McGrubor's" }
   @{ Wrong = "Mcgrubor's";            Right = "McGrubor's" }
   @{ Wrong = 'excalibur';             Right = 'Excalibur' }

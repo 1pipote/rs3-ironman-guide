@@ -273,7 +273,7 @@
 - Head East, Talk to Jeffery, (💬 1•1•1•1•1) Gunnar's Ground
 - Go into building West of Moldark, Emissary of Zamorak, Quest Icon is in the building. Go up ladder, Talk to Caelyn Kadaan, (💬 2•1•1), Accept Quest, Heartstealer (💬 1•3)
 - Go back down ladder, go East along the wilderness border, Read the Death list [Wilderness Easy Task]
-- Continue East and talk to Vala Option 1 [Wilderness Easy Task]
+- Continue East and talk to Vala, (💬 1) [Wilderness Easy Task]
 - Go North, into Wilderness (Wilderness Easy Task)
 - Talk to Mage, Accept Quest, Enter The Abyss
 - Continue North, and enter the Rift, leave immediately
@@ -1036,7 +1036,7 @@
 - Teleport to Canifis, and deposit all
 
 # Bank 63
-- Withdraw: decapitated head, teleport runes, ghost speak amulet, wolfbane dagger
+- Withdraw: decapitated head, teleport runes, ghostspeak amulet, wolfbane dagger
 - Kill a werewolf in its human form using the wolfbane dagger in Canifis [Mory Easy Task]
 - Continue [[Creature of Fenkenstrain]], click the pickled brain on table, buy a pickled brain
 - Use the decapitated head on the pickled brain
@@ -1157,7 +1157,7 @@
 - Talk to Martin the Master Gardener in Draynor Village. (💬 2•1•✓•1), Accept Quest, [[Fairy Tale I]]
 
 # Bank 73
-- Equip: full adamant armour, adamant off hand sword Withdraw: dramen staff, ghost speak, teleport runes
+- Equip: full adamant armour, adamant off hand sword Withdraw: dramen staff, ghostspeak, teleport runes
 - Continue [[Fairy Tale I]]
 - Frizzy, on the other side of the wall, just west of Martin. (💬 2)
 - Elstan, to the north of Frizzy. (💬 2)
@@ -1390,37 +1390,37 @@
 - [Note: For Familiarisation minigame also choose "charm drop enhancer"
 
 # Bank 85
-- Equip: full adamant armour, adamant sword, anti-dragon shield, desert amulet, explorers ring, grimoire
+- Equip: full adamant armour, adamant sword, anti-dragon shield, desert amulet, Explorer's ring, grimoire
 - Withdraw: Excalibur, teleport runes, three planks, 90 steel nails(buy at Fort), map part, maze key 15 food
 - Make sure you have full prayer
-- Complete [Dragon Slayer] [Karamja Medium Task]
+- Complete Dragon Slayer [Karamja Medium Task]
 - [Note: Protect for mage, activate Excalibur before fight]
 - [Note: The fight is slow, just keep eating. I ran out of prayer at the end and I was fine. I had 6 food left out of 15, just eat up.]
 - After quest leave out the shortcut to the south [Karamja Medium Task]
-- Go to Tzhaar City, if you have an Alt/friend who can meet you at TzHaar Fight Pits, do so now. [Karamja Easy Task]
+- Go to TzHaar City, if you have an Alt/friend who can meet you at TzHaar Fight Pits, do so now. [Karamja Easy Task]
 - Congratulations! Easy Karamja Achievements completed, claim your reward from Pirate Jackie the Fruit at Brimhaven Agility Arena entrance.
 - Browse through Oziach's Armour Shop [Varrock Medium Task]
 - Rub defence lamp, destroy strength lamp, we will reclaim it @ 40 Strength
 - Go to Shattered Worlds, train magic until you get 50 defence. Always choose Electric and Honourable Mutator
 
 # Bank 86
-- Withdraw:  law rune, 1 air rune, light source, adamant sword, rope, two thread, maple bow, travellers necklace if you have one, little food (we need at least two free inventory slots)
-- Teleport to Al-Kharid
+- Withdraw: law rune, 1 air rune, light source, adamant sword, rope, two thread, maple bow, Traveller's necklace if you have one, little food (we need at least two free inventory slots)
+- Teleport to Al Kharid
 - Go buy an adamant scimitar from Zeke's Superior Scimitars shop
 - Teleport to Falador, buy one adamant mace from Flynn's Mace Market
 - Teleport to Varrock, buy 20 adamant arrows
-- Complete [Spirits of the Elid], to get to Nardah quickly,use house teleport, teleport to Pollnivneach House Teleport and take carpet ride to Nardah.
-- drop ancestral key and the robes
+- Complete Spirits of the Elid, to get to Nardah quickly, use house teleport, teleport to Pollnivneach House Teleport and take carpet ride to Nardah.
+- Drop Ancestral key and the robes
 - Teleport to Bank
 
 # Bank 87
 - Withdraw: law runes, water runes, air runes, 1 super compost, 1 ranarr seed
 - Teleport to Marigold Farm
-- plant rannar and thieve farmers until you get at least one limpwurt seed, teleport to wendlewick to bank, teleport back to marigold farm to continue thieving
-- check willow trees you have planted. plant some if you havent yet. great time for fruit tree run and tree run
-- at 35 Farming fill beehives with woad leave at POF
-- Go to bank and deposit all 
-- Withdraw: limpwurt seed, supercompost, ghost speak amulet, 1 bone, and wear some adamant armour and anti dragon shield and excalibur for wilderness tanking
+- Plant ranarr and thieve farmers until you get at least one limpwurt seed, teleport to Wendlewick to bank, teleport back to Marigold Farm to continue thieving
+- Check willow trees you have planted. Plant some if you haven't yet. Great time for fruit tree run and tree run
+- At 35 Farming fill beehives with woad leaves at POF
+- Go to bank and deposit all
+- Withdraw: limpwurt seed, supercompost, ghostspeak amulet, 1 bone, and wear some adamant armour and anti-dragon shield and Excalibur for wilderness tanking
 - Teleport to Fort Forinthry, Go west and speak to the Spirit
 - Start Quest Spirit of Summer, continue quest until you plant the limpwurt seed
 - Once the limpwurt seed is planted, teleport to Wilderness Lodestone
