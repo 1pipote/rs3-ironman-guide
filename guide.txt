@@ -1437,7 +1437,7 @@
 # Bank 88
 - Equip: Full Mystics, Wand and Orb, Grimoire, jewellery
 - Withdraw: air runes, two steel bars(if anvil is empty), steel dagger, steel mace, 2x steel sword, steel longsword, 6 regular planks, 75 steel nails, 1 silver sickle (b), 1 druid pouch
-- Teleport to a furnace, make a steel warhammer, make four silver tiaras, deposit silver tiaras (for future Area Tasks)
+- Teleport to a furnace, make a steel warhammer, make two silver tiaras, deposit silver tiaras
 - Complete In Search of the Myreque [Morytania Medium Task]
 - While running thru the Mort Myre swamp collect 6 fungus, do not add them to your druid pouch yet.
 - Before talking to Cyreg Paddlehorn fill your druid pouch
@@ -1470,7 +1470,7 @@
 - Go far East, and chop down the dead tree at the Southeast corner of Varrock Castle [Varrock Easy Task]
 * Congratulations! Varrock Easy Achievements have been completed! 
 * You can now switch Varrock teleport with Grand Exchange. This is currently our quickest teleport to a Spirit Tree FYI
-- Talk to Rat Burgiss to claim your rewards
+- Talk to Rat Burgiss to claim your rewards, use xp lamp on prayer
 - Talk to Rat Burgiss again, south-east of the Varrock lodestone by the crossroads to Lumbridge. (Chat 2•3•✓) Accept Quest [What Lies Below]
 - You should receive an empty folder in inventory 
 - Complete [What Lies Below]
