@@ -617,7 +617,7 @@
 - Once 30 mining use wicked hood to Wizards' Tower and teleport to essence and mine 25 Pure essence
 
 # Bank 28
-- Withdraw: 25 pure essence, empty bucket and Archaeology journal
+- Withdraw: 25 pure essence, empty bucket and Investigators notebook
 - Teleport to Archaeology Campus/Fort Forinthry Lodestone
 - Complete Priest In Peril, Quest Completed
 - Activate Canifis Lodestone, to the east Talk to Copernicus Glyph and sculpt the rock for XP.
@@ -1435,7 +1435,7 @@
 - [Note: Wilderness sword is new BIS herb patch location do it on herb runs, and also new quick teleport to Edgeville.]
 
 # Bank 88
-- Equip: Full Mystics, wand and orb, grimoire, jewellery
+- Equip: Full Mystics, Wand and Orb, Grimoire, jewellery
 - Withdraw: air runes, two steel bars(if anvil is empty), steel dagger, steel mace, 2x steel sword, steel longsword, 6 regular planks, 75 steel nails, 1 silver sickle (b), 1 druid pouch
 - Teleport to a furnace, make a steel warhammer
 - Complete In Search of the Myreque [Morytania Medium Task]
@@ -1448,8 +1448,11 @@
 - Withdraw: ball of wool (to make an extra salve), best food, 6x trout, we may lose some food on the way to Mort'ton. It's okay, we need 6 inventory slots for quest
 - Pray at the Statue of Juna for full prayer
 - Go down the trapdoor, go through the wooden doors South
+- Take the Swamp Boat
+- Speak to the Zealot, north of the mine west of Burgh de Rott. (Chat 1•1•✓•1•3) Accept Quest [Haunted Mine]
+- Complete [Haunted Mine], you need three free inventory slots at the end to fully complete the quest
 * Treus Dayth boss fight, activate Excalibur before fight
 * Use Mystic Might: raises your Magic accuracy as if you had 6 more Magic levels.
 * Use Overcharge: +6% Magic damage. It only clashes with other Magic damage prayers, so it works fine alongside Mystic Might.
-* If we are in melee range he will melee us. He can potentially teleport right next to you so protect from melee if he does.
-* The pickaxes, cranes and mine carts all do typeless damage, which can hit for over 700. Prayers will not help against those.
+* If we are in melee range he will melee us. He can potentially teleport right next to you so protect from melee if he does or just run away.
+* The pickaxes, cranes and mine carts all do typeless damage, which can hit for over 700 typeless damage. Prayers will not help against those.
