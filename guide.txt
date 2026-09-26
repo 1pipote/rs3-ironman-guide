@@ -701,7 +701,6 @@
 - Complete Recruitment Drive.
 - After Recruitment Drive is completed, go to bank grab scrying orb
 - Teleport to Varrock Lodestone, Complete Enter The Abyss: Miniquest
-- After the completion of the miniquest, speak to the Mage of Zamorak a third time to unlock the Abyss
 - Go to Thessalia's Shop, buy 10 silk
 - Teleport To Burthorpe
 
@@ -1061,7 +1060,7 @@
 - Complete [[Shilo Village]] (all enemies are safespottable)
 - Use gnome glider when you go to East side Karamja. Faster than running from Tai Bwo Wannai
 - Kill a monkey during quest take Monkey paw [[Rag and Bone Man Quest]]
-- Use surge across the bridge, you will take a lot of damage if you fail. r:Heads up HCIM
+- Use surge across the bridge, you will take a lot of damage if you fail. Heads up HCIM
 - Bank at shilo village
 
 # Bank 65
@@ -1471,7 +1470,7 @@
 - Go far East, and chop down the dead tree at the Southeast corner of Varrock Castle [Varrock Easy Task]
 * Congratulations! Varrock Easy Achievements have been completed! 
 * You can now switch Varrock teleport with Grand Exchange. This is currently our quickest teleport to a Spirit Tree FYI
-- Talk to Rat Burgiss to claim your rewards
+- Talk to Rat Burgiss to claim your rewards, use xp lamp on prayer
 - Talk to Rat Burgiss again, south-east of the Varrock lodestone by the crossroads to Lumbridge. (Chat 2•3•✓) Accept Quest [What Lies Below]
 - You should receive an empty folder in inventory 
 - Complete [What Lies Below]
