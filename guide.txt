@@ -276,6 +276,9 @@
 - Continue East and talk to Vala Option 1 [Wilderness Easy Task]
 - Go North, into Wilderness (Wilderness Easy Task)
 - Talk to Mage, Accept Quest, Enter The Abyss
+- Continue North, and enter the Rift, leave immediately
+- Continue North, Activate Wilderness Crater Lodestone
+- Teleport to Wilderness Lodestone [Wilderness Easy Task]
 - Teleport to Edgeville Lodestone, Run south back to Gunnar
 - Continue Gunnar's Ground
 - Speak to Dororan, (💬 1•2), Click the "engrave" option on ring
