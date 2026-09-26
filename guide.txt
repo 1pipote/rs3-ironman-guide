@@ -276,7 +276,7 @@
 - Continue East and talk to Vala Option 1 [Wilderness Easy Task]
 - Go North, into Wilderness (Wilderness Easy Task)
 - Talk to Mage, Accept Quest, Enter The Abyss
-- Continue North, and enter the Rift, leave immediately
+- Continue North, and enter the Rift (crack in the ground), leave immediately [Wilderness Easy Task]
 - Continue North, Activate Wilderness Crater Lodestone
 - Teleport to Wilderness Lodestone [Wilderness Easy Task]
 - Teleport to Edgeville Lodestone, Run south back to Gunnar
