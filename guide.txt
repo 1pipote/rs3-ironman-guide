@@ -1029,7 +1029,7 @@
 - Teleport To Falador go to Rising Sun Inn, have bartender sign Bar Crawl
 - Buy 5 Asgarnian ales [Falador Easy Task]
 - Buy 5 wizard's mind bombs [[Dragon Slayer]]
-- Buy a steel Mace and adamant mace from Flynn's Mace Market [[In Search of the Myreque/Spirit of Elid]] 
+- Buy a steel mace and adamant mace from Flynn's Mace Market [[In Search of the Myreque/Spirit of Elid]] 
 - Go to furnace East, make a sapphire necklace, enchant into games necklace
 - Teleport to Port Sarim, go to Rusty Anchor Inn, talk to bartender sign Bar Crawl
 - Use games necklace and teleport to Barbarian Outpost, talk to Barbarian guard to complete [[Alfred Grimhand's Bar Crawl]]
@@ -1407,7 +1407,6 @@
 - Withdraw: law rune, 1 air rune, light source, adamant sword, rope, two thread, maple bow, Traveller's necklace if you have one, little food (we need at least two free inventory slots)
 - Teleport to Al Kharid
 - Go buy an adamant scimitar from Zeke's Superior Scimitars shop
-- Teleport to Falador, buy one adamant mace Flynn's Mace Market
 - Teleport to Varrock, buy 20 adamant arrows
 - Complete Spirits of the Elid, to get to Nardah quickly, use house teleport, teleport to Pollnivneach House Teleport and take carpet ride to Nardah.
 - Drop Ancestral key and the robes
