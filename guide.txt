@@ -617,7 +617,7 @@
 - Once 30 mining use wicked hood to Wizards' Tower and teleport to essence and mine 25 Pure essence
 
 # Bank 28
-- Withdraw: 25 pure essence, empty bucket and Investigators notebook
+- Withdraw: 25 pure essence, empty bucket and Archaeology journal
 - Teleport to Archaeology Campus/Fort Forinthry Lodestone
 - Complete Priest In Peril, Quest Completed
 - Activate Canifis Lodestone, to the east Talk to Copernicus Glyph and sculpt the rock for XP.
