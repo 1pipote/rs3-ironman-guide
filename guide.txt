@@ -701,6 +701,7 @@
 - Complete Recruitment Drive.
 - After Recruitment Drive is completed, go to bank grab scrying orb
 - Teleport to Varrock Lodestone, Complete Enter The Abyss: Miniquest
+- After the completion of the miniquest, speak to the Mage of Zamorak a third time to unlock the Abyss
 - Go to Thessalia's Shop, buy 10 silk
 - Teleport To Burthorpe
 
