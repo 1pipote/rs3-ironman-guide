@@ -276,7 +276,7 @@
 - Continue East and talk to Vala Option 1 [Wilderness Easy Task]
 - Go North, into Wilderness (Wilderness Easy Task)
 - Talk to Mage, Accept Quest, Enter The Abyss
-- Continue North, and enter the Rift (crack in the ground), leave immediately [Wilderness Easy Task]
+- Continue North, and enter the Rift, leave immediately
 - Continue North, Activate Wilderness Crater Lodestone
 - Teleport to Wilderness Lodestone [Wilderness Easy Task]
 - Teleport to Edgeville Lodestone, Run south back to Gunnar
@@ -1196,7 +1196,7 @@
 
 # Bank 74
 - Deposit all
-- You can continue my guide or stop and train Necro. I personally will continue to just train Magic. we need 66 magic minimum for quest completions anyways. RS3 wiki wants use to train Ranged to 55 as well. So I will switch to Range at 66 magic. Or if it comes to the point, do slayer/shattered worlds to get those levels. 
+- You can continue my guide or stop and train Necro
 - Here you can follow the RS3 Wiki Efficient Ironman Path Guide. For training early game Necromancy:
 - Mine 42 iron ore, 14 coal ore, 14 copper ore, and 14 tin ore. Smelt 14 bronze bars, iron bars, and steel bars for (Death Skull equipment upgrades).
 - Perform 25 Lesser communion rituals with big bones for 50 souls.
@@ -1404,10 +1404,17 @@
 - Go to Shattered Worlds, train magic until you get 50 defence. Always choose Electric and Honourable Mutator
 
 # Bank 86
-- Withdraw: 1 law rune, 1 air rune, light source, adamant sword, rope, two thread, maple bow, travellers necklace if you have one, little food (we need two free inventory slots)
+- Withdraw:  law rune, 1 air rune, light source, adamant sword, rope, two thread, maple bow, travellers necklace if you have one, little food (we need at least two free inventory slots)
 - Teleport to Al-Kharid
 - Go buy an adamant scimitar from Zeke's Superior Scimitars shop
 - Teleport to Falador, buy one adamant mace from Flynn's Mace Market
 - Teleport to Varrock, buy 20 adamant arrows
 - Complete [Spirits of the Elid], to get to Nardah quickly,use house teleport, teleport to Pollnivneach House Teleport and take carpet ride to Nardah.
 - drop ancestral key and the robes
+- Teleport to Bank
+
+# Bank 87
+- Withdraw: law runes, water runes, air runes, 1 super compost, 1 ranarr seed
+- Teleport to Marigold Farm
+- plant rannar and thieve farmers until you get at least one limpwurt seed, teleport to wendlewick to bank, teleport back to marigold farm to continue thieving
+- check willow trees you have planted. plant some if you havent yet. 
