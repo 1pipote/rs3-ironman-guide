@@ -179,7 +179,7 @@
 - Teleport to Taverley Lodestone
 - Go Southeast across the bridge and talk to Sanfew again to complete Druidic Ritual
 - Go South, Talk to Pikkupstix, (💬 2), Complete Wolf Whistle, rub lamp
-- Go North buy 1 compost, harvest potato patch, trade take 3 free potato seeds, buy 10 potato seeds. Plant new potato's, use potato on tool leprechaun
+- Go North, buy 1 compost, harvest potato patch, trade take 3 free potato seeds, buy 10 potato seeds. Plant new potato's, use potato on tool leprechaun
 - Rake Tree Patch
 
 # Bank 8
