@@ -273,6 +273,7 @@
 - Head East, Talk to Jeffery, (💬 1•1•1•1•1) Gunnar's Ground
 - Go into building West of Moldark, Emissary of Zamorak, Quest Icon is in the building. Go up ladder, Talk to Caelyn Kadaan, (💬 2•1•1), Accept Quest, Heartstealer (💬 1•3)
 - Go back down ladder, go East along the wilderness border, Read the Death list [Wilderness Easy Task]
+- Continue East and talk to Vala Option 1 [Wilderness Easy Task]
 - Go North, into Wilderness (Wilderness Easy Task)
 - Talk to Mage, Accept Quest, Enter The Abyss
 - Teleport to Edgeville Lodestone, Run south back to Gunnar
@@ -1406,4 +1407,4 @@
 - Teleport to Falador, buy one adamant mace from Flynn's Mace Market
 - Teleport to Varrock, buy 20 adamant arrows
 - Complete [Spirits of the Elid], to get to Nardah quickly,use house teleport, teleport to Pollnivneach House Teleport and take carpet ride to Nardah.
-- drop ancestral key and the robes 
+- drop ancestral key and the robes
