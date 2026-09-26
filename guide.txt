@@ -1476,3 +1476,4 @@
 - You should receive an empty folder in inventory
 - Complete What Lies Below
 * You do NOT need a chaos talisman to complete this quest, use the Abyss to enter chaos altar
+* After quest is complete drop the beacon ring, Zaff's instructions, and Sin'keth's diary 
