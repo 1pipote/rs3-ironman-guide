@@ -1464,9 +1464,8 @@
 * If you followed the guide up to this point you should meet all the reqs. If you don't, you will need manually train now
 
 # Bank 90
-- Withdraw: 15 chaos runes (buy from Ali if needed), bowl, some food, excalibur, wilderness sword 1, wicked hood (make sure earth talisman is fed into it), silver tiara
+- Withdraw: 15 chaos runes (buy from Ali if needed), bowl, some food, excalibur, wilderness sword 1, wicked hood (make sure earth talisman is fed into it)
 - Teleport to Fort Forinthry, go South enter Earth Altar [Varrock Easy Task]
-- Use tiara on the Earth Altar to make an Earth Tiara [Varrock Medium Task]
 - Teleport to Varrock Lodestone
 - Go far East, and chop down the dead tree [Varrock Easy Task]
 * Congratulations! Varrock Easy Achievements have been completed! 
