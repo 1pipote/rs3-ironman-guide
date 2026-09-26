@@ -1465,7 +1465,7 @@
 * If you followed the guide up to this point you should meet all the reqs. If you don't, you will need manually train now
 
 # Bank 90
-- Withdraw: 15 chaos runes (buy from Ali if needed), bowl, some food, Excalibur, wilderness sword 1, wicked hood (make sure earth talisman is fed into it)
+- Withdraw: teleport runes, 15 chaos runes (buy from Ali if needed), bowl, some food, Excalibur, wilderness sword 1, wicked hood (make sure earth talisman is fed into it)
 - Teleport to Fort Forinthry, go South enter Earth Altar [Varrock Easy Task]
 - Teleport to Varrock Lodestone
 - Go far East, and chop down the dead tree at the Southeast corner of Varrock Castle [Varrock Easy Task]
