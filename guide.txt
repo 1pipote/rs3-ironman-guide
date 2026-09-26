@@ -1469,6 +1469,7 @@
 - Teleport to Varrock Lodestone
 - Go far East, and chop down the dead tree [Varrock Easy Task]
 * Congratulations! Varrock Easy Achievements have been completed! 
+* You can now switch Varrock teleport with Grand Exchange. This is currently our quickest teleport to a Spirit Tree FYI
 - Talk to Rat Burgiss to claim your rewards
 - Talk to Rat Burgiss again, south-east of the Varrock lodestone by the crossroads to Lumbridge. (Chat 2•3•✓) Accept Quest [What Lies Below]
 - You should receive an empty folder in inventory 
