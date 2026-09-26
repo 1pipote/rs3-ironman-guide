@@ -1456,3 +1456,4 @@
 * Use Overcharge: +6% Magic damage. It only clashes with other Magic damage prayers, so it works fine alongside Mystic Might.
 * If we are in melee range he will melee us. He can potentially teleport right next to you so protect from melee if he does or just run away.
 * The pickaxes, cranes and mine carts all do typeless damage, which can hit for over 700 typeless damage. Prayers will not help against those.
+- Teleport to Edgeville, talk to Oziach and get your strength xp lamp and use it now
