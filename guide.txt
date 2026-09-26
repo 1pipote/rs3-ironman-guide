@@ -1488,5 +1488,8 @@
 - after done go to bank
 
 # Bank 92 
-- Withdraw: air and water runes, chaos talisman, anti dragon shield and some food
+- Withdraw: air and water runes (use water blast), chaos talisman, prayer potion, anti dragon shield and full inventory of food
+- if no prayer pots, do an herb run, collect rannars and plant more rannars. Teleport to Rimmington go Northwest to snape grass spawn and grab as many as you can bear. 20 would be nice. 
+- make some prayer potions
 - Complete [The Hunt for Surok]
+- before boss fight activate mage prayers, protect from melee, and activate excalibur
