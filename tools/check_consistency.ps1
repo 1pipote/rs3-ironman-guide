@@ -145,6 +145,9 @@ for ($i = 0; $i -lt $lines.Count; $i++) {
   if ($l -match '\S {2,}\S') {
     $issues += [pscustomobject]@{ Line=$ln; Category='double-space'; Detail=$l.Trim() }
   }
+  if ($l -match '^#\s*\d+\s+Bank') {
+    $issues += [pscustomobject]@{ Line=$ln; Category='bank-header-format'; Detail="should be '# Bank N', not '# N Bank' | $($l.Trim())" }
+  }
   if ($l -match ',,|, ,') {
     $issues += [pscustomobject]@{ Line=$ln; Category='double-comma'; Detail=$l.Trim() }
   }

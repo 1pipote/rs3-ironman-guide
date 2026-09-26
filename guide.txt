@@ -587,14 +587,14 @@
 - Talk to Closure again, Accept Quest, Once Upon a Time in Gielinor: Fortunes
 - Continue Quest until you need to go to Jolly Boar Inn
 - Teleport to Draynor Village Lodestone
+- [Note: While in Draynor have Aggie make yellow dye, red dye, blue dye with 2 woad leaf, 3 redberries, 2 onions]
 - Complete Vampyre Slayer put into Magic should get lvl22
 - Continue Bringing Home the Bacon until you need to go back to Eli with the Piglet
 - Continue New Foundations Until needing to go back to Fort Forinthry
-- [Note: pick 5 wheat before continuing Bringing Home the Bacon]
-- Continue Bringing Home the Bacon (wouldn't be a bad time to grab some seeds and compost and do a farm run on the way to Eli) Also buy seeds and bank if you need some. We will need cheap seeds for birdhouse runs.
-- [Note: You can start doing birdhouse runs anytime in Wendlewick. ]
-- [Note: While in Draynor have Aggie make yellow dye, red dye, blue dye with 2 woad leaf, 3 redberries, 2 onions]
+- Pick 5 wheat from the field and 5 onions outside Draynor Bank, they are needed to continue Bringing Home the Bacon
+- [Note: It wouldn't be a bad time to grab some seeds and compost and do a farm run on the way to Eli. Also buy seeds and bank if you need some. We will need cheap seeds for birdhouse runs, which you can start doing anytime in Wendlewick]
 - Continue Bringing Home the Bacon
+- Teleport to Varrock Lodestone
 - Continue Dragon Slayer go to Champions Guild, pause quest when we need to go to Lumbridge
 - Continue Bringing Home the Bacon, pause after Varrock Cutscene
 - Complete Heartstealer at Varrock Museum - [==r:come back at 20 thieving and receive 2500xp lamp==]
@@ -1029,7 +1029,7 @@
 - Teleport To Falador go to Rising Sun Inn, have bartender sign Bar Crawl
 - Buy 5 Asgarnian ales [Falador Easy Task]
 - Buy 5 wizard's mind bombs [[Dragon Slayer]]
-- Buy a steel mace and adamant mace from Flynn's Mace Market [[In Search of the Myreque/Spirit of Elid]] 
+- Buy a steel mace and adamant mace from Flynn's Mace Market [[In Search of the Myreque]]/[[Spirits of the Elid]]
 - Go to furnace East, make a sapphire necklace, enchant into games necklace
 - Teleport to Port Sarim, go to Rusty Anchor Inn, talk to bartender sign Bar Crawl
 - Use games necklace and teleport to Barbarian Outpost, talk to Barbarian guard to complete [[Alfred Grimhand's Bar Crawl]]
@@ -1342,7 +1342,7 @@
 - Go to Lumbridge, deposit all
 
 # Bank 81
-- buy 150+ steel nails at the Fort, make 18 willow planks, 6 maple planks (get wood if needed, go to fort/Rimmington if planks needed)
+- Buy 150+ steel nails at the Fort, make 18 willow planks, 6 maple planks (get wood if needed, go to fort/Rimmington if planks needed)
 - Equip: adamant sword and off hand sword, no necklace
 - Withdraw: law, water, and air runes, 6 seaweed, ball of wool, 3 rope, 12 willow planks, 150 steel nails
 - Teleport to Wendlewick Lodestone
@@ -1400,7 +1400,7 @@
 - Go to TzHaar City, if you have an Alt/friend who can meet you at TzHaar Fight Pits, do so now. [Karamja Easy Task]
 - Congratulations! Easy Karamja Achievements completed, claim your reward from Pirate Jackie the Fruit at Brimhaven Agility Arena entrance.
 - Browse through Oziach's Armour Shop [Varrock Medium Task]
-- Buy Mytic robe top, and blue dragonhide body
+- Buy mystic robe top, and blue dragonhide body
 - Rub defence lamp, destroy strength lamp, we will reclaim it @ 40 Strength
 - Go to Shattered Worlds, train magic until you get 50 defence. Always choose Electric and Honourable Mutator
 
@@ -1419,9 +1419,9 @@
 - Plant ranarr and thieve farmers until you get at least one limpwurt seed, teleport to Wendlewick to bank, teleport back to Marigold Farm to continue thieving
 - Check willow trees you have planted. Plant some if you haven't yet. Great time for fruit tree run and tree run
 - At 35 Farming fill beehives with woad leaves at POF
-- Teleport to Varrock, go to Champion's Guild, buy full Rune Armour (you should have a rune platebody)
+- Teleport to Varrock, go to Champions' Guild, buy full rune armour (you should have a rune platebody)
 - Go to bank and deposit all
-- Equip: full rune armour, anti dragon shield, excalibur, explorer's ring 2
+- Equip: full rune armour, anti-dragon shield, Excalibur, Explorer's ring 2
 - Withdraw: limpwurt seed, supercompost, ghostspeak amulet, 1 bone
 - Teleport to Fort Forinthry, Go west and speak to the Spirit
 - Start Quest Spirit of Summer, continue quest until you plant the limpwurt seed
@@ -1431,25 +1431,25 @@
 - Teleport to Fort Forinthry grab plenty of food.
 - Go out the north gate into the wilderness. Pull strange switches 10 times [Wilderness Easy Task]
 - [Note: This is extremely dangerous for HCIM. Run far East to go back and forth. Avoid Bound Skeletons, Fetid Zombies hit about 500% less.]
-- Congratulations! You have completed the Wilderness Easy Achievement, claim your rewards from Mr. Ex in Edgeville. use Antique lamps on prayer, you should now be 45 prayer. We now have full protection prayers.
+- Congratulations! You have completed the Wilderness Easy Achievement, claim your rewards from Mr. Ex in Edgeville. Use antique lamps on prayer, you should now be 45 prayer. We now have full protection prayers.
 - [Note: Wilderness sword is new BIS herb patch location do it on herb runs, and also new quick teleport to Edgeville.]
 
 # Bank 88
-- Equip: Full Mystics, wand and orb, grimoire, jewelery
+- Equip: Full Mystics, wand and orb, grimoire, jewellery
 - Withdraw: air runes, two steel bars(if anvil is empty), steel dagger, steel mace, 2x steel sword, steel longsword, 6 regular planks, 75 steel nails, 1 silver sickle (b), 1 druid pouch
 - Teleport to a furnace, make a steel warhammer
-- Complete [In Search of the Myreque] [Morytania Medium Task]
+- Complete In Search of the Myreque [Morytania Medium Task]
 - While running thru the Mort Myre swamp collect 6 fungus, do not add them to your druid pouch yet.
-- Before talking to Cyreg Paddlehorn fill your druid pouch 
-- the boss fight with Skeleton Hellhound is safespottable behind rocks. It also drops 4 big bones and 2 uncut rubys
+- Before talking to Cyreg Paddlehorn fill your druid pouch
+- The boss fight with Skeleton Hellhound is safespottable behind rocks. It also drops 4 big bones and 2 uncut rubies
 
-# 89 Bank
-- Equip: Full Mystics, wand and orb, desert amulet 1, explorers ring 2, 
-- Withdraw: ball of wool (to make an extra salve), best food, 6x trout, we may lose some food on the way to Mort'ton. its okay we need 6 inventory slots for quest
+# Bank 89
+- Equip: Full Mystics, wand and orb, desert amulet 1, Explorer's ring 2
+- Withdraw: ball of wool (to make an extra salve), best food, 6x trout, we may lose some food on the way to Mort'ton. It's okay, we need 6 inventory slots for quest
 - Pray at the Statue of Juna for full prayer
-- Go down trap down, go through the wooden doors South, 
-* Treus Dayth boss fight, activate excalibur before fight
+- Go down the trapdoor, go through the wooden doors South
+* Treus Dayth boss fight, activate Excalibur before fight
 * Use Mystic Might: raises your Magic accuracy as if you had 6 more Magic levels.
 * Use Overcharge: +6% Magic damage. It only clashes with other Magic damage prayers, so it works fine alongside Mystic Might.
-* If we are in melee range he will melee us. He can potentially teleport right next to you so protect from melee if he does. 
-* The pickaxes, cranes and mine carts all do typeless damage, which can hit for over 700. Prayers will not help against those. 
+* If we are in melee range he will melee us. He can potentially teleport right next to you so protect from melee if he does.
+* The pickaxes, cranes and mine carts all do typeless damage, which can hit for over 700. Prayers will not help against those.
